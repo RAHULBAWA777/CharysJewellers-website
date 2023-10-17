@@ -1,0 +1,75 @@
+.jewel-grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: #2196F3;
+    height: 24rem;
+}
+
+.jewel-grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    font-size: 30px;
+    width: 100%;
+    height: 24rem;
+    position: relative;
+}
+
+.jewel-img {
+    background-color: aqua;
+    height: 24rem;
+    object-fit: cover;
+}
+
+.jewel-img>img {
+    width: 100%;
+    height: 24rem;
+    object-fit: cover;
+}
+
+.black-caption {
+    position: absolute;
+    z-index: 2;
+    bottom: 0rem;
+    /* left: 2rem; */
+    background-color: transparent;
+    width: 100%;
+    height: 3rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+.jewel-grid-item:hover {
+    .black-caption {
+        background-color: black;
+        cursor: pointer;
+        color: var(--color-bg);
+        transition: all 0.7s ease-in-out;
+    }
+
+    cursor: pointer;
+}
+
+/* ######################################################### */
+
+/* ==========MEDIA QUERIES (medium devices) ========= */
+@media screen and (max-width:1024px) {
+    .jewel-grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        background-color: #2196F3;
+        height: 24rem;
+    }
+   }
+  
+   /* ==========MEDIA QUERIES (small devices) ========= */
+   @media screen and (max-width:600px) {
+    .jewel-grid-container {
+        display: grid;
+        grid-template-columns: auto auto ;
+        background-color: #2196F3;
+        height: 24rem;
+    }
+   }

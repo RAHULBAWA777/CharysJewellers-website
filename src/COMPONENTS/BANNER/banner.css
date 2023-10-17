@@ -1,0 +1,43 @@
+#banner {
+    background-color: var(--color-secondary);
+    height: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 4rem;
+}
+
+.logo {
+    width: 1rem;
+}
+
+.logo2 {
+    width: 2rem;
+    padding: 0 2px;
+}
+
+a {
+    color: var(--color-bg);
+}
+
+
+/* ###################################### */
+
+
+@media only screen and (max-width: 1024px) {
+
+    #banner {
+        justify-content: space-around;
+        padding: 0.5rem;
+    }
+
+    #banner > ul {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 100%;
+        /* background-color: rgb(163, 136, 101); */
+    }
+
+}
