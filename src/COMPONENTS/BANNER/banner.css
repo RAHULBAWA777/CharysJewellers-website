@@ -6,8 +6,14 @@
     justify-content: flex-end;
     align-items: center;
     padding: 0 4rem;
+    font-family: var(--font-word);
 }
-
+#banner>ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: rgb(255, 146, 4); */
+}
 .logo {
     width: 1rem;
 }
@@ -29,7 +35,7 @@ a {
 
     #banner {
         justify-content: space-around;
-        padding: 0.5rem;
+        /* padding: 0.5rem; */
     }
 
     #banner > ul {
@@ -40,4 +46,26 @@ a {
         /* background-color: rgb(163, 136, 101); */
     }
 
+}
+
+
+/* ==========MEDIA QUERIES (small devices) ========= */
+@media screen and (max-width:600px) {
+    #banner {
+        justify-content: space-between;
+        padding: 0.2rem;
+    }
+
+    #banner > ul {
+       font-size: small;
+    }
+
+    .logo {
+        width: .6rem;
+    }
+    
+    .logo2 {
+        width: 1.2rem;
+        padding: 0 1px;
+    }
 }

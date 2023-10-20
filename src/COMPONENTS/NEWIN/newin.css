@@ -1,0 +1,83 @@
+.newIn-container {
+  /* background-color: rgb(211, 55, 50); */
+  position: relative;
+  width: 100%;
+  padding: 2rem;
+  height: 100vh;
+}
+
+.newIn-heading-container {
+  /* background-color: bisque; */
+  width: fit-content;
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+.black-button {
+  background-color: var(--color-bg);
+  width: 10rem;
+  height: 3rem;
+  font-family: var(--font-word);
+  font-size: medium;
+  font-weight: 600;
+}
+
+.black-button:hover {
+  background-color: var(--color-secondary);
+  color: var(--color-bg);
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.slider-container {
+  /* background-color: rgb(63, 148, 184); */
+  margin-top: 12rem;
+  width: 100%;
+}
+.slick-arrow:before{
+  background-color: rgb(0, 0, 0) !important;
+}
+.newin-display-container {
+  /* background-color: blue; */
+  height: 28rem;
+  display: flex;
+  flex-direction: column;
+  /* object-fit: cover; */
+}
+
+.newin-img {
+  height: 20rem;
+  width: 95%;
+}
+.newin-img>img{
+ height: 24rem;
+ width: 95%;
+}
+
+.newin-caption {
+  /* background-color: aqua; */
+  height: 4rem;
+  margin-top: 4rem;
+  width: 90%;
+  font-family: var(--font-word);
+  padding: 1rem;
+  text-align: left;
+}
+
+
+/* ######################################################### */
+
+/* ==========MEDIA QUERIES (medium devices) ========= */
+@media screen and (max-width:1024px) {
+}
+
+ /* ==========MEDIA QUERIES (small devices) ========= */
+ @media screen and (max-width:600px) {
+  .newIn-container {
+    margin-top: 27.8rem;
+  }
+ }

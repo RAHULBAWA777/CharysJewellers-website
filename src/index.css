@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
-
-* {
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+*{
   margin: 0;
   padding: 0;
   border: 0;
@@ -16,7 +19,11 @@
   --color-theme: #6E5B57;
   --color-font: #EBBB4E;
 
+  --font-brand:'Dancing Script', cursive;
+  --font-caption:'Roboto Mono', monospace;
+  --font-lobster: 'Lobster', sans-serif;
   --font-word: ' Oswald', sans-serif;
+  --font-heading: 'Satisfy', cursive;
 
   --container-width-lg: 75%;
   --container-width-md: 86%;
@@ -36,8 +43,38 @@ html {
   border: solid 1px black;
 }
 
-
+.caption-heading{
+  font-family: var(--font-caption);
+}
+.caption-info{
+  font-family: var(--font-word);
+  font-size: 1rem;
+}
+.caption-link{
+  font-family: var(--font-word);
+  color: var(--color-font);
+  cursor: pointer;
+  font-style: italic;
+}
 
 /* ######################################################### */
 
-/* @media only screen and (max-width: 1024px){} */
+/* ==========MEDIA QUERIES (medium devices) ========= */
+@media screen and (max-width:1024px) {
+  .caption-heading{
+    font-size: 1.5rem;
+  }
+  .caption-info{
+    font-family: var(--font-word);
+    font-size: 1.2rem;
+  }
+  .caption-link{
+    font-family: var(--font-word);
+  
+  }
+ }
+
+ /* ==========MEDIA QUERIES (small devices) ========= */
+ @media screen and (max-width:600px) {
+
+ }

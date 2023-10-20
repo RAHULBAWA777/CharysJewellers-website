@@ -20,7 +20,7 @@ const Navbar = () => {
             <header id="nav" className='outline'>
 
                 <div className='brand'>
-                    <img src={brand_img} alt="brand_img" />
+                    Charys Jewellers
                 </div>
 
                 <div className="nav_links" ref={navRef}>

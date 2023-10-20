@@ -1,34 +1,42 @@
 #nav{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    background-color: var(--color-theme);
-    padding: 1rem 5rem;
+    padding: 1rem 2rem;
     z-index: 10;
+    /* position: fixed; */
+    /* width: 100%; */
+    /* top: 0;
+    left: 0; */
 }
-.brand>img{
-    width: 15rem;
+.brand{
+    font-family: var(--font-brand);
+    font-size: 3rem;
+    font-weight: 700;
 }
+
 .nav_links{
-  margin-left: 5rem;
+  margin-left: 2rem;
+  /* background-color: antiquewhite; */
 }
-.nav_links , ul{
+.nav_links , .nav_links>ul{
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-color: rgb(169, 116, 46); */
 }
 .nav_links> ul >li{
-    /* background-color: aliceblue; */
-    color: var(--color-font);
-    margin: 0 1rem;
-    font-family: var(--font-word);
+    font-size: 1.1rem;
+    font-style: italic;
+    margin: 0 .7rem;
+    font-family: var(--font-caption);
     font-weight: 700;
 }
 .nav_links> ul >li>a{
-    color: var(--color-font);
+    color: black;
 }
 .nav_links> ul >li>a:hover{
-    color: var(--color-bg);
+    color: var(--color-font);
 }
 #nav .nav-btn{
     padding: 5px;
@@ -44,6 +52,8 @@
 
 
 /* ######################################################### */
+
+/* ==========MEDIA QUERIES (medium devices) ========= */
 
 @media only screen and (max-width: 1024px){
     
@@ -88,4 +98,14 @@
       .nav_links> ul >li{
        font-size: 1.5rem;
     } 
+}
+
+
+
+/* ==========MEDIA QUERIES (small devices) ========= */
+@media screen and (max-width:600px) {
+    #nav{
+        padding: 1rem 1rem;
+        z-index: 10;
+    }
 }
