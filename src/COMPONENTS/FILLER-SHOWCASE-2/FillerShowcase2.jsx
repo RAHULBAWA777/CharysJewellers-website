@@ -8,7 +8,7 @@ const FillerShowcase2 = () => {
       <div className="fillerShowcase-flex-container2 outline">
 
         <div className="fillerShowcase-item2 left2 outline">
-          <video width="100%" height="100%" controls src={video}  muted loop/>
+          <video width="100%" height="100%"  src={video} autoPlay muted loop/>
             
              
             </div>
