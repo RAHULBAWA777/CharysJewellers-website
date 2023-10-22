@@ -57,9 +57,9 @@ const NewIn = () => {
         <>
             <div className="newIn-container outline">
                 <div className="newIn-heading-container">
-                    <h1 className="caption-heading">NEW IN</h1>
+                    <h1 className="caption-heading">Shop All New</h1>
                     <br />
-                    <button className='black-button outline '>SHOP ALL NEW</button>
+                    <button className='black-button outline '>SHOP NOW</button>
                 </div>
                 <div className="slider-container">
 

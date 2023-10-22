@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="footer-links">
               <h4 className="caption-heading">Get to know us</h4>
          
-              <Link to="/home"><p>home</p></Link>
+              <Link to="/aboutus"><p>About Charys Jewellers</p></Link>
               <Link to="/home"><p>home</p></Link>
               <div className="socials">
               <img width="32" height="32" src="https://img.icons8.com/wired/64/facebook-new.png" alt="facebook-new"/>

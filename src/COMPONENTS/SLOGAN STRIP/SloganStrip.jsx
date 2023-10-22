@@ -9,7 +9,7 @@ const SloganStrip = () => {
             Fine Jewellery <br/> For My Damn Self
             </h1>
             <br/>
-            <Link className='caption-link' to="/home">About Us</Link>
+            <Link className='caption-link' to="/aboutus">About Us</Link>
         </div>
     </>
   )
