@@ -1,11 +1,13 @@
 import React from 'react'
 import styled from 'styled-components'
-import augirl from '../../../assets/pexels-steven-arenas-618701.jpg'
+import augirl from '../../../assets/about cj/pexels-steven-arenas-618701.jpg'
+import WhyCJSection from '../WHY CJ SECTION/WhyCJSection'
 
 
 const AboutUs = () => {
     return (
         <>
+
             <Herosection>
                 <Herosectionleft>
                     <Herosectionbanner>
@@ -36,6 +38,9 @@ const AboutUs = () => {
                     Come! Shop at Charys Jewellers, where tradition is what we trust and your trust is our tradition.
                 </Bgtext>
             </BlurImageSection>
+
+            <WhyCJSection/>
+ 
         </>
     )
 }
@@ -167,4 +172,6 @@ const Bgtext = styled.div`
   padding: 10px;
 }
 `
+
+
 export default AboutUs
