@@ -11,7 +11,7 @@ const createpolicies = (data) => {
 const CjPolicy = () => {
   return (
     <>
-      <CjPolicyContainer>
+      <CjPolicyContainer className='outline'>
         <CjPolicyHeading>Our Policies</CjPolicyHeading>
         <CjPolicyContainerFluid>
           {CubeSkeletonData.map(createpolicies)}
@@ -41,7 +41,11 @@ padding: 0;
 const CjPolicyHeading = styled.h1`
   font-family: var(--font-heading);
   font-size: 5rem;
-
+  padding: 2rem;
+/* ==========MEDIA QUERIES (small devices) ========= */
+@media screen and (max-width:600px) {
+font-size: 3rem;
+}
 `
 
 const CjPolicyContainerFluid = styled.div`

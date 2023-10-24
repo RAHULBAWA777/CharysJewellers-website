@@ -51,7 +51,7 @@ const WhyCJ = () => {
                     <WhyCjHeading>Transparency</WhyCjHeading>
                     <p>
                         We ensure you get the best value for the price you pay and that you pay only what’s necessary for the quality and value you are buying.
-                        &nbsp The processing and making and respective charges will be explained to you all the way, thus nothing hidden.
+                         The processing and making and respective charges will be explained to you all the way, thus nothing hidden.
                         In fact our gems and resources are tested and certified.
                     </p>
                 </WhycjPara>
@@ -61,7 +61,7 @@ const WhyCJ = () => {
                 <WhycjPara>
                     <WhyCjHeading>Relationship</WhyCjHeading>
                     <p>
-                        We craft every piece of jewellery with lots of joy and enthusiasm to see your smile as bright as our diamonds! &nbsp
+                        We craft every piece of jewellery with lots of joy and enthusiasm to see your smile as bright as our diamonds! 
                         Our Traditions are what bond us together. We make the best efforts to braid our culture and traditions in the right way to bring out beauty and elegance from within you.
                         We bring out the best out of each other!
                     </p>

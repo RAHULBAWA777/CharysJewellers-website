@@ -10,12 +10,13 @@ const WhyCJSection = () => {
     return (
         <>
 
-            <Whycjsection>
-                <h1>Why Charys Jewellers?</h1>
-                    <br/>
+            <Whycjsection className='outline'>
+                <b> Why Charys Jewellers?</b>
+                <br />
+                <br />
                 <Whycjsectioncontainer>
-                    
-                   <WhyCJ/>
+
+                    <WhyCJ />
 
                 </Whycjsectioncontainer>
 
@@ -32,10 +33,10 @@ text-align: center;
 width: 100%;
 padding: 6rem;
 height: fit-content;
-h1{
+
     font-family: var(--font-heading);
     font-size: 5rem;
-}
+
 
 /* ==========MEDIA QUERIES (medium devices) ========= */
 @media screen and (max-width:1024px) {
@@ -44,6 +45,8 @@ h1{
  /* ==========MEDIA QUERIES (small devices) ========= */
 @media screen and (max-width:600px) {
     width: 100%;
+ 
+    font-size: 3rem;
 }
 `
 const Whycjsectioncontainer = styled.div`

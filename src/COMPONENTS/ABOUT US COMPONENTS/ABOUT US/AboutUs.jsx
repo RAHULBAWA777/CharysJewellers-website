@@ -25,6 +25,7 @@ const AboutUs = () => {
             <BlurImageSection>
                 <Bgimage></Bgimage>
                 <Bgtext>
+                    <span>"</span>
                     Well, would you look at that! You are now just one step away from your dream! Let’s make you stand out with some outstanding adornments shall we?
                     <br />
                     Don’t we have a lovely tradition of gold and diamonds? Makes us down to earth and feel special being just ourselves. We make the best efforts to braid our culture and traditions in the right way to bring out beauty and elegance. Keeping in mind the dynamic trends and unique new ideas, we strive to create for you modern styles while still loyal to our culture and originality.
@@ -36,6 +37,7 @@ const AboutUs = () => {
                     Don’t forget to check out our pendant styles! Might just be the one you fall for! We are also up for customization! Any match you want to find for your pendants or chains, or any suggestions of styling you’re looking for- our Jewellery expert is just one call away!
                     <br />
                     Come! Shop at Charys Jewellers, where tradition is what we trust and your trust is our tradition.
+                    <span>"</span>
                 </Bgtext>
             </BlurImageSection>
 
@@ -121,7 +123,7 @@ img{
 }
 `
 
-
+// ####################################################
 const BlurImageSection = styled.div`
 width: 100%;
 height: 80vh;
@@ -129,7 +131,7 @@ background-color: black;
 position: relative;
 `
 const Bgimage = styled.div`
-  background-image: url("src/assets/images/logo.PNG");
+  background-image: url("src/assets/jewel-grid-nav/c.jpeg");
   filter: blur(8px);
   -webkit-filter: blur(8px);
   height: 100%; 
@@ -143,7 +145,7 @@ const Bgtext = styled.div`
   background-color: rgba(0, 0, 0, 0.7); /* Black w/opacity/see-through */
   color: #d0d0d0;
   font-weight: bold;
-  border: 3px solid #f1f1f1;
+  /* border: 3px solid #f1f1f1; */
   position: absolute;
   top: 50%;
   left: 50%;
@@ -156,6 +158,10 @@ const Bgtext = styled.div`
   font-family: var(--font-lobster);
   font-weight: 100;
   font-size: 1.5rem;
+
+  span{
+    font-size: 2rem;
+  }
 
   /* ==========MEDIA QUERIES (medium devices) ========= */
 @media screen and (max-width:1024px) {
