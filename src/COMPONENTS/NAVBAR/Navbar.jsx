@@ -34,7 +34,7 @@ const Navbar = () => {
                         <li><Link to="/">Home</Link></li>
                    
                         <li><Link to="/">Shop Now</Link></li>
-                        <li className='subnav'><Link to="/">Diamond</Link>
+                        <li className='subnav'><Link to="/alldaimonds">Diamond</Link>
                             {/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     DAIMOND SUBNAV     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
                             <div className='subnav-content'>
                                 <div className="subnav-list-section">

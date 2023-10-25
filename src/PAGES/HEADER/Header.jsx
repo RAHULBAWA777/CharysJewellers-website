@@ -5,11 +5,12 @@ import Navbar from '../../COMPONENTS/NAVBAR/Navbar'
 
 
 const Header = () => {
+
   return (
     <>
-      <Banner />
+      <Banner/>
       <Navbar />
-    
+
     </>
   )
 }

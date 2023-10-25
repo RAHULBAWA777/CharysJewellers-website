@@ -1,12 +1,13 @@
 footer {
-    /* background-color: rgb(42, 71, 61); */
+    /* background-image: url(../../assets/footer-circle-bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat; */
     display: flex;
     flex-direction: column;
     position: relative;
     bottom: 0;
     width: 100%;
 }
-
 .footer-container {
     /* background-color: brown; */
     width: 100%;
