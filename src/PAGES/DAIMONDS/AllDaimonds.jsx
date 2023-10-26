@@ -8,20 +8,23 @@ const AllDaimonds = () => {
 
 
   const createAllDaimonds = (data) => {
-    return   <JewelleryShowcaseSkeleton jewelShowImg={data.jewelShowImg} jewelShowName={data.jewelShowName} Hallmarkpara={data.Hallmarkpara} key={data.id}/>
+    return <JewelleryShowcaseSkeleton jewelShowImg={data.jewelShowImg} jewelShowName={data.jewelShowName} jewelItemLink={data.jewelItemLink} key={data.id} />
   }
 
 
   return (
     <>
 
-    <Header/>
-        <DaimondPagebgimg></DaimondPagebgimg>
-  
-        <DaimondPageMainContainer>
-        {AllDaimondsData.map(createAllDaimonds)}
-        </DaimondPageMainContainer>
-        <Footer/>
+      <Header />
+
+      <DaimondPageMainContainer>
+      {AllDaimondsData.map((data, index) => {
+                    if (index<8) {
+                        return <JewelleryShowcaseSkeleton jewelShowImg={data.jewelShowImg} jewelShowName={data.jewelShowName} jewelItemLink={data.jewelItemLink} key={data.id} />
+                    }
+                })}
+      </DaimondPageMainContainer>
+      <Footer />
     </>
   )
 }

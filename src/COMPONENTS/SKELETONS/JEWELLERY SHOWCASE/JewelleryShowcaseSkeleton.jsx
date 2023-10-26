@@ -7,11 +7,11 @@ import { Link } from "react-router-dom";
 const JewelleryShowcaseSkeleton = (props) => {
   return (
     <>
-        <JewelleryShowcaseContainer>
-            <JewelleryShowcaseContainerItemImg><img src={props.jewelShowImg} alt="jewellery img" /></JewelleryShowcaseContainerItemImg>
-            <JewelleryShowcaseContainerItemName><span>{props.jewelShowName}</span></JewelleryShowcaseContainerItemName>
-            <JewelleryShowcaseContainerItemLink className='caption-link'><Link to={props.jewelItemLink}>Order Now</Link></JewelleryShowcaseContainerItemLink>
-        </JewelleryShowcaseContainer>        
+      <JewelleryShowcaseContainer>
+        <JewelleryShowcaseContainerItemImg><img src={props.jewelShowImg} alt="jewellery img" /></JewelleryShowcaseContainerItemImg>
+        <JewelleryShowcaseContainerItemName><span>{props.jewelShowName}</span></JewelleryShowcaseContainerItemName>
+        <JewelleryShowcaseContainerItemLink className='caption-link'><Link to={props.jewelItemLink}>Order Now</Link></JewelleryShowcaseContainerItemLink>
+      </JewelleryShowcaseContainer>
     </>
   )
 }
@@ -28,12 +28,13 @@ height: 30rem;
  }
 `
 const JewelleryShowcaseContainerItemImg = styled.div`
-/* background-color: #24c891; */
+background-color: #F4EAE0;
 width: 100%;
 height: 80%;
 overflow: hidden;
 img{
     width: 100%;
+  height: 100%;
 }
 
  /* ==========MEDIA QUERIES (small devices) ========= */

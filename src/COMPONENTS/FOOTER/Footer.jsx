@@ -63,7 +63,7 @@ const Footer = () => {
           <div className="footer-logo-section">
               <img src={smallCJLogo} alt="" />
               <br/>
-              <h2 className='caption-heading'>Become A member</h2>
+              <h2 className='caption-heading'>Become a Member</h2>
               <br/>
               <button className='black-button'>Join Now</button>
           </div>

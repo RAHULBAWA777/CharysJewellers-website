@@ -41,33 +41,33 @@ const Navbar = () => {
                                     <h3>Shop By Collection</h3>
                                     <br />
                                     <ul>
-                                        <li><Link to="/">Bangles</Link></li>
-                                        <li><Link to="/">Bracelets</Link></li>
-                                        <li><Link to="/">Necklace</Link></li>
-                                        <li><Link to="/">Mangalsutra</Link></li>
-                                        <li><Link to="/">Chains</Link></li>
-                                        <li><Link to="/">Pendents</Link></li>
-                                        <li><Link to="/">Vaddanam</Link></li>
-                                        <li><Link to="/">Jhumkas</Link></li>
+                                        <li><Link to="/daimondbangles">Bangles</Link></li>
+                                        <li><Link to="/daimondbracelets">Bracelets</Link></li>
+                                        <li><Link to="/daimondnecklace">Necklace</Link></li>
+                                        <li><Link to="/daimondmangalsutra">Mangalsutra</Link></li>
+                                        <li><Link to="/daimondchains">Chains</Link></li>
+                                        <li><Link to="/daimondpendants">Pendents</Link></li>
+                                        <li><Link to="/daimondvaddanam">Vaddanam</Link></li>
+                                        <li><Link to="/daimondjhumkas">Jhumkas</Link></li>
                                     </ul>
                                 </div>
                                 <div className='subnav-pics-section'>
-                                    <div className='subnav-pics-links'><Link to="/">
+                                    <div className='subnav-pics-links'><Link to="/daimondbangles">
                                         <img className='subnav-img' src={dbangles} alt="" />
                                         <div className="nav-image-captions"><p>Bangles</p></div>
                                     </Link>
                                     </div>
-                                    <div className='subnav-pics-links'><Link to="/">
+                                    <div className='subnav-pics-links'><Link to="/daimondbracelets">
                                         <img className='subnav-img' src={dbracelet} alt="" />
                                         <div className="nav-image-captions"><p>Bracelets</p></div>
                                     </Link>
                                     </div>
-                                    <div className='subnav-pics-links'><Link to="/">
+                                    <div className='subnav-pics-links'><Link to="/daimondchains">
                                         <img className='subnav-img' src={dchain} alt="" />
                                         <div className="nav-image-captions"><p>Chains</p></div>
                                     </Link>
                                     </div>
-                                    <div className='subnav-pics-links'><Link to="/">
+                                    <div className='subnav-pics-links'><Link to="/daimondpendants">
                                         <img className='subnav-img' src={dpendeants} alt="" />
                                         <div className="nav-image-captions"><p>Pendants</p></div>
                                     </Link>
