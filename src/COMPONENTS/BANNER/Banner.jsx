@@ -32,8 +32,8 @@ const Banner = () => {
           
           <li>
             <a href="https://www.gia.edu/report-check-landing" target="_blank"> <img className='logo2' src={licence1} /> </a>
-            <a href="https://www.igi.org/reports/verify-your-report" target="_blank"> <img className='logo2' src={licence2} /> </a>
-            <a href="https://www.bis.gov.in/hallmarking-overview/jewellers-registration-scheme/list-of-licensed-jewellers/" target="_blank"> <img className='logo2' src={licence3} /> </a>
+            <a href="https://www.bis.gov.in/hallmarking-overview/jewellers-registration-scheme/list-of-licensed-jewellers/" target="_blank"> <img className='logo2' src={licence2} /> </a>
+            <a href="https://www.igi.org/reports/verify-your-report" target="_blank"> <img className='logo2' src={licence3} /> </a>
             <a href="https://sgl-labs.com/report-verification/" target="_blank"> <img className='logo2' src={licence4} /> </a>
           </li>
 
