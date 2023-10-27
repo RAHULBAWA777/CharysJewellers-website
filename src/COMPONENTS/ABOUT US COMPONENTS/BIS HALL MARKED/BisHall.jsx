@@ -30,7 +30,7 @@ const BisHall = () => {
   return (
     <>
       <BisHallContainer className='outline'>
-        <BisHallHeading>Tested And Certified Gold & Daimonds</BisHallHeading>
+        <BisHallHeading>Tested And Certified Gold & Diamonds</BisHallHeading>
         <br/>
         <br/>
         <BisHallContainerFluid>
@@ -43,7 +43,7 @@ const BisHall = () => {
 
 const BisHallContainer = styled.div`
 font-family: var(--font);
-color: var(--color-bg);
+color: var(--color-theme);
 width: 100%;
 text-align: center;
 padding:3rem 2rem;

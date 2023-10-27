@@ -55,7 +55,7 @@ img{
 const HallmarkCaptionContainer=styled.div`
 background-color: azure;
 h1{
-font-family: var(--font-lobster);
+font-family: var(--font);
 padding: 1rem;
 }
 `

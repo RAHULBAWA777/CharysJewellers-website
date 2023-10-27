@@ -12,13 +12,13 @@ const Home = () => {
   return (
     <>
     <Header/>
+      <MarqueeStrip/>
     <Swiper />
       <JewelGridNav/>
       <FillerShowcase/>
       <NewIn/>
       <SloganStrip/>
       <FillerShowcase2/>
-      <MarqueeStrip/>
       <Footer/>
     </>
   )

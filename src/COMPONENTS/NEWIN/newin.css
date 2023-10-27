@@ -9,7 +9,7 @@
 
 .newIn-heading-container {
   /* background-color: bisque; */
-  color: var(--color-bg);
+  color: var(--color-theme);
   width: fit-content;
   position: absolute;
   left: 2rem;

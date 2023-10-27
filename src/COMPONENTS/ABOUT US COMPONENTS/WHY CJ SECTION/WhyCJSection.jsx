@@ -30,7 +30,7 @@ const WhyCJSection = () => {
 const Whycjsection = styled.div`
 text-align: center;
 font-family: var(--font);
-color: var(--color-bg);
+color: var(--color-theme);
 width: 100%;
 padding: 6rem;
 height: fit-content;

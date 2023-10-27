@@ -50,6 +50,8 @@ const Navbar = () => {
                                         <li><Link to="/daimondpendants">Pendents</Link></li>
                                         <li><Link to="/daimondvaddanam">Vaddanam</Link></li>
                                         <li><Link to="/daimondjhumkas">Jhumkas</Link></li>
+                                        <li><Link to="/">Rings</Link></li>
+                                        <li><Link to="/">Earrings</Link></li>
                                     </ul>
                                 </div>
                                 {/* <div className='subnav-pics-section'>
@@ -78,23 +80,25 @@ const Navbar = () => {
                         </li>
 
 
-                        <li className='subnav'><Link to="/">Gold</Link>
+                        <li className='subnav'><Link to="/allgolds">Gold</Link>
                             {/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     GOLD SUBNAV     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
                             <div className='subnav-content'>
                                 <div className="subnav-list-section">
                                     <h3>Shop By Collection</h3>
                                     <br />
                                     <ul>
-                                        <li><Link to="/">Bangles</Link></li>
-                                        <li><Link to="/">Bracelets</Link></li>
-                                        <li><Link to="/">Earrings</Link></li>
-                                        <li><Link to="/">Necklace</Link></li>
-                                        <li><Link to="/">Mangalsutra</Link></li>
-                                        <li><Link to="/">Chains</Link></li>
-                                        <li><Link to="/">Pendents</Link></li>
-                                        <li><Link to="/">Chokers</Link></li>
-                                        <li><Link to="/">Vaddanam</Link></li>
-                                        <li><Link to="/">Chandbeli</Link></li>
+                                        <li><Link to="/goldbangles">Bangles</Link></li>
+                                        <li><Link to="/goldbracelets">Bracelets</Link></li>
+                                        <li><Link to="/goldearrings">Earrings</Link></li>
+                                        <li><Link to="/goldnecklace">Necklace</Link></li>
+                                        <li><Link to="/goldmangalsutra">Mangalsutra</Link></li>
+                                        <li><Link to="/goldchains">Chains</Link></li>
+                                        <li><Link to="/goldpendants">Pendants</Link></li>
+                                        <li><Link to="/goldchowkers">Chowkers</Link></li>
+                                        <li><Link to="/goldvaddanam">Vaddanam</Link></li>
+                                        <li><Link to="/goldchandbali">Chandbali</Link></li>
+                                        <li><Link to="/goldrings">Rings</Link></li>
+                                       
                                     </ul>
                                 </div>
                                 {/* <div className='subnav-pics-section'>
@@ -121,11 +125,11 @@ const Navbar = () => {
                                 </div> */}
                             </div>
                         </li>
-                        <li><Link to="/">Platinum</Link></li>
+                        <li><Link to="/daimondbangles">Platinum</Link></li>
 
 
 
-                        <li><Link to="/">Traditional</Link>
+                        <li className='subnav'><Link to="/">Traditional</Link>
                             {/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     TRADITIONAL  SUBNAV     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
                             <div className='subnav-content'>
                                 <div className="subnav-list-section">

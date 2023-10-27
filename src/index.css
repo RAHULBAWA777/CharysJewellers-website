@@ -39,8 +39,10 @@ a:hover::before {
   transform: scaleX(1);
 }
 :root {
-  --color-bg: #9A0056;
-  --color-theme: #FFE4E1;
+  /* --color-bg: #FFE4E1;
+  --color-theme: rgb(250, 111, 111); */
+  --color-bg:#F8B5B9;
+  --color-theme:#B71E59;
   /* --font-brand:'Dancing Script', cursive;
   --font-caption:'Roboto Mono', monospace;
   --font-lobster: 'Lobster', sans-serif;
@@ -64,15 +66,15 @@ html {
 }
 
 .caption-heading{
-  font-family: var(--font-caption);
+  font-family: var(--font);
 }
 .caption-info{
-  font-family: var(--font-word);
+  font-family: var(--font);
   font-size: 1rem;
 }
 .caption-link{
   font-family: var(--font);
-  color: var(--color-bg);
+  color: var(--color-theme);
   cursor: pointer;
   font-style: italic;
 }

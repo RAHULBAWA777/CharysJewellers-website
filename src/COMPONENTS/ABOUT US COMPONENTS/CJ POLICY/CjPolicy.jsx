@@ -23,7 +23,7 @@ const CjPolicy = () => {
 
 const CjPolicyContainer = styled.div`
 font-family: var(--font);
-color: var(--color-bg);
+color: var(--color-theme);
 width: 100%;
 text-align: center;
 padding: 2rem;

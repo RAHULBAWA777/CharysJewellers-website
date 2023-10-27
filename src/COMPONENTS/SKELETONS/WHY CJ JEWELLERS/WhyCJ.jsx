@@ -176,8 +176,7 @@ p{
 `
 const WhyCjHeading = styled.div`
     font-family: var(--font-heading);
-    font-size: 5rem;
-
+    font-size: 4rem;
 /* ==========MEDIA QUERIES (medium devices) ========= */
 @media screen and (max-width:1024px) {
     font-size: 3rem;

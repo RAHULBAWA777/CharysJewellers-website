@@ -28,7 +28,7 @@ height: 30rem;
  }
 `
 const JewelleryShowcaseContainerItemImg = styled.div`
-background-color: #F4EAE0;
+background-color:var(--color-theme);
 width: 100%;
 height: 80%;
 overflow: hidden;
@@ -46,7 +46,7 @@ const JewelleryShowcaseContainerItemName = styled.div`
 /* background-color: #246060; */
 padding: 1rem 0;
 font-family: var(--font);
-color: var(--color-bg);
+color: var(--color-theme);
 font-size: 1.4rem;
 `
 const JewelleryShowcaseContainerItemLink = styled.div``
