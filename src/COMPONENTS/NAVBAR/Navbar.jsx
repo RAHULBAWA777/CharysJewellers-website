@@ -4,10 +4,11 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import { useRef } from 'react';
 import './navbar.css'
 import { Link } from "react-router-dom";
-import dbangles from "../../assets/diamond/DiaInPics/Bangles/1.jpg"
-import dbracelet from "../../assets/diamond/DiaInPics/Brace/1.jpg"
-import dchain from "../../assets/diamond/DiaInPics/Chain/1.jpg"
-import dpendeants from "../../assets/diamond/DiaInPics/Pendants/1.jpg"
+import brand from '../../assets/logoB.png'
+// import dbangles from "../../assets/diamond/DiaInPics/Bangles/1.jpg"
+// import dbracelet from "../../assets/diamond/DiaInPics/Brace/1.jpg"
+// import dchain from "../../assets/diamond/DiaInPics/Chain/1.jpg"
+// import dpendeants from "../../assets/diamond/DiaInPics/Pendants/1.jpg"
 
 
 
@@ -26,7 +27,7 @@ const Navbar = () => {
             <header id="nav" className='outline'>
 
                 <div className='brand'>
-                    Charys Jewellers
+                    <img src={brand} alt="nav img" />
                 </div>
 
                 <div className="nav_links" ref={navRef}>
@@ -51,7 +52,7 @@ const Navbar = () => {
                                         <li><Link to="/daimondjhumkas">Jhumkas</Link></li>
                                     </ul>
                                 </div>
-                                <div className='subnav-pics-section'>
+                                {/* <div className='subnav-pics-section'>
                                     <div className='subnav-pics-links'><Link to="/daimondbangles">
                                         <img className='subnav-img' src={dbangles} alt="" />
                                         <div className="nav-image-captions"><p>Bangles</p></div>
@@ -72,7 +73,7 @@ const Navbar = () => {
                                         <div className="nav-image-captions"><p>Pendants</p></div>
                                     </Link>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </li>
 
@@ -96,7 +97,7 @@ const Navbar = () => {
                                         <li><Link to="/">Chandbeli</Link></li>
                                     </ul>
                                 </div>
-                                <div className='subnav-pics-section'>
+                                {/* <div className='subnav-pics-section'>
                                     <div className='subnav-pics-links'><Link to="/">
                                         <img className='subnav-img' src={dbangles} alt="" />
                                         <div className="nav-image-captions"><p>Bangles</p></div>
@@ -117,7 +118,7 @@ const Navbar = () => {
                                         <div className="nav-image-captions"><p>Pendants</p></div>
                                     </Link>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </li>
                         <li><Link to="/">Platinum</Link></li>
@@ -137,7 +138,7 @@ const Navbar = () => {
                                         <li><Link to="/">Navaratan</Link></li>
                                     </ul>
                                 </div>
-                                <div className='subnav-pics-section'>
+                                {/* <div className='subnav-pics-section'>
                                     <div className='subnav-pics-links'><Link to="/">
                                         <img className='subnav-img' src={dbangles} alt="" />
                                         <div className="nav-image-captions"><p>Kundan</p></div>
@@ -158,7 +159,7 @@ const Navbar = () => {
                                         <div className="nav-image-captions"><p>Navaratan</p></div>
                                     </Link>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </li>
                         <li><Link to="/">Customise Your Design</Link></li>

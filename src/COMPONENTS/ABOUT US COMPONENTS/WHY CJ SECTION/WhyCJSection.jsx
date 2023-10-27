@@ -29,13 +29,12 @@ const WhyCJSection = () => {
 
 const Whycjsection = styled.div`
 text-align: center;
-/* background-color: #4a6d8c; */
+font-family: var(--font);
+color: var(--color-bg);
 width: 100%;
 padding: 6rem;
 height: fit-content;
-
-    font-family: var(--font-heading);
-    font-size: 5rem;
+font-size: 5rem;
 
 
 /* ==========MEDIA QUERIES (medium devices) ========= */

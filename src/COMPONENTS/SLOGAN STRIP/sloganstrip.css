@@ -7,8 +7,10 @@
     height: 15rem;
     text-align: center;
     font-weight: 700;
+    color: var(--color-bg);
 }
 .caption-heading2{
-    font-family: var(--font-heading);
+    font-family: var(--font);
+    font-style: italic;
     font-size: 3rem;
 }

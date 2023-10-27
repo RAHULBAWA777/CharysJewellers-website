@@ -1,6 +1,14 @@
 .marquee{
-    background-color: #BDA37D;
+    background-color: var(--color-bg);
+    color: var(--color-theme);
     height: 5rem;
     font-family: var(--font-lobster);
     font-size: 2rem;
 }
+
+ /* ==========MEDIA QUERIES (small devices) ========= */
+ @media screen and (max-width:600px) {
+.marquee{
+    font-size: 1.4rem;
+}
+ }

@@ -41,8 +41,8 @@ const AboutUs = () => {
                 </Bgtext>
             </BlurImageSection>
 
-            <WhyCJSection/>
- 
+            <WhyCJSection />
+
         </>
     )
 }
@@ -58,7 +58,7 @@ display: flex;
     justify-content: center;
     width: 100%;
     height: 70vh;
-    /* background-color: red; */
+    font-family: var(--font);
 /* ==========MEDIA QUERIES (medium devices) ========= */
     @media screen and (max-width:1024px) {
    
@@ -74,7 +74,7 @@ display: flex;
     justify-content: center;
     width: 50%;
     height: 70vh;
-    background-color: var(--color-secondary);
+    background-color: black;
 
 /* ==========MEDIA QUERIES (medium devices) ========= */
 @media screen and (max-width:1024px) {
@@ -143,7 +143,7 @@ const Bgimage = styled.div`
 const Bgtext = styled.div`
  background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.7); /* Black w/opacity/see-through */
-  color: #d0d0d0;
+  color:var(--color-theme);
   font-weight: bold;
   /* border: 3px solid #f1f1f1; */
   position: absolute;
@@ -172,7 +172,7 @@ const Bgtext = styled.div`
 }
  /* ==========MEDIA QUERIES (small devices) ========= */
 @media screen and (max-width:600px) {
-    font-size: 1rem;
+    font-size: .9rem;
     width: 90%;
   height: 90%;
   padding: 10px;

@@ -1,7 +1,7 @@
 footer {
-    /* background-image: url(../../assets/footer-circle-bg.png);
-    background-attachment: fixed;
-    background-repeat: no-repeat; */
+    background-color: var(--color-bg);
+    color: var(--color-theme);
+    font-family: var(--font);
     display: flex;
     flex-direction: column;
     position: relative;

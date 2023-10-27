@@ -45,7 +45,8 @@ img{
 const JewelleryShowcaseContainerItemName = styled.div`
 /* background-color: #246060; */
 padding: 1rem 0;
-font-family: var(--font-caption);
+font-family: var(--font);
+color: var(--color-bg);
 font-size: 1.4rem;
 `
 const JewelleryShowcaseContainerItemLink = styled.div``

@@ -8,7 +8,7 @@ const FillerShowcase = () => {
       <div className="fillerShowcase-flex-container outline">
 
         <div className="fillerShowcase-item left outline">
-          <iframe width="260" height="300" src="https://www.youtube.com/embed/4DRtNzyFSfk?si=zkRlRaStMgFn7qum" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          <iframe width="260" height="300" src="https://www.youtube.com/embed/4DRtNzyFSfk?si=zkRlRaStMgFn7qum" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
           <br/>
           <h1   className="caption-heading">Jewellery Crafted Just For You</h1>
           <br/>

@@ -1,12 +1,13 @@
 #banner {
-    background-color: var(--color-secondary);
+    background-color: black;
     height: 2rem;
     width: 100%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     padding: 0 4rem;
-    font-family: var(--font-word);
+    font-family: var(--font);
+    color: var(--color-theme);
 }
 #banner>ul{
     display: flex;

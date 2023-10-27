@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;1,100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,200;0,300;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -37,21 +39,16 @@ a:hover::before {
   transform: scaleX(1);
 }
 :root {
-  --color-bg: #ffffff;
-  --color-secondary: #000000;
-  --color-theme: #6E5B57;
-  --color-font: #EBBB4E;
-
-  --font-brand:'Dancing Script', cursive;
+  --color-bg: #9A0056;
+  --color-theme: #FFE4E1;
+  /* --font-brand:'Dancing Script', cursive;
   --font-caption:'Roboto Mono', monospace;
   --font-lobster: 'Lobster', sans-serif;
   --font-word: ' Oswald', sans-serif;
-  --font-heading: 'Satisfy', cursive;
+  --font-heading: 'Satisfy', cursive; */
 
-  --container-width-lg: 75%;
-  --container-width-md: 86%;
-  --container-width-sm: 90%;
-  /* --transition: all 400ms ease; */
+  --font:'IBM Plex Serif', serif;
+
 }
 
 html {
@@ -74,10 +71,13 @@ html {
   font-size: 1rem;
 }
 .caption-link{
-  font-family: var(--font-word);
-  color: var(--color-font);
+  font-family: var(--font);
+  color: var(--color-bg);
   cursor: pointer;
   font-style: italic;
+}
+.caption-link:hover{
+  color: gold;
 }
 
 /* ######################################################### */

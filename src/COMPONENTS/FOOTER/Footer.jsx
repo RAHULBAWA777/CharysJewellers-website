@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import { Link } from "react-router-dom";
-import smallCJLogo from '../../assets/cjpolicies/logo-r.jpeg'
+import smallCJLogo from '../../assets/logos.png'
 
 
 
@@ -27,7 +27,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-links">
-              <h4 className="caption-heading">cj promises and quality</h4>
+              <h4 className="caption-heading">CJ Promises and Quality</h4>
               
               <Link to="/home"><p>home</p></Link>
               <Link to="/home"><p>home</p></Link>
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-links">
-              <h4 className="caption-heading">cj making and designs</h4>
+              <h4 className="caption-heading">CJ Making and Designs</h4>
          
               <Link to="/home"><p>home</p></Link>
               <Link to="/home"><p>home</p></Link>
@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-links">
-              <h4 className="caption-heading">customer service</h4>
+              <h4 className="caption-heading">Customer Service</h4>
      
               <p>+919393480361/8367322322</p>
               <p>11-12-31, Plot no 5, Road Number 1

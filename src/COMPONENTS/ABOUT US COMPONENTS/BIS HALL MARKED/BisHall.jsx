@@ -42,11 +42,11 @@ const BisHall = () => {
 }
 
 const BisHallContainer = styled.div`
-/* background-color: blueviolet; */
+font-family: var(--font);
+color: var(--color-bg);
 width: 100%;
 text-align: center;
-padding: 2rem;
-
+padding:3rem 2rem;
 /* ==========MEDIA QUERIES (medium devices) ========= */
 @media screen and (max-width:1024px) {
  padding: 0;
@@ -58,7 +58,6 @@ padding: 0;
 }
 `
 const BisHallHeading = styled.h1`
-  font-family: var(--font-heading);
   font-size: 5rem;
   padding: 2rem;
 /* ==========MEDIA QUERIES (small devices) ========= */
