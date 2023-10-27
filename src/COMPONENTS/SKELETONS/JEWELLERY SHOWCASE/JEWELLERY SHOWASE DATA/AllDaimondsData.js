@@ -35,7 +35,7 @@ import CJDBP0004 from "../../../../assets/diamond/DiaInPics/Pendants/3.jpg"
 import CJDBP0005 from "../../../../assets/diamond/DiaInPics/Pendants/4.jpg"
 import CJDBP0006 from "../../../../assets/diamond/DiaInPics/Pendants/5.jpg"
 //  #############       NECKLACE        ###############
-import CJDNL0001 from "../../../../assets/diamond/DIAMONDNECKALCE.JPG"
+import CJDNL0001 from "../../../../assets/diamond/Diamondneckalce.JPG"
 //  #############       MANGALSUTRA        ###############
 import CJDMS0001 from "../../../../assets/diamond/diamondmangalsutra.jpg"
 //  #############       VADDANAM        ###############
