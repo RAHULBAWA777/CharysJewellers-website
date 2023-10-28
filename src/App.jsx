@@ -27,6 +27,10 @@ import GoldNecklacePage from './PAGES/GOLD PAGES/GoldNecklacePage';
 import GoldPendantsPage from './PAGES/GOLD PAGES/GoldPendantsPage';
 import GoldRingsPage from './PAGES/GOLD PAGES/GoldRingsPage';
 import GoldVaddanamPage from './PAGES/GOLD PAGES/GoldVaddanamPage';
+import KundanPage from './PAGES/TRADITIONAL PAGES/KundanPage';
+import UncutPolkiPage from './PAGES/TRADITIONAL PAGES/UncutPolkiPage';
+import PachiPage from './PAGES/TRADITIONAL PAGES/PachiPage';
+import NavaratanPage from './PAGES/TRADITIONAL PAGES/NavaratanPage';
 
 
 function App() {
@@ -62,12 +66,18 @@ function App() {
           <Route path="/goldchandbali" element={<GoldChandbaliPage />} />
           <Route path="/goldrings" element={<GoldRingsPage />} />
 
+ {/* ############################        TRADITIONAL PAGES        ############################# */}
+          <Route path="/kundan" element={<KundanPage />} />
+          <Route path="/polki" element={<UncutPolkiPage />} />
+          <Route path="/pachi" element={<PachiPage />} />
+          <Route path="/navaratan" element={<NavaratanPage />} />
+          
 
 
           <Route path="/aboutus" element={<AboutUsPage />} />
           <Route path="/contactus" element={<ContactUsPage />} />
-          {/* <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} /> */}
+          {/* <Route path="contact" element={<Contact />} /> */}
+          <Route path="*" element={<Home />} />
 
         </Routes>
       </Router>

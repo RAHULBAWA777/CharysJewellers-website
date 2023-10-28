@@ -136,10 +136,10 @@ const Navbar = () => {
                                     <h3>Shop By Collection</h3>
                                     <br />
                                     <ul>
-                                        <li><Link to="/">Kundan/ Naxi/ Temple</Link></li>
-                                        <li><Link to="/">Uncut / Polki</Link></li>
-                                        <li><Link to="/">Pachi</Link></li>
-                                        <li><Link to="/">Navaratan</Link></li>
+                                        <li><Link to="/kundan">Kundan/ Naxi/ Temple</Link></li>
+                                        <li><Link to="/polki">Uncut / Polki</Link></li>
+                                        <li><Link to="/pachi">Pachi</Link></li>
+                                        <li><Link to="/navaratan">Navaratan</Link></li>
                                     </ul>
                                 </div>
                                 {/* <div className='subnav-pics-section'>
