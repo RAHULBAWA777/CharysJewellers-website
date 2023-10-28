@@ -143,7 +143,7 @@ const Bgimage = styled.div`
 const Bgtext = styled.div`
  background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.7); /* Black w/opacity/see-through */
-  color:var(--color-theme);
+  color:var(--color-bg);
   font-weight: bold;
   /* border: 3px solid #f1f1f1; */
   position: absolute;

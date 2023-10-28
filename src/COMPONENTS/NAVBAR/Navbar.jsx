@@ -1,10 +1,9 @@
 import React from 'react'
-import styled from 'styled-components'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import { useRef } from 'react';
 import './navbar.css'
 import { Link } from "react-router-dom";
-import brand from '../../assets/logoB.png'
+import brand from '../../assets/logo.png'
 // import dbangles from "../../assets/diamond/DiaInPics/Bangles/1.jpg"
 // import dbracelet from "../../assets/diamond/DiaInPics/Brace/1.jpg"
 // import dchain from "../../assets/diamond/DiaInPics/Chain/1.jpg"
@@ -133,7 +132,7 @@ const Navbar = () => {
                             {/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     TRADITIONAL  SUBNAV     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
                             <div className='subnav-content'>
                                 <div className="subnav-list-section">
-                                    <h3>Shop By Collection</h3>
+                                    <h3 className='grey'>Shop By Collection</h3>
                                     <br />
                                     <ul>
                                         <li><Link to="/kundan">Kundan/ Naxi/ Temple</Link></li>
