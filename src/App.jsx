@@ -31,6 +31,7 @@ import KundanPage from './PAGES/TRADITIONAL PAGES/KundanPage';
 import UncutPolkiPage from './PAGES/TRADITIONAL PAGES/UncutPolkiPage';
 import PachiPage from './PAGES/TRADITIONAL PAGES/PachiPage';
 import NavaratanPage from './PAGES/TRADITIONAL PAGES/NavaratanPage';
+import CharysDesignPage from './PAGES/OUR DESIGNS PAGE/CharysDesignPage';
 
 
 function App() {
@@ -74,6 +75,7 @@ function App() {
           
 
 
+          <Route path="/charysdesigns" element={<CharysDesignPage />} />
           <Route path="/aboutus" element={<AboutUsPage />} />
           <Route path="/contactus" element={<ContactUsPage />} />
           {/* <Route path="contact" element={<Contact />} /> */}
