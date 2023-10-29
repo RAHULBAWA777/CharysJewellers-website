@@ -47,6 +47,7 @@ footer {
 
 .credits {
     background-color: rgb(0, 0, 0);
+    color: var(--color-bg);
     font-style: italic;
 }
 

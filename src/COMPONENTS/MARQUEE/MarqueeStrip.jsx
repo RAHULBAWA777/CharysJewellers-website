@@ -5,7 +5,7 @@ const MarqueeStrip = () => {
     return (
         <>
             <Marquee className='marquee outline'>
-            Welcome To Charys Jewellers . We Make You Feel Special . Stunning wedding jewellery crafted to celebrate the glory of every India Bride.
+                Every day is a sale day because our prices are always the same. &nbsp;&nbsp;  No Discounts &nbsp;&nbsp; No Offers &nbsp;&nbsp;  High Quality Superior Products  &nbsp;&nbsp;  Fixed Price  &nbsp;  100% Transparency&nbsp;| &nbsp;
             </Marquee>
         </>
     )

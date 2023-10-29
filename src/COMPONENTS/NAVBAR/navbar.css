@@ -6,6 +6,9 @@
     padding: 0rem 2rem;
     z-index: 10;
     height: 7rem;
+    position: fixed;
+    top:0;
+    width: 100%;
 }
 
 .brand>img {

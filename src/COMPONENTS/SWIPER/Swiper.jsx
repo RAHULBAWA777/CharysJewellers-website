@@ -1,5 +1,7 @@
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide  } from 'swiper/react';
+
+// import required modules
 
 // Import Swiper styles
 import 'swiper/css';
@@ -8,17 +10,22 @@ import 'swiper/css/effect-creative';
 import './swiper.css';
 
 // import required modules
-import { EffectCreative } from 'swiper/modules';
+import { EffectCreative, Autoplay, Pagination } from 'swiper/modules';
 
 export default function App() {
   return (
     <>
       
       <Swiper
-        grabCursor={true}
-        autoplay={true}
-        // lazy={true}
-        // loop={true}
+      centeredSlides={true}
+      grabCursor={true}
+      autoplay={{
+        delay: 5000,
+        disableOnInteraction: false,
+      }}
+      pagination={{
+        clickable: true,
+      }}
         effect={'creative'}
         creativeEffect={{
           prev: {
@@ -32,7 +39,7 @@ export default function App() {
             rotate: [0, 0, 90],
           },
         }}
-        modules={[EffectCreative]}
+        modules={[EffectCreative, Autoplay, Pagination]}
         className="mySwiper5"
       >
         <SwiperSlide></SwiperSlide>

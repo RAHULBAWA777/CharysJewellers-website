@@ -11,15 +11,15 @@ import Footer from '../../COMPONENTS/FOOTER/Footer'
 const Home = () => {
   return (
     <>
-    <Header/>
-      <MarqueeStrip/>
-    <Swiper />
-      <JewelGridNav/>
-      <FillerShowcase/>
-      <NewIn/>
-      <SloganStrip/>
-      <FillerShowcase2/>
-      <Footer/>
+      <Header />
+      <MarqueeStrip />
+      <Swiper />
+      <JewelGridNav />
+      <FillerShowcase />
+      <NewIn />
+      <SloganStrip />
+      <FillerShowcase2 />
+      <Footer />
     </>
   )
 }

@@ -24,10 +24,10 @@ const CjPolicy = () => {
 const CjPolicyContainer = styled.div`
 font-family: var(--font);
 color: var(--color-theme);
+/* background-color: #4079aa; */
 width: 100%;
 text-align: center;
 padding: 2rem;
-
 
 /* ==========MEDIA QUERIES (medium devices) ========= */
 @media screen and (max-width:1024px) {
