@@ -21,9 +21,9 @@ const CubeContainer = styled.div`
 /* background-color: #3e5a73; */
 display: flex;
 flex-direction: column;
-align-items: flex-start;
+align-items: center;
 justify-content: center;
-width: 40%;
+width:20%;
 height: fit-content;
 padding: 2rem;
 /* margin: 2rem; */
@@ -43,7 +43,7 @@ padding: 2rem;
 const CubeImageContainer=styled.div`
 /* background-color: aqua; */
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
 img{
     width: 100%;
     height: 100%;
@@ -54,6 +54,7 @@ const CubeCaption=styled.div`
 /* background-color: azure; */
 h1{
 font-family: var(--font-word);
+font-size: 1.8rem;
 padding: 1rem;
 }
 `

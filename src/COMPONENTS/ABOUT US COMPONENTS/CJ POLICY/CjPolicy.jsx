@@ -54,6 +54,7 @@ const CjPolicyContainerFluid = styled.div`
 width: 100%;
 height: fit-content;
 display: flex;
+flex-direction: row;
 flex-wrap: wrap;
 align-items: center;
 justify-content: center;

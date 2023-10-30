@@ -165,7 +165,7 @@ const Navbar = () => {
                                 </div> */}
                             </div>
                         </li>
-                        <li><Link to="/">Customise Your Design</Link></li>
+                        <li><Link to="/productPage">Customise Your Design</Link></li>
                         <li><Link to="/charysdesigns">Charys Design</Link></li>
                         <li><Link to="/aboutus">About Us</Link></li>
                         <button className='nav-btn nav-close-btn' onClick={showNavbar}>

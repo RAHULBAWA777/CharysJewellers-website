@@ -32,6 +32,7 @@ import UncutPolkiPage from './PAGES/TRADITIONAL PAGES/UncutPolkiPage';
 import PachiPage from './PAGES/TRADITIONAL PAGES/PachiPage';
 import NavaratanPage from './PAGES/TRADITIONAL PAGES/NavaratanPage';
 import CharysDesignPage from './PAGES/OUR DESIGNS PAGE/CharysDesignPage';
+import ProductPage from './PAGES/PRODUCT PAGE/ProductPage';
 
 
 function App() {
@@ -76,6 +77,7 @@ function App() {
 
 
           <Route path="/charysdesigns" element={<CharysDesignPage />} />
+          <Route path="/productPage" element={<ProductPage />} />
           <Route path="/aboutus" element={<AboutUsPage />} />
           <Route path="/contactus" element={<ContactUsPage />} />
           {/* <Route path="contact" element={<Contact />} /> */}
