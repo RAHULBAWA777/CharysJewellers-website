@@ -10,7 +10,7 @@ const AboutUsPage = () => {
   return (
     <>
     
-        <Header />
+        <Header/>
         <AboutUs/>
         <CjPolicy />
         <BisHall/>

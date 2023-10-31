@@ -56,7 +56,7 @@ const ProductSkeleton = () => {
                 <ProductSkeletonSectionRight>
 
                     <BasicDetails>
-                        <ProductName>Rose Diamond Ring</ProductName>
+                        <ProductName><h1>Rose Diamond Ring</h1></ProductName>
                         <DetailsTriggerSection>
                             <ProductStyleNo>CJXXXXX</ProductStyleNo>
                             <ProductDetailTriggerbtn>View Details</ProductDetailTriggerbtn>
@@ -82,14 +82,189 @@ const ProductSkeleton = () => {
                                 <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show">
                                     <div className="accordion-body">
                                         <AccorContainer>
-                                            <AccorItem>Metal Color <MetalColorContainer><MetalColor><MC></MC></MetalColor></MetalColorContainer> </AccorItem>
-                                            <AccorItem>Metal Purity <MetalColorContainer><MetalColor><MC></MC></MetalColor></MetalColorContainer> </AccorItem>
-                                            <AccorItem>Diamond Quality <MetalColorContainer><MetalColor><MC></MC></MetalColor></MetalColorContainer> </AccorItem>
+                                            <AccorItem><b>Metal Color</b> <MetalColorContainer><MetalColor><MC1></MC1>White Gold</MetalColor> </MetalColorContainer>
+                                                                   <MetalColorContainer><MetalColor><MC2></MC2>Yellow Gold</MetalColor></MetalColorContainer>
+                                                                   <MetalColorContainer><MetalColor><MC3></MC3>Rose Gold</MetalColor></MetalColorContainer>
+                                                                   {/* <MetalColorContainer><MetalColor><MC3></MC3>Rose Gold</MetalColor></MetalColorContainer> */}
+                                            </AccorItem>
+                                            <br />
+                                            <AccorItem><b>Metal Purity </b><MetalColorContainer><MetalColor>18K</MetalColor></MetalColorContainer> </AccorItem>
+                                            <br />
+                                            <AccorItem><b>Diamond Quality </b><MetalColorContainer><MetalColor><MC>💎</MC>SI IJ</MetalColor></MetalColorContainer> </AccorItem>
                                         </AccorContainer>
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="accordion-item">
+                            
+                        </div>
+                    </CustomistaionSection>
+
+                </ProductSkeletonSectionRight >
+            </ProductSkeletonMainContainer>
+
+        </>
+    )
+}
+
+
+const ProductSkeletonMainContainer = styled.div`
+/* background-color: red; */
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+width: 100%;
+padding: 2rem;
+
+
+/* ==========MEDIA QUERIES (medium devices) ========= */
+@media screen and (max-width:1024px) {
+ flex-direction: column;
+ }
+
+ /* ==========MEDIA QUERIES (small devices) ========= */
+ @media screen and (max-width:600px) {
+
+ }
+`
+const ProductSkeletonSectionLeft = styled.div`
+width: 45%;
+/* ==========MEDIA QUERIES (medium devices) ========= */
+@media screen and (max-width:1024px) {
+width: 100%;
+ }
+
+`
+const ProductSkeletonSectionRight = styled.div`
+width: 45%;
+/* ==========MEDIA QUERIES (medium devices) ========= */
+@media screen and (max-width:1024px) {
+width: 100%;
+ }
+
+`
+const BasicDetails = styled.div`
+/* ==========MEDIA QUERIES (medium devices) ========= */
+@media screen and (max-width:1024px) {
+ margin: 2rem 0;
+ }
+
+`
+const ProductName = styled.div``
+const DetailsTriggerSection = styled.div`
+/* background-color: blue; */
+display: flex;
+align-items: center;
+justify-content: space-around;
+padding: .5rem;
+text-decoration: underline;
+`
+const ProductStyleNo = styled.div``
+const ProductDetailTriggerbtn = styled.div``
+
+
+const PriceSection = styled.div`
+span{
+    font-size: 2rem;
+    color: orangered;
+}
+`
+const CustomistaionSection = styled.div`
+/* ==========MEDIA QUERIES (medium devices) ========= */
+@media screen and (max-width:1024px) {
+ /* background-color: antiquewhite; */
+ }
+
+ /* ==========MEDIA QUERIES (small devices) ========= */
+ @media screen and (max-width:600px) {
+
+ }
+`
+
+
+const AccorContainer = styled.div`
+/* ==========MEDIA QUERIES (medium devices) ========= */
+@media screen and (max-width:1024px) {
+    
+/* background-color: #9b9a98; */
+ }
+
+`
+
+const AccorItem = styled.div`
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+/* background-color: aquamarine; */
+
+/* ==========MEDIA QUERIES (medium devices) ========= */
+@media screen and (max-width:1024px) {
+ flex-direction: column;
+ }
+
+ /* ==========MEDIA QUERIES (small devices) ========= */
+ @media screen and (max-width:600px) {
+
+ }
+`
+const MetalColorContainer = styled.div`
+display: flex;
+margin: 0 1rem;
+padding: .5rem .5rem;
+border: 1px solid transparent;  
+  
+
+&:hover{
+    border: 1px solid grey;    
+    border-radius: 5px;
+}
+`
+const MetalColor = styled.div`
+display: flex;
+
+`
+const MC = styled.div`
+
+`
+const MC1 = styled.div`
+width: 2rem;
+height: 2rem;
+border-radius: 100%;
+background-color: #e7e5d8;
+margin: 0 5px;
+`
+const MC2 = styled.div`
+width: 2rem;
+height: 2rem;
+border-radius: 100%;
+background-color: gold;
+margin: 0 5px;
+`
+const MC3 = styled.div`
+width: 2rem;
+height: 2rem;
+border-radius: 100%;
+background-color:  pink;
+margin: 0 5px;
+`
+
+
+
+export default ProductSkeleton
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <div className="accordion-item">
     <h2 className="accordion-header">
       <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
         Accordion Item #2
@@ -113,51 +288,3 @@ const ProductSkeleton = () => {
       </div>
     </div>
   </div> */}
-                        </div>
-                    </CustomistaionSection>
-
-                </ProductSkeletonSectionRight >
-            </ProductSkeletonMainContainer>
-
-        </>
-    )
-}
-
-
-const ProductSkeletonMainContainer = styled.div`
-background-color: red;
-display: flex;
-align-items: center;
-justify-content: space-evenly;
-width: 100%;
-padding: 2rem;
-`
-const ProductSkeletonSectionLeft = styled.div`
-width: 45%;
-`
-const ProductSkeletonSectionRight = styled.div`
-width: 45%;
-`
-const BasicDetails = styled.div``
-const ProductName = styled.div``
-const DetailsTriggerSection = styled.div``
-const ProductStyleNo = styled.div``
-const ProductDetailTriggerbtn = styled.div``
-
-
-const PriceSection = styled.div``
-const CustomistaionSection = styled.div``
-
-
-const AccorContainer = styled.div`
-background-color: blanchedalmond;
-`
-
-const AccorItem = styled.div``
-const MetalColorContainer = styled.div``
-const MetalColor = styled.div``
-const MC = styled.div``
-
-
-
-export default ProductSkeleton

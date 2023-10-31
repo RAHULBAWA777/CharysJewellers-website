@@ -8,7 +8,7 @@ const AboutUs = () => {
     return (
         <>
 
-            <Herosection>
+            <Herosection >
                 <Herosectionleft>
                     <Herosectionbanner>
                         <h3 className='caption-heading'>About US</h3>

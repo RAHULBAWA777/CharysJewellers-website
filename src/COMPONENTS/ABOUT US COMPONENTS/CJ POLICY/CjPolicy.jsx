@@ -11,7 +11,7 @@ const createpolicies = (data) => {
 const CjPolicy = () => {
   return (
     <>
-      <CjPolicyContainer className='outline'>
+      <CjPolicyContainer id='policyID' className='outline'>
         <CjPolicyHeading>Our Policies</CjPolicyHeading>
         <CjPolicyContainerFluid>
           {CubeSkeletonData.map(createpolicies)}
