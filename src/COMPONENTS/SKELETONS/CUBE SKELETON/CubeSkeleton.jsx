@@ -54,7 +54,7 @@ const CubeCaption=styled.div`
 /* background-color: azure; */
 h1{
 font-family: var(--font-word);
-font-size: 1.8rem;
+font-size: 1.2rem;
 padding: 1rem;
 }
 `

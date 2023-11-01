@@ -14,8 +14,7 @@ import newInImg5  from '../../assets/newIn slider display/img4.jpeg'
 import newInImg6  from '../../assets/newIn slider display/img6.jpeg'
 import newInImg7  from '../../assets/newIn slider display/pe003.jpg'
 import newInImg8  from '../../assets/newIn slider display/001.jpg'
-// import newInImg9  from '../../assets/newIn slider display/001.jpg'
-// import newInImg10  from '../../assets/newIn slider display/001.jpg'
+
 
 const NewIn = () => {
     var settings = {
