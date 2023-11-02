@@ -25,6 +25,8 @@ const AboutUs = () => {
             <BlurImageSection>
                 <Bgimage></Bgimage>
                 <Bgtext>
+                    <b>WELCOME TO CHARYS JEWELLERS</b>
+                    <br />
                     <span>"</span>
                     Well, would you look at that! You are now just one step away from your dream! Let’s make you stand out with some outstanding adornments shall we?
                     <br />
@@ -34,9 +36,11 @@ const AboutUs = () => {
                     <br />
                     Did you know you could make multi use of a long haram set? You can wear it as a short necklace, a pendant or even as a sleek Vaddanam.
                     <br />
-                    Don’t forget to check out our pendant styles! Might just be the one you fall for! We are also up for customization! Any match you want to find for your pendants or chains, or any suggestions of styling you’re looking for- our Jewellery expert is just one call away!
+                    Don’t forget to check out our pendant styles! Might just be the one you fall for!
+                    We are also up for customization! Any match you want to find for your pendants or chains, or any suggestions of styling you’re looking for- our Jewellery expert is just one call away!
                     <br />
                     Come! Shop at Charys Jewellers, where tradition is what we trust and your trust is our tradition.
+
                     <span>"</span>
                 </Bgtext>
             </BlurImageSection>
@@ -157,7 +161,7 @@ const Bgtext = styled.div`
   text-align: left;
   font-family: var(--font-lobster);
   font-weight: 100;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 
   span{
     font-size: 2rem;
@@ -172,7 +176,7 @@ const Bgtext = styled.div`
 }
  /* ==========MEDIA QUERIES (small devices) ========= */
 @media screen and (max-width:600px) {
-    font-size: .9rem;
+    font-size: .8rem;
     width: 90%;
   height: 90%;
   padding: 10px;

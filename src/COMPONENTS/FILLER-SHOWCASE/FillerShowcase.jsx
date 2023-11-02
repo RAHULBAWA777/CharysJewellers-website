@@ -1,7 +1,7 @@
 import React from 'react'
 import './fillershowcase.css'
 import { Link } from "react-router-dom";
-import sideImg from '../../assets/banners/b1.jpeg'
+import sideImg from '../../assets/category/19.png'
 const FillerShowcase = () => {
   return (
     <>
@@ -18,12 +18,12 @@ const FillerShowcase = () => {
         </div>
 
 
-        <div className="fillerShowcase-item right outline">
+        <div className="fillerShowcase-item right outline"id='fillerPara'>
           <img src={sideImg} alt="img"  />
           <div className="image-caption">
-          <h1 className="caption-heading">Best Sellers</h1>
+          <p className="caption-heading2" >At any point of time if you feel you need to change the jewellery collections, Please come to us...We assure you a GUARANTEED BUYBACK on all our Gold and Diamond jewellery sold with a maximum value to you. Our Era collections will also get you maximum value based on the invoice. We provide 100 % buy back on  gold and 90% on Diamonds at the prevailing rate for exchange.</p>
           <br/>
-          <Link className='caption-link' to="/home">Home</Link>
+          <Link className='caption-link' to="/aboutus">More About Us</Link>
           </div>
         </div>
 

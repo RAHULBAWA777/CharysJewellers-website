@@ -13,7 +13,7 @@ const CjPolicy = () => {
     <>
       <CjPolicyContainer id='policyID' className='outline'>
         <CjPolicyHeading>Our Policies</CjPolicyHeading>
-        <CjPolicyContainerFluid>
+        <CjPolicyContainerFluid id='policies'>
           {CubeSkeletonData.map(createpolicies)}
         </CjPolicyContainerFluid>
       </CjPolicyContainer>

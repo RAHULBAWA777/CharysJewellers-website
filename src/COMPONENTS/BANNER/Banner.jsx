@@ -6,6 +6,7 @@ import licence1 from '../../assets/brand-logo/gia.jpeg'
 import licence2 from '../../assets/brand-logo/hmp.jpeg'
 import licence3 from '../../assets/brand-logo/igi.jpeg'
 import licence4 from '../../assets/brand-logo/ssg-1.jpeg'
+import licence5 from '../../assets/cjpolicies/pt.jpeg'
 
 const Banner = () => {
   return (
@@ -35,6 +36,7 @@ const Banner = () => {
             <a href="https://www.bis.gov.in/hallmarking-overview/jewellers-registration-scheme/list-of-licensed-jewellers/" target="_blank"> <img className='logo2' src={licence2} /> </a>
             <a href="https://www.igi.org/reports/verify-your-report" target="_blank"> <img className='logo2' src={licence3} /> </a>
             <a href="https://sgl-labs.com/report-verification/" target="_blank"> <img className='logo2' src={licence4} /> </a>
+            <a href="/" target="_blank"> <img className='logo2' src={licence5} /> </a>
           </li>
 
 

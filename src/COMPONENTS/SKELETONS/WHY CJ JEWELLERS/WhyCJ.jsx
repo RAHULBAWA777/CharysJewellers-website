@@ -23,9 +23,7 @@ const WhyCJ = () => {
                 <WhycjPara>
                     <WhyCjHeading>Trust</WhyCjHeading>
                     <p>
-                        We’ve come a long way through 25 years of a very strong and loyal bond with our customers.
-                        We will forever be grateful and will always give back the best for these lovely people.
-                        We design with value and transparency. We get what we deserve and that explains all the trust we’ve achieved.
+                        We’ve come a long way through 25 years of a very strong and loyal bond with our customers. We will forever be grateful and will always give back the best for these lovely people. We design with value and transparency. We get what we deserve and that explains all the trust we’ve achieved.
                     </p>
                 </WhycjPara>
             </WhycjsectionContentLeftImg>
@@ -34,8 +32,7 @@ const WhyCJ = () => {
                 <WhycjPara>
                     <WhyCjHeading>Quality And CraftmanShip</WhyCjHeading>
                     <p>
-                        Focusing on intricacy with usability and tradition with sophistication, we strive to create for you-
-                        modern styles, stylish ideas while still loyal to our culture and originality.
+                        Focusing on intricacy with usability and tradition with sophistication, we strive to create for you- modern styles, stylish ideas while still loyal to our culture and originality.
                     </p>
                 </WhycjPara>
                 <WhycjImg>
@@ -51,8 +48,9 @@ const WhyCJ = () => {
                     <WhyCjHeading>Transparency</WhyCjHeading>
                     <p>
                         We ensure you get the best value for the price you pay and that you pay only what’s necessary for the quality and value you are buying.
-                         The processing and making and respective charges will be explained to you all the way, thus nothing hidden.
-                        In fact our gems and resources are tested and certified.
+
+                        The processing and making and respective charges will be explained to you all the way, thus nothing hidden. In fact our gems and resources are tested and certified.
+
                     </p>
                 </WhycjPara>
             </WhycjsectionContentLeftImg>
@@ -61,9 +59,10 @@ const WhyCJ = () => {
                 <WhycjPara>
                     <WhyCjHeading>Relationship</WhyCjHeading>
                     <p>
-                        We craft every piece of jewellery with lots of joy and enthusiasm to see your smile as bright as our diamonds! 
-                        Our Traditions are what bond us together. We make the best efforts to braid our culture and traditions in the right way to bring out beauty and elegance from within you.
-                        We bring out the best out of each other!
+                        We craft every piece of jewellery with lots of joy and enthusiasm to see your smile as bright as our diamonds!
+
+                        Our Traditions are what bond us together. We make the best efforts to braid our culture and traditions in the right way to bring out beauty and elegance from within you.We bring out the best out of each other!
+
                     </p>
                 </WhycjPara>
                 <WhycjImg>

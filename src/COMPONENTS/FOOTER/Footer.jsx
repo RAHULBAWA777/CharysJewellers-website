@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import { Link } from "react-router-dom";
-import smallCJLogo from '../../assets/logos.png'
+import smallCJLogo from '../../assets/cjpolicies/logo-r.jpeg'
 
 
 
@@ -21,7 +21,7 @@ const Footer = () => {
               <div className="socials">
                 <img width="32" height="32" src="https://img.icons8.com/wired/64/facebook-new.png" alt="facebook-new" />
                 <img width="32" height="32" src="https://img.icons8.com/wired/32/instagram-new--v1.png" alt="instagram-new--v1" />
-                <a class="abc-text" target="_blank" href="https://wa.me/918367322322?text=I'm%20interested%20in%20*CHARY%20JEWELLERS*"> <img width="32" height="32" src="https://img.icons8.com/wired/32/whatsapp.png" alt="whatsapp" /> </a>
+                <a className="abc-text" target="_blank" href="https://wa.me/918367322322?text=I'm%20interested%20in%20*CHARY%20JEWELLERS*"> <img width="32" height="32" src="https://img.icons8.com/wired/32/whatsapp.png" alt="whatsapp" /> </a>
                 <img width="32" height="32" src="https://img.icons8.com/wired/64/linkedin.png" alt="linkedin" />
               </div>
             </div>
@@ -30,11 +30,13 @@ const Footer = () => {
               <h4 className="caption-heading">CJ Promises and Quality</h4>
 
               {/* <Link to="#policyID"><p>CJ Policy</p></Link> */}
-              <a href="#policyID">CJ Policy</a>
+              <a href="#sloganCJPolicy">CJ Policy</a>
               <br />
-              <a href="https://www.bis.gov.in/hallmarking-overview/jewellers-registration-scheme/list-of-licensed-jewellers/" target="_blank">BIS Hall Marked Pure Gold</a>
+              <Link to="aboutus">BIS Hall Mark Gold</Link>
               <br />
-              <a href="https://www.igi.org/reports/verify-your-report" target="_blank">Tested & Certified Diamonds</a>
+              <Link to="aboutus" >Tested & Certified Diamonds</Link>
+              <br />
+              <a href="#fillerPara" >BuyBack Gaurantee</a>
               
             </div>
 
