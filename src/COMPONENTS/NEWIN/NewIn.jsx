@@ -6,14 +6,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 
-import newInImg1  from '../../assets/newIn slider display/001.jpg'
-import newInImg2  from '../../assets/newIn slider display/br002.jpg'
-import newInImg3  from '../../assets/newIn slider display/c004.jpg'
-import newInImg4  from '../../assets/newIn slider display/img3.jpeg'
-import newInImg5  from '../../assets/newIn slider display/img4.jpeg'
-import newInImg6  from '../../assets/newIn slider display/img6.jpeg'
-import newInImg7  from '../../assets/newIn slider display/pe003.jpg'
-import newInImg8  from '../../assets/newIn slider display/001.jpg'
+import newInImg1 from '../../assets/raw img/diamondring.jpeg'
+import newInImg2 from '../../assets/raw img/necklace.jpg'
+import newInImg3 from '../../assets/raw img/bangles.jpeg'
+import newInImg4 from '../../assets/raw img/traditional.jpeg'
+import newInImg5 from '../../assets/raw img/mangalsutra.jpeg'
+import newInImg6 from '../../assets/raw img/vchowker.jpeg'
+import newInImg7 from '../../assets/raw img/gold.jpeg'
+import newInImg8 from '../../assets/raw img/trad2.jpeg'
+import newInImg9 from '../../assets/raw img/trad3.jpeg'
 
 
 const NewIn = () => {
@@ -32,7 +33,7 @@ const NewIn = () => {
                     slidesToScroll: 3,
                     infinite: true,
                     dots: true
-                    
+
                 }
             },
             {
@@ -62,67 +63,75 @@ const NewIn = () => {
                 </div>
                 <div className="slider-container">
 
-                  
+
                     <Slider {...settings}>
-                        <div className ="newin-display-container">
+                        <div className="newin-display-container">
                             <div className="newin-img">
-                            <img src={newInImg1} alt="pic displays"  />
+                                <img src={newInImg1} alt="pic displays" />
                             </div>
                             <div className="newin-caption">
                                 info
                             </div>
                         </div>
-                        <div className ="newin-display-container">
-                        <div className="newin-img">
-                            <img src={newInImg2} alt="pic displays"  />
+                        <div className="newin-display-container">
+                            <div className="newin-img">
+                                <img src={newInImg2} alt="pic displays" />
                             </div>
                             <div className="newin-caption">
                                 info
                             </div>
                         </div>
-                        <div className ="newin-display-container">
-                        <div className="newin-img">
-                            <img src={newInImg3} alt="pic displays"  />
+                        <div className="newin-display-container">
+                            <div className="newin-img">
+                                <img src={newInImg3} alt="pic displays" />
                             </div>
                             <div className="newin-caption">
                                 info
                             </div>
                         </div>
-                        <div className ="newin-display-container">
-                        <div className="newin-img">
-                            <img src={newInImg4} alt="pic displays"  />
+                        <div className="newin-display-container">
+                            <div className="newin-img">
+                                <img src={newInImg4} alt="pic displays" />
                             </div>
                             <div className="newin-caption">
                                 info
                             </div>
                         </div>
-                        <div className ="newin-display-container">
-                        <div className="newin-img">
-                            <img src={newInImg5} alt="pic displays"  />
+                        <div className="newin-display-container">
+                            <div className="newin-img">
+                                <img src={newInImg5} alt="pic displays" />
                             </div>
                             <div className="newin-caption">
                                 info
                             </div>
                         </div>
-                        <div className ="newin-display-container">
-                        <div className="newin-img">
-                            <img src={newInImg6} alt="pic displays"  />
+                        <div className="newin-display-container">
+                            <div className="newin-img">
+                                <img src={newInImg6} alt="pic displays" />
                             </div>
                             <div className="newin-caption">
                                 info
                             </div>
                         </div>
-                        <div className ="newin-display-container">
-                        <div className="newin-img">
-                            <img src={newInImg7} alt="pic displays"  />
+                        <div className="newin-display-container">
+                            <div className="newin-img">
+                                <img src={newInImg7} alt="pic displays" />
                             </div>
                             <div className="newin-caption">
                                 info
                             </div>
                         </div>
-                        <div className ="newin-display-container">
-                        <div className="newin-img">
-                            <img src={newInImg8} alt="pic displays"  />
+                        <div className="newin-display-container">
+                            <div className="newin-img">
+                                <img src={newInImg8} alt="pic displays" />
+                            </div>
+                            <div className="newin-caption">
+                                info
+                            </div>
+                        </div>
+                        <div className="newin-display-container">
+                            <div className="newin-img">
+                                <img src={newInImg9} alt="pic displays" />
                             </div>
                             <div className="newin-caption">
                                 info

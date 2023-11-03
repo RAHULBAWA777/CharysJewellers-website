@@ -110,8 +110,6 @@ width: 100%;
 }
  /* ==========MEDIA QUERIES (small devices) ========= */
 @media screen and (max-width:600px) {
-    /* width: 100%;
-    height: 50vh; */
 }
 `
 const WhycjImg = styled.div`

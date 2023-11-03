@@ -41,9 +41,7 @@ padding: 2rem;
  }
 `
 const CubeImageContainer=styled.div`
-/* background-color: aqua; */
     width: 100%;
-    /* height: 100%; */
 img{
     width: 100%;
     height: 100%;
@@ -54,7 +52,7 @@ const CubeCaption=styled.div`
 /* background-color: azure; */
 h1{
 font-family: var(--font-word);
-font-size: 1.2rem;
+font-size: 1rem;
 padding: 1rem;
 }
 `

@@ -1,9 +1,6 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide  } from 'swiper/react';
 
-// import required modules
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-creative';
 

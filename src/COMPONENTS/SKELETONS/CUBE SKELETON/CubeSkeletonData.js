@@ -24,14 +24,15 @@ const CubeSkeletonData = [
     },
     {
         id:4,
-        cubeImg:percentage,
-        cubeCaption:"100% Transparency"
+        cubeImg:lowPrice,
+        cubeCaption:"Best Price"
     },
     {
         id:5,
-        cubeImg:lowPrice,
-        cubeCaption:"Low Price"
+        cubeImg:percentage,
+        cubeCaption:"100% Transparency"
     },
+   
 
 ]
 

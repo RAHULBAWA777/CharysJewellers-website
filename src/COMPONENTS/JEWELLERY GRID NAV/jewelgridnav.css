@@ -1,6 +1,6 @@
 .jewel-grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: 16.9% 16.9% 16.9% 16.9% 16.9% 16.9%;
     height: 24rem;
 }
 

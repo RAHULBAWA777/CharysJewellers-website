@@ -33,6 +33,9 @@ import PachiPage from './PAGES/TRADITIONAL PAGES/PachiPage';
 import NavaratanPage from './PAGES/TRADITIONAL PAGES/NavaratanPage';
 import CharysDesignPage from './PAGES/OUR DESIGNS PAGE/CharysDesignPage';
 import ProductPage from './PAGES/PRODUCT PAGE/ProductPage';
+import BisHallMarkPage from './PAGES/CERTIFICATE PAGES/BisHallMarkPage.jsx';
+import TestedCertifiedDiamondsPage from './PAGES/CERTIFICATE PAGES/TestedCertifiedDiamondsPage.jsx';
+import BuyBackGauranteePage from './PAGES/CERTIFICATE PAGES/BuyBackGauranteePage.jsx';
 
 
 function App() {
@@ -80,7 +83,9 @@ function App() {
           <Route path="/productPage" element={<ProductPage />} />
           <Route path="/aboutus"  element={<AboutUsPage />} />
           <Route path="/contactus" element={<ContactUsPage />} />
-          {/* <Route path="contact" element={<Contact />} /> */}
+          <Route path="/bishallmark" element={<BisHallMarkPage />} />
+          <Route path="/tested&certifieddiamonds" element={<TestedCertifiedDiamondsPage />} />
+          <Route path="/buyback" element={<BuyBackGauranteePage />} />
           <Route path="*" element={<Home />} />
 
         </Routes>

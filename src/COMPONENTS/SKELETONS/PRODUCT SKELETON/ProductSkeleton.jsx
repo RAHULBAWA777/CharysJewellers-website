@@ -6,29 +6,22 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import '../../../COMPONENTS/NEWIN/newin.css'
-// import {
-//     Magnifier,
-//     GlassMagnifier,
-//     SideBySideMagnifier,
-//     PictureInPictureMagnifier,
-//     MOUSE_ACTIVATION,
-//     TOUCH_ACTIVATION
-// } from "react-image-magnifiers";
+
 
 import dp1 from '../../../assets/designs/d.jpg'
 import dp2 from '../../../assets/designs/diamond.jpeg'
 import dp3 from '../../../assets/designs/g.jpg'
 import dp4 from '../../../assets/designs/gold.jpeg'
 
-import newInImg1 from '../../../assets/newIn slider display/001.jpg'
-import newInImg2 from '../../../assets/newIn slider display/br002.jpg'
-import newInImg3 from '../../../assets/newIn slider display/c004.jpg'
-import newInImg4 from '../../../assets/newIn slider display/img3.jpeg'
-import newInImg5 from '../../../assets/newIn slider display/img4.jpeg'
-import newInImg6 from '../../../assets/newIn slider display/img6.jpeg'
-import newInImg7 from '../../../assets/newIn slider display/pe003.jpg'
-import newInImg8 from '../../../assets/newIn slider display/001.jpg'
-
+import newInImg1 from '../../../assets/raw img/diamondring.jpeg'
+import newInImg2 from '../../../assets/raw img/necklace.jpg'
+import newInImg3 from '../../../assets/raw img/bangles.jpeg'
+import newInImg4 from '../../../assets/raw img/traditional.jpeg'
+import newInImg5 from '../../../assets/raw img/mangalsutra.jpeg'
+import newInImg6 from '../../../assets/raw img/vchowker.jpeg'
+import newInImg7 from '../../../assets/raw img/gold.jpeg'
+import newInImg8 from '../../../assets/raw img/trad2.jpeg'
+import newInImg9 from '../../../assets/raw img/trad3.jpeg'
 
 const ProductSkeleton = () => {
     var settings = {
@@ -91,11 +84,7 @@ const ProductSkeleton = () => {
     return (
         <>
             <ProductSkeletonMainContainer>
-                {/* <GlassMagnifier
-                    imageSrc={dp1}
-                    imageAlt="Example"
-                    largeImageSrc="./large-image.jpg" // Optional
-                /> */}
+
                 <ProductSkeletonSectionLeft>
 
                     <ImageGallery items={images} />
@@ -119,6 +108,7 @@ const ProductSkeleton = () => {
                     <PriceSection>
                         <span>₹27,400</span>
                         <p>Instore Pickup Only</p>
+                        <p style={{ color: '#213773' }}>(Rates may vary at the time of purchase)</p>
                     </PriceSection>
 
                     <CustomistaionSection>
@@ -141,7 +131,7 @@ const ProductSkeleton = () => {
                                             <br />
                                             <AccorItem><b>Metal Purity </b><MetalColorContainer><MetalColor>18K</MetalColor></MetalColorContainer> </AccorItem>
                                             <br />
-                                            <AccorItem><b>Diamond Quality </b><MetalColorContainer><MetalColor><MC>💎</MC>SI IJ</MetalColor></MetalColorContainer> </AccorItem>
+                                            <AccorItem><b>Diamond Quality </b><MetalColorContainer><MetalColor><MC>💎</MC>VVS/EF</MetalColor></MetalColorContainer> </AccorItem>
                                         </AccorContainer>
                                     </div>
                                 </div>
@@ -226,6 +216,14 @@ const ProductSkeleton = () => {
                                 info
                             </div>
                         </div>
+                        <div className="newin-display-container">
+                            <div className="newin-img">
+                                <img src={newInImg9} alt="pic displays" />
+                            </div>
+                            <div className="newin-caption">
+                                info
+                            </div>
+                        </div>
                     </Slider>
                 </div>
             </ProductPageSlider>
@@ -241,22 +239,22 @@ const ProductSkeleton = () => {
                         <div className="accordion-item">
                             <h2 className="accordion-header">
                                 <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
-                                   <b>PRICE BREAKUP</b> 
+                                    <b>PRICE BREAKUP</b>
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse show">
                                 <div className="accordion-body">
                                     <AccorContainer1>
                                         <div className="accor-items">
-                                            <div className="accor-item">Metal</div>
+                                            <div className="accor-item">Metal Price</div>
                                             <div className="accor-item">₹7,979</div>
                                         </div>
                                         <hr />
                                         <div className="accor-items">
-                                            <div className="accor-item">Diamond</div>
+                                            <div className="accor-item">Diamond Price</div>
                                             <div className="accor-item">₹X,XXX</div>
                                         </div>
-                                        <hr />
+                                        {/* <hr />
                                         <div className="accor-items">
                                             <div className="accor-item">Making Charges</div>
                                             <div className="accor-item">₹X,XXX</div>
@@ -270,7 +268,7 @@ const ProductSkeleton = () => {
                                         <div className="accor-items">
                                             <div className="accor-item">Grand total</div>
                                             <div className="accor-item">₹X,XXX</div>
-                                        </div>
+                                        </div> */}
                                     </AccorContainer1>
                                 </div>
                             </div>
@@ -286,28 +284,28 @@ const ProductSkeleton = () => {
                                 <div className="accordion-body">
                                     <AccorContainer1>
                                         <div className="accor-items">
-                                            <div className="accor-item">Metal</div>
-                                            <div className="accor-item">₹7,979</div>
+                                            <div className="accor-item">Metal Purity</div>
+                                            <div className="accor-item">pure</div>
                                         </div>
                                         <hr />
                                         <div className="accor-items">
-                                            <div className="accor-item">Diamond</div>
+                                            <div className="accor-item">Metal Weight</div>
+                                            <div className="accor-item">X,XXX</div>
+                                        </div>
+                                        <hr />
+                                        <div className="accor-items">
+                                            <div className="accor-item">Metal Cast</div>
+                                            <div className="accor-item">X,XXX</div>
+                                        </div>
+                                        <hr />
+                                        <div className="accor-items">
+                                            <div className="accor-item">Metal Rate</div>
                                             <div className="accor-item">₹X,XXX</div>
                                         </div>
                                         <hr />
                                         <div className="accor-items">
-                                            <div className="accor-item">Making Charges</div>
-                                            <div className="accor-item">₹X,XXX</div>
-                                        </div>
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item">GST(3%)</div>
-                                            <div className="accor-item">₹X,XXX</div>
-                                        </div>
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item">Grand total</div>
-                                            <div className="accor-item">₹X,XXX</div>
+                                            <div className="accor-item">HUID No.(Hall Mark)</div>
+                                            <div className="accor-item">X,XXX</div>
                                         </div>
                                     </AccorContainer1>
                                 </div>
@@ -317,41 +315,87 @@ const ProductSkeleton = () => {
                         <div className="accordion-item">
                             <h2 className="accordion-header">
                                 <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                                  <b>DIAMOND DETAILS</b>  
+                                    <b>DIAMOND DETAILS</b>
                                 </button>
                             </h2>
                             <div id="panelsStayOpen-collapseFour" className="accordion-collapse collapse">
                                 <div className="accordion-body">
                                     <AccorContainer1>
                                         <div className="accor-items">
-                                            <div className="accor-item">Metal</div>
-                                            <div className="accor-item">₹7,979</div>
+                                            <div className="accor-item">Diamond Clarity</div>
+                                            <div className="accor-item">clear</div>
                                         </div>
                                         <hr />
                                         <div className="accor-items">
-                                            <div className="accor-item">Diamond</div>
-                                            <div className="accor-item">₹X,XXX</div>
+                                            <div className="accor-item">Diamond Color</div>
+                                            <div className="accor-item">Blue</div>
                                         </div>
                                         <hr />
                                         <div className="accor-items">
-                                            <div className="accor-item">Making Charges</div>
-                                            <div className="accor-item">₹X,XXX</div>
+                                            <div className="accor-item">Diamond Weight</div>
+                                            <div className="accor-item">X,XXX</div>
                                         </div>
                                         <hr />
                                         <div className="accor-items">
-                                            <div className="accor-item">GST(3%)</div>
-                                            <div className="accor-item">₹X,XXX</div>
+                                            <div className="accor-item">Diamond Pieces</div>
+                                            <div className="accor-item">X,XXX</div>
                                         </div>
                                         <hr />
                                         <div className="accor-items">
-                                            <div className="accor-item">Grand total</div>
-                                            <div className="accor-item">₹X,XXX</div>
+                                            <div className="accor-item">Certificate No.</div>
+                                            <div className="accor-item">X,XXX</div>
+                                        </div>
+                                        <div className="accor-items">
+                                            <div className="accor-item">Price</div>
+                                            <div className="accor-item">X,XXX</div>
                                         </div>
                                     </AccorContainer1>
                                 </div>
                             </div>
                         </div>
 
+
+                        <div className="accordion-item">
+                            <h2 className="accordion-header">
+                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                    <b>OTHER STONE</b>
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFive" className="accordion-collapse collapse">
+                                <div className="accordion-body">
+                                    <AccorContainer1>
+                                        <div className="accor-items">
+                                            <div className="accor-item">Stone Clarity</div>
+                                            <div className="accor-item">clear</div>
+                                        </div>
+                                        <hr />
+                                        <div className="accor-items">
+                                            <div className="accor-item">Stone Color</div>
+                                            <div className="accor-item">Blue</div>
+                                        </div>
+                                        <hr />
+                                        <div className="accor-items">
+                                            <div className="accor-item">Stone Weight</div>
+                                            <div className="accor-item">X,XXX</div>
+                                        </div>
+                                        <hr />
+                                        <div className="accor-items">
+                                            <div className="accor-item">Stone Pieces</div>
+                                            <div className="accor-item">X,XXX</div>
+                                        </div>
+                                        <hr />
+                                        <div className="accor-items">
+                                            <div className="accor-item">Certificate No.</div>
+                                            <div className="accor-item">X,XXX</div>
+                                        </div>
+                                        <div className="accor-items">
+                                            <div className="accor-item">Price</div>
+                                            <div className="accor-item">X,XXX</div>
+                                        </div>
+                                    </AccorContainer1>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
                 </ProductDetailsAccorContainer>

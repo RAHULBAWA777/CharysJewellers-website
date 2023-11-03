@@ -1,11 +1,11 @@
 import React from 'react'
 import './jewelgridnav.css'
-import d from '../../assets/jewel-grid-nav/d.jpg'
-import g from '../../assets/jewel-grid-nav/g.jpg'
-import p from '../../assets/jewel-grid-nav/p.jpg'
-import t from '../../assets/jewel-grid-nav/t.jpeg'
-import c from '../../assets/jewel-grid-nav/c.jpeg'
-import cd from '../../assets/jewel-grid-nav/cd.jpg'
+import d from '../../assets/raw img/diamondring.jpeg'
+import g from '../../assets/raw img/gold.jpeg'
+import p from '../../assets/raw img/bangles.jpeg'
+import t from '../../assets/raw img/traditional.jpeg'
+import c from '../../assets/raw img/mangalsutra.jpeg'
+import cd from '../../assets/raw img/vchowker.jpeg'
 
 const JewelGridNav = () => {
   return (

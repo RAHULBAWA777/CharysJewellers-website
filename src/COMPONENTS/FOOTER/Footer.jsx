@@ -32,15 +32,15 @@ const Footer = () => {
               {/* <Link to="#policyID"><p>CJ Policy</p></Link> */}
               <a href="#sloganCJPolicy">CJ Policy</a>
               <br />
-              <Link to="aboutus">BIS Hall Mark Gold</Link>
+              <Link to="/bishallmark">BIS Hall Mark Gold</Link>
               <br />
-              <Link to="aboutus" >Tested & Certified Diamonds</Link>
+              <Link to="/tested&certifieddiamonds" >Tested & Certified Diamonds</Link>
               <br />
-              <a href="#fillerPara" >BuyBack Gaurantee</a>
+              <Link to="/buyback" >BuyBack Gaurantee</Link>
               
             </div>
 
-            <div className="footer-links">
+            {/* <div className="footer-links">
               <h4 className="caption-heading">CJ Making and Designs</h4>
 
               <Link to="/alldaimonds">Diamond</Link>
@@ -50,7 +50,7 @@ const Footer = () => {
               <Link to="/daimondbangles">Platinum</Link>
               <br />
               <Link to="/kundan">Traditional</Link>
-            </div>
+            </div> */}
 
             <div className="footer-links">
               <h4 className="caption-heading">Customer Service</h4>
