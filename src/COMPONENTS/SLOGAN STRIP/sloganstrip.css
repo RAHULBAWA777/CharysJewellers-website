@@ -18,9 +18,20 @@
 }
 .sloganSemiContainer2{
     padding: 3rem;
+    /* background-color: antiquewhite; */
 }
 .caption-heading2{
     font-family: var(--font);
     font-style: italic;
     font-size: 1.5rem;
 }
+
+ /* ==========MEDIA QUERIES (small devices) ========= */
+ @media screen and (max-width:600px) {
+    .caption-heading2{
+        font-size: 1.5rem;
+    }
+    .sloganSemiContainer2{
+        width: 100%;
+    }
+ }

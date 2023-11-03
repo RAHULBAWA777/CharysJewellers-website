@@ -522,11 +522,15 @@ width: 70%;
     .accordion-item{
         .accordion-header{
             .accordion-button{
-
                 background-color: var(--color-bg);
             }
         }
     }
+}
+
+ /* ==========MEDIA QUERIES (small devices) ========= */
+ @media screen and (max-width:600px) {
+width: 100%;
 }
 `
 const AccorContainer1 = styled.div`
