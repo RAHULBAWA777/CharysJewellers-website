@@ -36,6 +36,7 @@ import ProductPage from './PAGES/PRODUCT PAGE/ProductPage';
 import BisHallMarkPage from './PAGES/CERTIFICATE PAGES/BisHallMarkPage.jsx';
 import TestedCertifiedDiamondsPage from './PAGES/CERTIFICATE PAGES/TestedCertifiedDiamondsPage.jsx';
 import BuyBackGauranteePage from './PAGES/CERTIFICATE PAGES/BuyBackGauranteePage.jsx';
+import ComingSoonPage from './PAGES/COMING SOON/ComingSoonPage.jsx';
 
 
 function App() {
@@ -86,7 +87,9 @@ function App() {
           <Route path="/bishallmark" element={<BisHallMarkPage />} />
           <Route path="/tested&certifieddiamonds" element={<TestedCertifiedDiamondsPage />} />
           <Route path="/buyback" element={<BuyBackGauranteePage />} />
+          <Route path="/comingsoon" element={<ComingSoonPage />} />
           <Route path="*" element={<Home />} />
+
 
         </Routes>
       </Router>

@@ -41,18 +41,6 @@
 }
 
 .swiper-slide:nth-child(5n) {
-    background-image: url(../../../src/assets/banners/2.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.swiper-slide:nth-child(6n) {
-    background-image: url(../../../src/assets/banners/2.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-.swiper-slide:nth-child(7n) {
     background-image: url(../../../src/assets/banners/7.jpg);
     background-repeat: no-repeat;
     background-size: contain;

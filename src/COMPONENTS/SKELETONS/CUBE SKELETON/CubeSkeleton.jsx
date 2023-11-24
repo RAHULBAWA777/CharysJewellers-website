@@ -23,7 +23,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: center;
-width:20%;
+width:25%;
 height: fit-content;
 padding: 2rem;
 /* margin: 2rem; */
@@ -52,7 +52,7 @@ const CubeCaption=styled.div`
 /* background-color: azure; */
 h1{
 font-family: var(--font-word);
-font-size: 1rem;
+font-size: 1.5rem;
 padding: 1rem;
 }
 `

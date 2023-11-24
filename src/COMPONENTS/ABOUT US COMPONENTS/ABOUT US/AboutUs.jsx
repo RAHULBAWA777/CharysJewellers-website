@@ -78,7 +78,7 @@ display: flex;
     justify-content: center;
     width: 50%;
     height: 70vh;
-    background-color: black;
+    background-color: var(--color-theme);
 
 /* ==========MEDIA QUERIES (medium devices) ========= */
 @media screen and (max-width:1024px) {
@@ -131,7 +131,7 @@ img{
 const BlurImageSection = styled.div`
 width: 100%;
 height: 80vh;
-background-color: black;
+background-color: var(--color-theme);
 position: relative;
 `
 const Bgimage = styled.div`

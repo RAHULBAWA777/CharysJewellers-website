@@ -124,7 +124,7 @@ const Navbar = () => {
                                 </div> */}
                             </div>
                         </li>
-                        <li><Link to="/daimondbangles">Platinum</Link></li>
+                        <li><Link to="/comingsoon">Platinum</Link></li>
 
 
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import { Link } from "react-router-dom";
-import smallCJLogo from '../../assets/cjpolicies/logo-r.jpeg'
+import brand from '../../assets/logo.png'
 
 
 
@@ -19,10 +19,11 @@ const Footer = () => {
               <Link to="/aboutus"><p>About Charys Jewellers</p></Link>
               <Link to="/"><p>Charys Jewellers</p></Link>
               <div className="socials">
-                <img width="32" height="32" src="https://img.icons8.com/wired/64/facebook-new.png" alt="facebook-new" />
-                <img width="32" height="32" src="https://img.icons8.com/wired/32/instagram-new--v1.png" alt="instagram-new--v1" />
-                <a className="abc-text" target="_blank" href="https://wa.me/918367322322?text=I'm%20interested%20in%20*CHARY%20JEWELLERS*"> <img width="32" height="32" src="https://img.icons8.com/wired/32/whatsapp.png" alt="whatsapp" /> </a>
-                <img width="32" height="32" src="https://img.icons8.com/wired/64/linkedin.png" alt="linkedin" />
+                <img width="32" height="32" src="https://img.icons8.com/color/48/facebook.png" alt="facebook-new" />
+                <img width="32" height="32" src="https://img.icons8.com/color/48/instagram-new.png" alt="instagram-new--v1" />
+                <a className="abc-text" target="_blank" href="https://wa.me/918367322322?text=I'm%20interested%20in%20*CHARY%20JEWELLERS*"> <img width="32" height="32" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp" /> </a>
+                <img width="32" height="32" src="https://img.icons8.com/fluency/48/linkedin.png" alt="linkedin" />
+                <img width="32" height="32" src="https://img.icons8.com/color/48/pinterest--v1.png" alt="pinterest--v1"/>
               </div>
             </div>
 
@@ -69,7 +70,7 @@ const Footer = () => {
 
 
           <div className="footer-logo-section">
-            <img src={smallCJLogo} alt="" />
+            <img src={brand} alt="" />
             <br />
             <h2 className='caption-heading'>Become a Member</h2>
             <br />

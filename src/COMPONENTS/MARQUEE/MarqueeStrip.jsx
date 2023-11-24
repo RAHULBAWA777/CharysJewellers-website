@@ -5,7 +5,7 @@ const MarqueeStrip = () => {
     return (
         <>
             <Marquee className='marquee outline'>
-                Every day is a sale day because our prices are always the same. &nbsp;&nbsp;  No Discounts &nbsp;&nbsp; No Offers &nbsp;&nbsp;  High Quality Superior Products  &nbsp;&nbsp;  Fixed Price  &nbsp;  100% Transparency&nbsp;| &nbsp;
+                Every day is a sale day because our prices are always the same. &nbsp;&nbsp;  No Online Sale &nbsp;&nbsp; Instore Sale Only &nbsp;&nbsp;  High Quality Superior Products  &nbsp;  &nbsp;  100% Transparency&nbsp;| &nbsp;
             </Marquee>
         </>
     )

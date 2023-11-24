@@ -1,5 +1,5 @@
 #banner {
-    background-color: rgb(150, 25, 45);
+    background-color: var(--color-theme);
     height: 2rem;
     width: 100%;
     display: flex;

@@ -35,14 +35,13 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
 .footer-links {
     width: 25%;
     line-height: 2rem;
 }
 
 .footer-logo-section>img {
-    width: 12rem;
+    width: 20rem;
 }
 
 .credits {
@@ -128,7 +127,7 @@ footer {
     }
 
     .footer-logo-section>img {
-        width: 12rem;
+        width: 18rem;
     }
 
     .credits {
