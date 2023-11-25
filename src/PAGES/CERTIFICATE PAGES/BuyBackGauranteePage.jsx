@@ -70,7 +70,12 @@ const CertificateContainer = styled.div`
     h1, h2{
         font-style: italic;
     }
-   
+}
+ /* ==========MEDIA QUERIES (small devices) ========= */
+ @media screen and (max-width:600px) {
+    .bg-text {
+  width: 100%;
+}
 }
 `
 export default BuyBackGauranteePage

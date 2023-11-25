@@ -70,7 +70,15 @@ const CertificateContainer = styled.div`
     h1, h2{
         font-style: italic;
     }
-   
+}
+
+ /* ==========MEDIA QUERIES (small devices) ========= */
+ @media screen and (max-width:600px) {
+    .bg-text {
+  width: 100%;
+  padding: 1rem;
+  font-size: .2rem;
+}
 }
 `
 export default TestedCertifiedDiamondsPage

@@ -68,9 +68,13 @@ const CertificateContainer = styled.div`
     h1, h2{
         font-style: italic;
     }
-    /* h1{
-        color: var(--color-theme);
-    } */
+}
+
+ /* ==========MEDIA QUERIES (small devices) ========= */
+ @media screen and (max-width:600px) {
+    .bg-text {
+  width: 100%;
+}
 }
 `
 

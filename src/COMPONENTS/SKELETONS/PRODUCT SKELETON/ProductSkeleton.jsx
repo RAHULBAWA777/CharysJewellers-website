@@ -96,7 +96,7 @@ const ProductSkeleton = () => {
                 <ProductSkeletonSectionRight>
 
                     <BasicDetails>
-                        <ProductName><h1>Rose Diamond Ring</h1></ProductName>
+                        <ProductName><h1>Rose Diamond Ring (28)</h1></ProductName>
                         <DetailsTriggerSection>
                             <ProductStyleNo>CJXXXXX</ProductStyleNo>
                             <a href="#ProductDetailsSection"><ProductDetailTriggerbtn>View Details</ProductDetailTriggerbtn></a>
@@ -117,7 +117,7 @@ const ProductSkeleton = () => {
                             <div className="accordion-item">
                                 <h2 className="accordion-header">
                                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                        Items Availability
+                                        Customisation
                                     </button>
                                 </h2>
                                 <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show">
@@ -132,6 +132,19 @@ const ProductSkeleton = () => {
                                             <AccorItem><b>Metal Purity </b><MetalColorContainer><MetalColor>18K</MetalColor></MetalColorContainer> </AccorItem>
                                             <br />
                                             <AccorItem><b>Diamond Quality </b><MetalColorContainer><MetalColor><MC>💎</MC>VVS/EF</MetalColor></MetalColorContainer> </AccorItem>
+                                            <br />
+                                            <AccorItem><b>Select Size</b><MetalColorContainer><MetalColor>
+                                                <select class="form-select form-select-sm" aria-label="Small select example">
+
+                                                    <option selected><b>Select Size</b></option>
+                                                    <option value="1">22 (61.9mm)</option>
+                                                    <option value="2">23 (62.8mm)</option>
+                                                    <option value="3">24 (63.9mm)</option>
+                                                    <option value="4">25( 64.7mm)</option>
+
+                                                </select>
+                                            </MetalColor></MetalColorContainer> </AccorItem>
+
                                         </AccorContainer>
                                     </div>
                                 </div>
