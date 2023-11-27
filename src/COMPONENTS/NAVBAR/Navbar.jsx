@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import { useRef } from 'react';
 import './navbar.css'
 import { Link } from "react-router-dom";
-import brand from '../../assets/logo.png'
+import brand from '../../assets/logos.png'
 // import dbangles from "../../assets/diamond/DiaInPics/Bangles/1.jpg"
 // import dbracelet from "../../assets/diamond/DiaInPics/Brace/1.jpg"
 // import dchain from "../../assets/diamond/DiaInPics/Chain/1.jpg"
@@ -33,7 +33,7 @@ const Navbar = () => {
                     <ul>
                         <li><Link to="/">Home</Link></li>
                    
-                        <li><Link to="/">Shop Now</Link></li>
+                        {/* <li><Link to="/">Shop Now</Link></li> */}
                         <li className='subnav'><Link to="/alldaimonds">Diamond</Link>
                             {/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     DAIMOND SUBNAV     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
                             <div className='subnav-content'>
@@ -167,7 +167,7 @@ const Navbar = () => {
                         </li>
                         <li><Link to="/productPage">Customise Your Design</Link></li>
                         <li><Link to="/charysdesigns">Charys Design</Link></li>
-                        <li><Link to="/aboutus">About Us</Link></li>
+                        {/* <li><Link to="/aboutus">About Us</Link></li> */}
                         <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                             <FaTimes />
                         </button>

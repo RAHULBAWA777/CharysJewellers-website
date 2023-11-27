@@ -14,10 +14,10 @@ const Footer = () => {
           <div className="footer-links-section">
 
             <div className="footer-links">
-              <h4 className="caption-heading">Get to know us</h4>
+              <h4 className="caption-heading">About Charys Jewellers</h4>
 
-              <Link to="/aboutus"><p>About Charys Jewellers</p></Link>
-              <Link to="/"><p>Charys Jewellers</p></Link>
+              <Link to="/aboutus"><p>About Us</p></Link>
+              {/* <Link to="/"><p>Charys Jewellers</p></Link> */}
               <div className="socials">
                 <a href="https://www.facebook.com/profile.php?id=100063889551619" target="_blank" rel="noopener noreferrer"> <img width="32" height="32" src="https://img.icons8.com/color/48/facebook.png" alt="facebook-new" /></a>
                 <a href="https://www.instagram.com/charysjewellers/" target="_blank" rel="noopener noreferrer"><img width="32" height="32" src="https://img.icons8.com/color/48/instagram-new.png" alt="instagram-new--v1" /></a>               
@@ -55,10 +55,10 @@ const Footer = () => {
             </div> */}
 
             <div className="footer-links">
-              <h4 className="caption-heading">Customer Service</h4>
+              <h4 className="caption-heading">Contact Us</h4>
 
               <p>+919393480361/8367322322</p>
-              <p>11-12-31, Plot no 5, Road Number 1
+              <p>11-12-31, Road 1
                 SRK Puram , Kothapet , Saroornagar
                 Hyderabad, Telanagana - 500035
                 Near : HDFC Bank</p>

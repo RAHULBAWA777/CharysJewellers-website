@@ -8,9 +8,11 @@ const JewelleryShowcaseSkeleton = (props) => {
   return (
     <>
       <JewelleryShowcaseContainer>
+      <Link to={props.jewelItemLink}>
         <JewelleryShowcaseContainerItemImg><img src={props.jewelShowImg} alt="jewellery img" /></JewelleryShowcaseContainerItemImg>
         <JewelleryShowcaseContainerItemName><span>{props.jewelShowName}</span></JewelleryShowcaseContainerItemName>
-        <JewelleryShowcaseContainerItemLink className='caption-link'><Link to={props.jewelItemLink}>Order Now</Link></JewelleryShowcaseContainerItemLink>
+        {/* <JewelleryShowcaseContainerItemLink className='caption-link'><Link to={props.jewelItemLink}>Order Now</Link></JewelleryShowcaseContainerItemLink> */}
+        </Link>
       </JewelleryShowcaseContainer>
     </>
   )
@@ -49,5 +51,5 @@ font-family: var(--font);
 color: var(--color-theme);
 font-size: 1.4rem;
 `
-const JewelleryShowcaseContainerItemLink = styled.div``
+// const JewelleryShowcaseContainerItemLink = styled.div``
 export default JewelleryShowcaseSkeleton

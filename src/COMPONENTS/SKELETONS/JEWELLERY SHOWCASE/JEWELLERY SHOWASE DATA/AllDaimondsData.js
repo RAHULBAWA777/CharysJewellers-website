@@ -51,345 +51,345 @@ const AllDaimondsData = [
         id: 1,
         jewelShowImg: bangles,
         jewelShowName: "Bangles",
-        jewelItemLink: "/contactus"
+        jewelItemLink: "/productPage"
     },
     {
         id: 2,
         jewelShowImg: bracelets,
         jewelShowName: "Bracelets",
-        jewelItemLink: "/contactus"
+        jewelItemLink: "/productPage"
     },
     {
         id: 3,
         jewelShowImg: nacklace,
         jewelShowName: "Necklace",
-        jewelItemLink: "/contactus"
+        jewelItemLink: "/productPage"
     },
     {
         id: 4,
         jewelShowImg: mangalsutra,
         jewelShowName: "Mangalsutra",
-        jewelItemLink: "/contactus"
+        jewelItemLink: "/productPage"
     },
     {
         id: 5,
         jewelShowImg: chains,
         jewelShowName: "Chains",
-        jewelItemLink: "/contactus"
+        jewelItemLink: "/productPage"
     },
     {
         id: 6,
         jewelShowImg: pendants,
         jewelShowName: "Pendants",
-        jewelItemLink: "/contactus"
+        jewelItemLink: "/productPage"
     },
     {
         id: 7,
         jewelShowImg: vaddaanam,
         jewelShowName: "Vaddaanam",
-        jewelItemLink: "/contactus"
+        jewelItemLink: "/productPage"
     },
     {
         id: 8,
         jewelShowImg: jumkas,
         jewelShowName: "Jumkas",
-        jewelItemLink: "/contactus"
+        jewelItemLink: "/productPage"
     },
     //  #############       BANGLES        ###############
     {
         id: 9,
         jewelShowImg: CJDBG0001,
         jewelShowName: "CJDBG 0001",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 10,
         jewelShowImg: CJDBG0002,
         jewelShowName: "CJDBG 0002",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 11,
         jewelShowImg: CJDBG0003,
         jewelShowName: "CJDBG 0003",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 12,
         jewelShowImg: CJDBG0004,
         jewelShowName: "CJDBG 0004",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 13,
         jewelShowImg: CJDBG0005,
         jewelShowName: "CJDBG 0005",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 14,
         jewelShowImg: CJDBG0006,
         jewelShowName: "CJDBG 0006",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     //  #############       BRACELETS        ###############
     {
         id: 15,
         jewelShowImg: CJDBL0001,
         jewelShowName: "CJDBL 0001",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 16,
         jewelShowImg: CJDBL0002,
         jewelShowName: "CJDBL 0002",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 17,
         jewelShowImg: CJDBL0003,
         jewelShowName: "CJDBL 0003",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 18,
         jewelShowImg: CJDBL0004,
         jewelShowName: "CJDBL 0004",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 19,
         jewelShowImg: CJDBL0005,
         jewelShowName: "CJDBL 0005",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 20,
         jewelShowImg: CJDBL0006,
         jewelShowName: "CJDBL 0006",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     //  #############       CHAIN        ###############
     {
         id: 21,
         jewelShowImg: CJDCH0001,
         jewelShowName: "CJDCH 0001",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 22,
         jewelShowImg: CJDCH0002,
         jewelShowName: "CJDCH 0002",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 23,
         jewelShowImg: CJDCH0003,
         jewelShowName: "CJDCH 0003",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 24,
         jewelShowImg: CJDCH0004,
         jewelShowName: "CJDCH 0004",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 25,
         jewelShowImg: CJDCH0005,
         jewelShowName: "CJDCH 0005",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 26,
         jewelShowImg: CJDCH0006,
         jewelShowName: "CJDCH 0006",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     //  #############       PENDANTS        ###############
     {
         id: 27,
         jewelShowImg: CJDBP0001,
         jewelShowName: "CJDBP 0001",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 28,
         jewelShowImg: CJDBP0002,
         jewelShowName: "CJDBP 0002",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 29,
         jewelShowImg: CJDBP0003,
         jewelShowName: "CJDBP 0003",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 30,
         jewelShowImg: CJDBP0004,
         jewelShowName: "CJDBP 0004",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 31,
         jewelShowImg: CJDBP0005,
         jewelShowName: "CJDBP 0005",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 32,
         jewelShowImg: CJDBP0006,
         jewelShowName: "CJDBP 0006",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     //  #############       NECKLACE        ###############
     {
         id: 33,
         jewelShowImg: CJDNL0001,
         jewelShowName: "CJDNL 0001",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 34,
         jewelShowImg: CJDNL0001,
         jewelShowName: "CJDNL 0002",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 35,
         jewelShowImg: CJDNL0001,
         jewelShowName: "CJDNL 0003",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 36,
         jewelShowImg: CJDNL0001,
         jewelShowName: "CJDNL 0004",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 37,
         jewelShowImg: CJDNL0001,
         jewelShowName: "CJDNL 0005",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 38,
         jewelShowImg: CJDNL0001,
         jewelShowName: "CJDNL 0006",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     //  #############       MANGALSUTRA        ###############
     {
         id: 39,
         jewelShowImg: CJDMS0001,
         jewelShowName: "CJDMS 0001",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 40,
         jewelShowImg: CJDMS0001,
         jewelShowName: "CJDMS 0002",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 41,
         jewelShowImg: CJDMS0001,
         jewelShowName: "CJDMS 0003",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 42,
         jewelShowImg: CJDMS0001,
         jewelShowName: "CJDMS 0004",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 43,
         jewelShowImg: CJDMS0001,
         jewelShowName: "CJDMS 0005",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 44,
         jewelShowImg: CJDMS0001,
         jewelShowName: "CJDMS 0006",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     //  #############       VADDANAM        ###############
     {
         id: 45,
         jewelShowImg: CJDVD0001,
         jewelShowName: "CJDVD 0001",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 46,
         jewelShowImg: CJDVD0001,
         jewelShowName: "CJDVD 0002",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 47,
         jewelShowImg: CJDVD0001,
         jewelShowName: "CJDVD 0003",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 48,
         jewelShowImg: CJDVD0001,
         jewelShowName: "CJDVD 0004",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 49,
         jewelShowImg: CJDVD0001,
         jewelShowName: "CJDVD 0005",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 50,
         jewelShowImg: CJDVD0001,
         jewelShowName: "CJDVD 0006",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     //  #############       JUMKAS        ###############
     {
         id: 51,
         jewelShowImg: CJDJK0001,
         jewelShowName: "CJDJK 0001",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 52,
         jewelShowImg: CJDJK0001,
         jewelShowName: "CJDJK 0002",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 53,
         jewelShowImg: CJDJK0001,
         jewelShowName: "CJDJK 0003",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 54,
         jewelShowImg: CJDJK0001,
         jewelShowName: "CJDJK 0004",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 55,
         jewelShowImg: CJDJK0001,
         jewelShowName: "CJDJK 0005",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
     {
         id: 56,
         jewelShowImg: CJDJK0001,
         jewelShowName: "CJDJK 0006",
-        jewelItemLink: "/customise"
+        jewelItemLink: "/productPage"
     },
 ]
 
