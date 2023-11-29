@@ -130,7 +130,7 @@ const Navbar = () => {
 
 
 
-                        <li className='subnav'><Link to="/">Traditional</Link>
+                        <li className='subnav'><Link to="/customise">Traditional</Link>
                             {/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     TRADITIONAL  SUBNAV     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
                             <div className='subnav-content'>
                                 <div className="subnav-list-section">
@@ -168,40 +168,50 @@ const Navbar = () => {
                             </div>
                         </li>
                         <li><Link to="/productPage">Customise Your Design</Link></li>
-                        <li><Link to="/charysdesigns">Charys Design</Link></li>
-                        {/* <li><Link to="/aboutus">About Us</Link></li> */}
-                        <li className='ban'>
-                            <b>
-                                <a className="linktag-1" target="_blank" href="https://wa.me/918367322322?text=I'm%20interested%20in%20*CHARY%20JEWELLERS*">
-                                    {/* <i style={{ backgroundColor: 'green', borderRadius: '100%' }} className="fab fa-whatsapp ">
+                        <li><Link to="/charysdesigns">Charys Designs</Link></li>
+
+
+                        <div className="side_logo">
+                    <li className='ban'>
+                        <b>
+                            <a className="linktag-1" target="_blank" href="https://wa.me/918367322322?text=I'm%20interested%20in%20*CHARY%20JEWELLERS*">
+                                {/* <i style={{ backgroundColor: 'green', borderRadius: '100%' }} className="fab fa-whatsapp ">
                                     </i>  */}
-                                    <img className='logo' src={watsappimg} alt="wa" />
-                                    {/* <br /> */}
-                                    {/* &nbsp; +91 8367 322 322 &nbsp; | */}
-                                </a> &nbsp;
-                            </b>
-                        </li>
-                        <div className="ban">
-                            <li className='ban'>
-                                <b>
-                                    <a className="text-w" target="_blank" href="https://www.google.com/maps/place/charys+jewellers/@17.3671412,78.5479019,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb990a6ee0767d:0x3b39b258c6c66d55!8m2!3d17.3671355!4d78.5479094!16s%2Fg%2F11j7j9_plm">
-                                        {/* <i className="fa fa-map-marker">
+                                <img className='logo' src={watsappimg} alt="wa" />
+                                {/* <br /> */}
+                                {/* &nbsp; +91 8367 322 322 &nbsp; | */}
+                            </a> &nbsp;
+                        </b>
+                    </li>
+
+                    <li className='ban'>
+                        <b>
+                            <a className="text-w" target="_blank" href="https://www.google.com/maps/place/charys+jewellers/@17.3671412,78.5479019,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb990a6ee0767d:0x3b39b258c6c66d55!8m2!3d17.3671355!4d78.5479094!16s%2Fg%2F11j7j9_plm">
+                                {/* <i className="fa fa-map-marker">
                                     </i> */}
-                                        <img className='logo' src={mapimg} alt="wa" />
-                                        {/* <br /> &nbsp; Store Locator &nbsp; | &nbsp; */}
-                                    </a>
-                                </b>
-                            </li>
-                        </div>
+                                <img className='logo' src={mapimg} alt="wa" />
+                                {/* <br /> &nbsp; Store Locator &nbsp; | &nbsp; */}
+                            </a>
+                        </b>
+                    </li>
+                </div>
+
 
                         <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                             <FaTimes />
                         </button>
                     </ul>
                 </div>
+
+
+               
+
+
                 <button className='nav-btn ' onClick={showNavbar}>
                     <FaBars />
                 </button>
+
+                
             </header>
         </>
     )

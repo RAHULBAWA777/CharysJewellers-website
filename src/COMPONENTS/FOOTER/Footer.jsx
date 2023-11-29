@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import { Link } from "react-router-dom";
-import brand from '../../assets/logo.png'
+import brand from '../../assets/logoB.png'
 
 
 
@@ -57,10 +57,10 @@ const Footer = () => {
             <div className="footer-links">
               <h4 className="caption-heading">Contact Us</h4>
 
-              <p>+919393480361/8367322322</p>
-              <p>11-12-31, Road 1
+              <p style={{fontFamily: "none"}}>+919393480361/8367322322</p>
+              <p>11-12-31, Road No. 1
                 SRK Puram , Kothapet , Saroornagar
-                Hyderabad, Telanagana - 500035
+                Hyderabad, Telangana - 500035
                 Near : HDFC Bank</p>
               <p>info@charysjewellers.com</p>
             </div>
