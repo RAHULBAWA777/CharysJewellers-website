@@ -180,7 +180,7 @@ const WhyCjHeading = styled.div`
 }
  /* ==========MEDIA QUERIES (small devices) ========= */
 @media screen and (max-width:600px) {
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 `
 export default WhyCJ

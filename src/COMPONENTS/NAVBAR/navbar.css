@@ -5,14 +5,14 @@
     align-items: center;
     padding: 0rem 2rem;
     z-index: 10;
-    height: 7rem;
+    height: 5rem;
     position: fixed;
     top:0;
     width: 100%;
 }
 
 .brand>img {
-    width: 6rem;
+    width: 4rem;
 }
 
 .nav_links {
@@ -51,7 +51,15 @@
 .nav_links>ul>li>a:hover {
     color: gold;
 }
-
+.logo {
+    width: 1.5rem;
+}
+/* .ban{
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 #nav .nav-btn {
     padding: 5px;
     cursor: pointer;

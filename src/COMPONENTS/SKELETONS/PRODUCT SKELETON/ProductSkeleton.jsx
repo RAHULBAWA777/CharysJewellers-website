@@ -96,7 +96,7 @@ const ProductSkeleton = () => {
                 <ProductSkeletonSectionRight>
 
                     <BasicDetails>
-                        <ProductName><h1>Rose Diamond Ring (28)</h1></ProductName>
+                        <ProductName><h1>Rose Diamond Ring <span>(size-28)</span> </h1></ProductName>
                         <DetailsTriggerSection>
                             <ProductStyleNo>CJXXXXX</ProductStyleNo>
                             <a href="#ProductDetailsSection"><ProductDetailTriggerbtn>View Details</ProductDetailTriggerbtn></a>
@@ -108,7 +108,8 @@ const ProductSkeleton = () => {
                     <PriceSection>
                         <span>₹27,400</span>
                         <p>Instore Pickup Only</p>
-                        <p style={{ color: '#213773' }}>(Rates may vary at the time of purchase)</p>
+                       <b><span className='spann'>Available in Stock</span></b> 
+                        <p style={{ color: '#213773' }}>(Rates may vary at the time of purchase)</p> 
                     </PriceSection>
 
                     <CustomistaionSection>
@@ -173,7 +174,7 @@ const ProductSkeleton = () => {
                                                     <option value="34">34</option>
                                                     <option value="35">35</option>
                                                     <option value="36">36</option>
-                                                    
+
                                                 </select>
                                             </MetalColor></MetalColorContainer> </AccorItem>
 
@@ -451,6 +452,7 @@ const ProductSkeleton = () => {
 
 
 
+
 const ProductSkeletonMainContainer = styled.div`
 /* background-color: red; */
 display: flex;
@@ -458,7 +460,7 @@ align-items: center;
 justify-content: space-evenly;
 width: 100%;
 padding: 2rem;
-
+margin-top: 5rem;
 
 /* ==========MEDIA QUERIES (medium devices) ========= */
 @media screen and (max-width:1024px) {
@@ -493,7 +495,11 @@ const BasicDetails = styled.div`
  }
 
 `
-const ProductName = styled.div``
+const ProductName = styled.div`
+span{
+    font-size: 1.5rem;
+}
+`
 const DetailsTriggerSection = styled.div`
 /* background-color: blue; */
 display: flex;
@@ -509,6 +515,10 @@ const PriceSection = styled.div`
 span{
     font-size: 2rem;
     color: orangered;
+}
+.spann{
+    color: green;
+    font-size: 1rem;
 }
 `
 const CustomistaionSection = styled.div`

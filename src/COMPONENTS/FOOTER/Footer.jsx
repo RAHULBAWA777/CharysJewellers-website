@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
 
             <div className="footer-links">
-              <h4 className="caption-heading">CJ Promises and Quality</h4>
+              <h4 className="caption-heading">CJ Promises & Policy</h4>
 
               {/* <Link to="#policyID"><p>CJ Policy</p></Link> */}
               <Link to="/cjpolicy">CJ Policy</Link>

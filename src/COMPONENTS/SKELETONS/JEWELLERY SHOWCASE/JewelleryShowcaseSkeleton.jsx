@@ -23,7 +23,7 @@ const JewelleryShowcaseContainer = styled.div`
 /* background-color: aqua; */
 width: 30rem;
 height: 30rem;
-
+margin-top: 5rem;
  /* ==========MEDIA QUERIES (small devices) ========= */
  @media screen and (max-width:600px) {
     width: 100%;

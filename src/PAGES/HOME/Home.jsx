@@ -8,6 +8,7 @@ import SloganStrip from '../../COMPONENTS/SLOGAN STRIP/SloganStrip.jsx'
 import FillerShowcase2 from '../../COMPONENTS/FILLER-SHOWCASE-2/FillerShowcase2'
 import MarqueeStrip from '../../COMPONENTS/MARQUEE/MarqueeStrip'
 import Footer from '../../COMPONENTS/FOOTER/Footer'
+import Testimonial from '../../COMPONENTS/TESTIMONIAL/Testimonial.jsx';
 const Home = () => {
   return (
     <>
@@ -15,10 +16,11 @@ const Home = () => {
       <MarqueeStrip />
       <Swiper />
       <JewelGridNav />
-      <FillerShowcase />
       <NewIn />
+      <FillerShowcase />
       <SloganStrip />
-      <FillerShowcase2 />
+      <Testimonial/>
+      {/* <FillerShowcase2 /> */}
       <Footer />
     </>
   )

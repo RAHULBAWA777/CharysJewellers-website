@@ -14,6 +14,12 @@ const WhyCJSection = () => {
                 <b> Why Charys Jewellers?</b>
                 <br />
                 <br />
+                <Whycjpara>
+                    Offoo! Looks like your mind rung up a wonderful design idea huh? Seeking to consult on getting it made? Charys jewellers is here, so what are you waiting for? Let’s hear your idea and pull your dream to reality!
+
+                    Ours is a legacy of over 25 years in the Jewellery industry. While being in sync with the emerging trends and constantly reinventing, our core values of trust and customer service remain unchanged.
+                </Whycjpara>
+                <br />
                 <Whycjsectioncontainer>
 
                     <WhyCJ />
@@ -46,6 +52,17 @@ font-size: 5rem;
     width: 100%;
  
     font-size: 3rem;
+}
+`
+
+const Whycjpara = styled.div`
+font-size: 2rem;
+
+ /* ==========MEDIA QUERIES (small devices) ========= */
+ @media screen and (max-width:600px) {
+    /* width: 100%; */
+ 
+    font-size: 1rem;
 }
 `
 const Whycjsectioncontainer = styled.div`

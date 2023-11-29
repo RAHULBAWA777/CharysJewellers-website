@@ -4,6 +4,8 @@ import { useRef } from 'react';
 import './navbar.css'
 import { Link } from "react-router-dom";
 import brand from '../../assets/logos.png'
+import watsappimg from '../../assets/brand-logo/whatsapp.png'
+import mapimg from '../../assets/brand-logo/map.png'
 // import dbangles from "../../assets/diamond/DiaInPics/Bangles/1.jpg"
 // import dbracelet from "../../assets/diamond/DiaInPics/Brace/1.jpg"
 // import dchain from "../../assets/diamond/DiaInPics/Chain/1.jpg"
@@ -32,7 +34,7 @@ const Navbar = () => {
                 <div className="nav_links" ref={navRef}>
                     <ul>
                         <li><Link to="/">Home</Link></li>
-                   
+
                         {/* <li><Link to="/">Shop Now</Link></li> */}
                         <li className='subnav'><Link to="/alldaimonds">Diamond</Link>
                             {/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     DAIMOND SUBNAV     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
@@ -97,7 +99,7 @@ const Navbar = () => {
                                         <li><Link to="/goldvaddanam">Vaddanam</Link></li>
                                         <li><Link to="/goldchandbali">Chandbali</Link></li>
                                         <li><Link to="/goldrings">Rings</Link></li>
-                                       
+
                                     </ul>
                                 </div>
                                 {/* <div className='subnav-pics-section'>
@@ -168,6 +170,30 @@ const Navbar = () => {
                         <li><Link to="/productPage">Customise Your Design</Link></li>
                         <li><Link to="/charysdesigns">Charys Design</Link></li>
                         {/* <li><Link to="/aboutus">About Us</Link></li> */}
+                        <li className='ban'>
+                            <b>
+                                <a className="linktag-1" target="_blank" href="https://wa.me/918367322322?text=I'm%20interested%20in%20*CHARY%20JEWELLERS*">
+                                    {/* <i style={{ backgroundColor: 'green', borderRadius: '100%' }} className="fab fa-whatsapp ">
+                                    </i>  */}
+                                    <img className='logo' src={watsappimg} alt="wa" />
+                                    {/* <br /> */}
+                                    {/* &nbsp; +91 8367 322 322 &nbsp; | */}
+                                </a> &nbsp;
+                            </b>
+                        </li>
+                        <div className="ban">
+                            <li className='ban'>
+                                <b>
+                                    <a className="text-w" target="_blank" href="https://www.google.com/maps/place/charys+jewellers/@17.3671412,78.5479019,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb990a6ee0767d:0x3b39b258c6c66d55!8m2!3d17.3671355!4d78.5479094!16s%2Fg%2F11j7j9_plm">
+                                        {/* <i className="fa fa-map-marker">
+                                    </i> */}
+                                        <img className='logo' src={mapimg} alt="wa" />
+                                        {/* <br /> &nbsp; Store Locator &nbsp; | &nbsp; */}
+                                    </a>
+                                </b>
+                            </li>
+                        </div>
+
                         <button className='nav-btn nav-close-btn' onClick={showNavbar}>
                             <FaTimes />
                         </button>

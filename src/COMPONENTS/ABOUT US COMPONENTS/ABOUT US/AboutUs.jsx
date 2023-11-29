@@ -131,11 +131,11 @@ img{
 const BlurImageSection = styled.div`
 width: 100%;
 height: 80vh;
-background-color: var(--color-theme);
+background-color: var(--color-bg);
 position: relative;
 `
 const Bgimage = styled.div`
-  background-image: url("src/assets/jewel-grid-nav/c.jpeg");
+  background-image: url("src/assets/ring.png");
   filter: blur(8px);
   -webkit-filter: blur(8px);
   height: 100%; 
@@ -147,7 +147,7 @@ const Bgimage = styled.div`
 const Bgtext = styled.div`
  background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.7); /* Black w/opacity/see-through */
-  color:var(--color-bg);
+  color:var(--color-theme);
   font-weight: bold;
   /* border: 3px solid #f1f1f1; */
   position: absolute;

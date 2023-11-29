@@ -35,8 +35,26 @@ a:hover::before {
 }
 :root {
 
-  --color-bg:#E0E0E0;
-  --color-theme:#213773;
+  /* --color-bg:#662549;
+  --color-theme:#D2DE32; */
+  /* --color-bg:#FBA1B7;
+  --color-theme:#191D88; */
+  /* --color-bg:#FFD28F;
+  --color-theme:#black; */
+  /* --color-bg:#161A30;
+  --color-theme:#F5CCA0; */
+  /* --color-bg:#141E46;
+  --color-theme:#FF6969; */
+  /* --color-bg:#3E001F;
+  --color-theme:#FFE5AD; */
+  /* --color-bg:#982176;
+  --color-theme:#FFE5AD; */
+  /* --color-bg:#4C0033;
+  --color-theme:#FF74B1; */
+  /* --color-bg:#850E35;
+  --color-theme:#FFF5E4; */
+  --color-bg:#010A43;
+  --color-theme:#FF3F98;
 
   --font: 'Playfair Display SC', serif;
   

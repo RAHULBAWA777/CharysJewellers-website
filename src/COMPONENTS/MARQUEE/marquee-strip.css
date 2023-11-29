@@ -1,9 +1,10 @@
 .marquee{
     background-color: var(--color-bg);
     color: var(--color-theme);
-    height: 5rem;
+    height: 3rem;
     font-family: var(--font-lobster);
-    font-size: 2rem;
+    font-size: 1.5rem;
+    margin-top: 5rem;
 }
 
  /* ==========MEDIA QUERIES (small devices) ========= */

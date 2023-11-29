@@ -11,6 +11,7 @@ const createpolicies = (data) => {
 const CjPolicy = () => {
   return (
     <>
+  
       <CjPolicyContainer id='policyID' className='outline'>
         <CjPolicyHeading>Our Policies</CjPolicyHeading>
         <CjPolicyContainerFluid id='policies'>
