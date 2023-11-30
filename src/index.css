@@ -1,4 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@0;1&display=swap');
 *{
   margin: 0;
@@ -57,7 +58,7 @@ a:hover::before {
   --color-theme:gold;
 
   --font: 'Playfair Display SC', serif;
-  
+  --font2: 'Dancing Script', cursive;
 }
 
 html {

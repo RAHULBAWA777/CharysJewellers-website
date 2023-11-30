@@ -33,15 +33,15 @@ const Navbar = () => {
 
                 <div className="nav_links" ref={navRef}>
                     <ul>
-                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/" onClick={()=>[window.scrollTo(0 ,0)] }>Home</Link></li>
 
                         {/* <li><Link to="/">Shop Now</Link></li> */}
-                        <li className='subnav'><Link to="/alldaimonds">Diamond</Link>
+                        <li className='subnav'><Link to="/alldaimonds" onClick={()=>[window.scrollTo(0 ,0)] }>Diamond</Link>
                             {/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     DAIMOND SUBNAV     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
                             <div className='subnav-content'>
                                 <div className="subnav-list-section">
-                                    <h3>Shop By Collection</h3>
-                                    <br />
+                                    {/* <h3>Shop By Collection</h3>
+                                    <br /> */}
                                     <ul>
                                         <li><Link to="/daimondbangles">Bangles</Link></li>
                                         <li><Link to="/daimondbracelets">Bracelets</Link></li>
@@ -81,12 +81,12 @@ const Navbar = () => {
                         </li>
 
 
-                        <li className='subnav'><Link to="/allgolds">Gold</Link>
+                        <li className='subnav'><Link to="/allgolds" onClick={()=>[window.scrollTo(0 ,0)] }>Gold</Link>
                             {/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     GOLD SUBNAV     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
                             <div className='subnav-content'>
                                 <div className="subnav-list-section">
-                                    <h3>Shop By Collection</h3>
-                                    <br />
+                                    {/* <h3>Shop By Collection</h3>
+                                    <br /> */}
                                     <ul>
                                         <li><Link to="/goldbangles">Bangles</Link></li>
                                         <li><Link to="/goldbracelets">Bracelets</Link></li>
@@ -130,12 +130,12 @@ const Navbar = () => {
 
 
 
-                        <li className='subnav'><Link to="/customise">Traditional</Link>
+                        <li className='subnav'><Link to="/customise" onClick={()=>[window.scrollTo(0 ,0)] }>Traditional</Link>
                             {/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     TRADITIONAL  SUBNAV     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
                             <div className='subnav-content'>
                                 <div className="subnav-list-section">
-                                    <h3 className='grey'>Shop By Collection</h3>
-                                    <br />
+                                    {/* <h3 className='grey'>Shop By Collection</h3>
+                                    <br /> */}
                                     <ul>
                                         <li><Link to="/kundan">Kundan/ Naxi/ Temple</Link></li>
                                         <li><Link to="/polki">Uncut / Polki</Link></li>
@@ -167,8 +167,8 @@ const Navbar = () => {
                                 </div> */}
                             </div>
                         </li>
-                        <li><Link to="/productPage">Customise Your Design</Link></li>
-                        <li><Link to="/charysdesigns">Charys Designs</Link></li>
+                        <li><Link to="/productPage" onClick={()=>[window.scrollTo(0 ,0)] }>Customise Your Design</Link></li>
+                        <li><Link to="/charysdesigns" onClick={()=>[window.scrollTo(0 ,0)] }>Charys Designs</Link></li>
 
 
                         <div className="side_logo">

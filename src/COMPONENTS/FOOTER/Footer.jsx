@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="footer-links">
               <h4 className="caption-heading">About Charys Jewellers</h4>
 
-              <Link to="/aboutus"><p>About Us</p></Link>
+              <Link to="/aboutus" onClick={()=>[window.scrollTo(0 ,0)] }><p>About Us</p></Link>
               {/* <Link to="/"><p>Charys Jewellers</p></Link> */}
               <div className="socials">
                 <a href="https://www.facebook.com/profile.php?id=100063889551619" target="_blank" rel="noopener noreferrer"> <img width="32" height="32" src="https://img.icons8.com/color/48/facebook.png" alt="facebook-new" /></a>
@@ -32,13 +32,13 @@ const Footer = () => {
               <h4 className="caption-heading">CJ Promises & Policy</h4>
 
               {/* <Link to="#policyID"><p>CJ Policy</p></Link> */}
-              <Link to="/cjpolicy">CJ Policy</Link>
+              <Link to="/cjpolicy" onClick={()=>[window.scrollTo(0 ,0)] }>CJ Policy</Link>
               <br />
-              <Link to="/bishallmark">BIS Hall Mark Gold</Link>
+              <Link to="/bishallmark" onClick={()=>[window.scrollTo(0 ,0)] }>BIS Hall Mark Gold</Link>
               <br />
-              <Link to="/tested&certifieddiamonds" >Tested & Certified Diamonds</Link>
+              <Link to="/tested&certifieddiamonds" onClick={()=>[window.scrollTo(0 ,0)] }>Tested & Certified Diamonds</Link>
               <br />
-              <Link to="/buyback" >BuyBack Gaurantee</Link>
+              <Link to="/buyback" onClick={()=>[window.scrollTo(0 ,0)] }>BuyBack Gaurantee</Link>
               
             </div>
 

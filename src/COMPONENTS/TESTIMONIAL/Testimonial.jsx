@@ -1,51 +1,103 @@
-import React from 'react'
 import styled from 'styled-components'
-import c from '../../assets/testimonial.jpg'
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+import yellowbar from "../../assets/yellow-bar.png"
+import { Pagination } from 'swiper/modules';
 
 const Testimonial = () => {
     return (
         <>
             <TestimonialMainContainer>
-                <h1>Our Customer Stories</h1>
+                <h1 className='caption-heading'>Our Customer Stories</h1>
                 <br />
-                <div id="carouselExampleCaptions" className="carousel slide">
-                    <div className="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <img src={c} className="d-block mx-auto " alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first slide.</p>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <img src={c} className="d-block mx-auto " alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
-                            </div>
-                        </div>
-                        <div className="carousel-item">
-                            <img src={c} className="d-block mx-auto " alt="..." />
-                            <div className="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
-                </div>
+
+                <Swiper
+                    slidesPerView={1}
+                    spaceBetween={10}
+                    pagination={{
+                        clickable: true,
+                    }}
+                    breakpoints={{
+                        640: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 40,
+                        },
+                        1024: {
+                            slidesPerView: 4,
+                            spaceBetween: 50,
+                        },
+                    }}
+                    modules={[Pagination]}
+                    className="mySwiper"
+                >
+
+
+
+
+
+
+
+
+
+
+                    <SwiperSlide>
+                    <h4>Vallikiran, Hyderabad</h4>
+                    <img src={yellowbar} alt="xx"/>
+                    <br />
+                    <h5> "The DIAMOND NECKLACE I bought from Charysjewellers are my go-to for adding a touch of elegance. They're lightweight, stylish, and I love the affordable prices at top quality."</h5>
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <h4> Madhavireddy, Hyderabad</h4>
+                    <img src={yellowbar} alt="xx"/>
+                    <br />
+                    <h5>"The thing I like the most about Charys is that the rates are very reasonable where they don’t charge a lot of money in the name of making or wastage, also lot of option on the custom design " </h5>
+                   
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <h4>P.Bindu Hyderabad</h4>
+                    <img src={yellowbar} alt="xx"/>
+                    <br />
+                    <h5> "The customer service at Charysjewellers is fantastic! They helped me find the perfect gift for my mom—a beautiful pendant that she hasn't taken off since." </h5>
+                   
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <h4>Anithareddy, Hyderabad</h4>
+                    <img src={yellowbar} alt="xx"/>
+                    <br />
+                    <h5>"I'm so impressed with the price and design of my jewelry. Great value for money!"  </h5>
+                   
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <h4>California, (USA)</h4>
+                    <img src={yellowbar} alt="xx"/>
+                    <br />
+                    <h5> "Craftmenship is excellent at charysjewellers, like as temple,naxi,kundan jewellery Aarthi " </h5>
+                   
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <h4>Haritha (atlanta,USA)</h4>
+                    <img src={yellowbar} alt="xx"/>
+                    <br />
+                    <h5> "At charys jewellers each ORNAMENT telling a story of skill, passion, and enduring beauty. " </h5>
+                   
+                    </SwiperSlide>
+                </Swiper>
+
             </TestimonialMainContainer>
         </>
     )
@@ -53,13 +105,38 @@ const Testimonial = () => {
 
 
 const TestimonialMainContainer = styled.div`
-height : fit-content;
+/* background-color: beige; */
 padding: 2rem;
-font-family: var(--font);
-img{
-    height: 70vh;
-width: 100%;
-filter: brightness(30%);
+color: var(--color-theme);
+height: 70vh;
+font-family: var(--font2);
+
+.swiper {
+  width: 100%;
+  height: 80%;
+  /* background-color: aquamarine; */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: var(--color-bg);
+    padding: 2rem;
+  /* Center slide text vertically */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide >h4{
+margin-top: 0rem;
+}
+
+.swiper-slide img {
+  /* display: block; */
+  /* width: 100%;
+  height: 100%;
+  object-fit: cover; */
 }
 `
 export default Testimonial
