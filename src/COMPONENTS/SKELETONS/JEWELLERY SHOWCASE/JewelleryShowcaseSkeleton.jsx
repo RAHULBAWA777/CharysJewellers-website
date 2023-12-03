@@ -8,7 +8,7 @@ const JewelleryShowcaseSkeleton = (props) => {
   return (
     <>
       <JewelleryShowcaseContainer>
-      <Link to={props.jewelItemLink}>
+      <Link to={props.jewelItemLink} onClick={()=>[window.scrollTo(0 ,0)]} >
         <JewelleryShowcaseContainerItemImg><img src={props.jewelShowImg} alt="jewellery img" /></JewelleryShowcaseContainerItemImg>
         <JewelleryShowcaseContainerItemName><span>{props.jewelShowName}</span></JewelleryShowcaseContainerItemName>
         {/* <JewelleryShowcaseContainerItemLink className='caption-link'><Link to={props.jewelItemLink}>Order Now</Link></JewelleryShowcaseContainerItemLink> */}

@@ -38,6 +38,7 @@ import TestedCertifiedDiamondsPage from './PAGES/CERTIFICATE PAGES/TestedCertifi
 import BuyBackGauranteePage from './PAGES/CERTIFICATE PAGES/BuyBackGauranteePage.jsx';
 import ComingSoonPage from './PAGES/COMING SOON/ComingSoonPage.jsx';
 import CjPolicyPage from './PAGES/CJ POLICIY/CjPolicyPage.jsx';
+import CustomiseYourDesignPage from './PAGES/CUSTOMISE/CustomiseYourDesignPage.jsx';
 
 
 function App() {
@@ -81,6 +82,7 @@ function App() {
           
 
 
+          <Route path="/customiseyourdesign" element={<CustomiseYourDesignPage />} />
           <Route path="/charysdesigns" element={<CharysDesignPage />} />
           <Route path="/productPage" element={<ProductPage />} />
           <Route path="/aboutus"  element={<AboutUsPage />} />
