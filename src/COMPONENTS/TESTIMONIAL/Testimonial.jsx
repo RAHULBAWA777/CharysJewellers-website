@@ -14,7 +14,7 @@ const Testimonial = () => {
     return (
         <>
             <TestimonialMainContainer>
-                <h1 className='caption-heading'>From Our Customer</h1>
+                <h1 className='caption-heading'>From Our Customers</h1>
                 <br />
 
                 <Swiper
