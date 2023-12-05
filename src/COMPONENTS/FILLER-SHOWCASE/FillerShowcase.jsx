@@ -20,7 +20,7 @@ const FillerShowcase = () => {
 
         <div className="fillerShowcase-item right outline"id='fillerPara'>
           {/* <img src={sideImg} alt="img"  /> */}
-          <video width="100%" height="100%"  src={video} autoPlay muted loop/>
+          {/* <video width="100%" height="100%"  src={video} autoPlay muted loop/> */}
           <div className="image-caption">
           <p className="caption-heading2" >At any point of time if you feel you need to change the jewellery collections, Please come to us...We assure you a GUARANTEED BUYBACK on all our Gold and Diamond jewellery sold with a maximum value to you. Our Era collections will also get you maximum value based on the invoice. We provide 100 % buy back on  gold and 90% on Diamonds at the prevailing rate for exchange.</p>
           <br/>

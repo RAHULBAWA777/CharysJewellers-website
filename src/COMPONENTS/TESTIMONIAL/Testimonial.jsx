@@ -14,7 +14,7 @@ const Testimonial = () => {
     return (
         <>
             <TestimonialMainContainer>
-                <h1 className='caption-heading'>Our Customer Stories</h1>
+                <h1 className='caption-heading'>From Our Customer</h1>
                 <br />
 
                 <Swiper
@@ -51,49 +51,49 @@ const Testimonial = () => {
 
 
                     <SwiperSlide>
-                    <h4>Vallikiran, Hyderabad</h4>
-                    <img src={yellowbar} alt="xx"/>
-                    <br />
                     <h5> "The DIAMOND NECKLACE I bought from Charysjewellers are my go-to for adding a touch of elegance. They're lightweight, stylish, and I love the affordable prices at top quality."</h5>
+                    <br />
+                    <img src={yellowbar} alt="xx"/>
+                    <h4>Vallikiran, Hyderabad</h4>
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <h4> Madhavireddy, Hyderabad</h4>
-                    <img src={yellowbar} alt="xx"/>
-                    <br />
                     <h5>"The thing I like the most about Charys is that the rates are very reasonable where they don’t charge a lot of money in the name of making or wastage, also lot of option on the custom design " </h5>
+                    <br />
+                    <img src={yellowbar} alt="xx"/>
+                        <h4> Madhavireddy, Hyderabad</h4>
                    
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <h4>P.Bindu Hyderabad</h4>
-                    <img src={yellowbar} alt="xx"/>
-                    <br />
                     <h5> "The customer service at Charysjewellers is fantastic! They helped me find the perfect gift for my mom—a beautiful pendant that she hasn't taken off since." </h5>
+                    <br />
+                    <img src={yellowbar} alt="xx"/>
+                        <h4>P.Bindu Hyderabad</h4>
                    
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <h4>Anithareddy, Hyderabad</h4>
-                    <img src={yellowbar} alt="xx"/>
-                    <br />
                     <h5>"I'm so impressed with the price and design of my jewelry. Great value for money!"  </h5>
+                    <br />
+                    <img src={yellowbar} alt="xx"/>
+                        <h4>Anithareddy, Hyderabad</h4>
                    
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <h4>California, (USA)</h4>
-                    <img src={yellowbar} alt="xx"/>
-                    <br />
                     <h5> "Craftmenship is excellent at charysjewellers, like as temple,naxi,kundan jewellery Aarthi " </h5>
+                    <br />
+                    <img src={yellowbar} alt="xx"/>
+                        <h4>California, (USA)</h4>
                    
                     </SwiperSlide>
 
                     <SwiperSlide>
-                        <h4>Haritha (atlanta,USA)</h4>
-                    <img src={yellowbar} alt="xx"/>
-                    <br />
                     <h5> "At charys jewellers each ORNAMENT telling a story of skill, passion, and enduring beauty. " </h5>
+                    <br />
+                    <img src={yellowbar} alt="xx"/>
+                        <h4>Haritha (atlanta,USA)</h4>
                    
                     </SwiperSlide>
                 </Swiper>
@@ -120,7 +120,7 @@ font-family: var(--font2);
 .swiper-slide {
   text-align: center;
   font-size: 18px;
-  background: var(--color-bg);
+  background:#FFF8F4;
     padding: 2rem;
   /* Center slide text vertically */
   display: flex;

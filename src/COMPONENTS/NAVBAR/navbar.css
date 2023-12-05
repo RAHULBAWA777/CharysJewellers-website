@@ -12,7 +12,9 @@
 }
 
 .brand>img {
-    width: 4rem;
+    width: 10rem;
+    background-color: #A51D3B;
+    padding: 1rem;
 }
 
 .nav_links {

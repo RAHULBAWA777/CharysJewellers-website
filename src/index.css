@@ -54,8 +54,10 @@ a:hover::before {
   --color-theme:#FF74B1; */
   /* --color-bg:#850E35;
   --color-theme:#FFF5E4; */
-  --color-bg:#2B2A4C;
-  --color-theme:gold;
+  /* --color-bg:#2B2A4C;
+  --color-theme:gold; */
+  --color-bg:white;
+  --color-theme:#A51D3B;
 
   --font: 'Playfair Display SC', serif;
   --font2: 'Dancing Script', cursive;

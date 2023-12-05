@@ -43,6 +43,8 @@ footer {
 
 .footer-logo-section>img {
     width: 20rem;
+    background-color: #A51D3B;
+    padding: 1rem;
 }
 
 .credits {
