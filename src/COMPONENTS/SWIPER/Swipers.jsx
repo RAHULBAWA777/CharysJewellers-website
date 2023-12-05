@@ -33,9 +33,9 @@ const Swipers = () => {
           <SwiperSlide></SwiperSlide>
           <SwiperSlide></SwiperSlide>
           <SwiperSlide></SwiperSlide>
+          {/* <SwiperSlide></SwiperSlide>
           <SwiperSlide></SwiperSlide>
-          <SwiperSlide></SwiperSlide>
-          <SwiperSlide></SwiperSlide>
+          <SwiperSlide></SwiperSlide> */}
         </Swiper>
       </SwiperMainContainer>
     </>
