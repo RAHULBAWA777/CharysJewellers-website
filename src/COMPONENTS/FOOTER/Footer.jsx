@@ -69,7 +69,7 @@ const Footer = () => {
 
 
           <div className="footer-logo-section">
-            <img src={Brand} alt="" />
+            {/* <img src={Brand} alt="" /> */}
             <br />
             {/* <h2 className='caption-heading'>Become a Member</h2>
             <br />
