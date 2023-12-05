@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 import { useRef } from 'react';
 import './navbar.css'
 import { Link } from "react-router-dom";
-import brand from '../../assets/logob.png'
+import brand from '../../assets/bigLogo.png'
 import watsappimg from '../../assets/brand-logo/whatsapp.png'
 import mapimg from '../../assets/brand-logo/map.png'
 // import dbangles from "../../assets/diamond/DiaInPics/Banges/1.jpg"
