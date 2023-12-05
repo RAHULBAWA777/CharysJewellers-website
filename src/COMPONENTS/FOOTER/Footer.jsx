@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css'
 import { Link } from "react-router-dom";
-import brand from '../../assets/logob.png'
+import Brand from '../../assets/logob.png'
 
 
 
@@ -71,7 +71,7 @@ const Footer = () => {
 
 
           <div className="footer-logo-section">
-            <img src={brand} alt="" />
+            <img src={Brand} alt="" />
             <br />
             {/* <h2 className='caption-heading'>Become a Member</h2>
             <br />
