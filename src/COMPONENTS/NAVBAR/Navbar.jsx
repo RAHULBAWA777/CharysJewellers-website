@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 import brand from '../../assets/logob.png'
 import watsappimg from '../../assets/brand-logo/whatsapp.png'
 import mapimg from '../../assets/brand-logo/map.png'
-// import dbangles from "../../assets/diamond/DiaInPics/Bangles/1.jpg"
+// import dbangles from "../../assets/diamond/DiaInPics/Banges/1.jpg"
 // import dbracelet from "../../assets/diamond/DiaInPics/Brace/1.jpg"
 // import dchain from "../../assets/diamond/DiaInPics/Chain/1.jpg"
 // import dpendeants from "../../assets/diamond/DiaInPics/Pendants/1.jpg"
