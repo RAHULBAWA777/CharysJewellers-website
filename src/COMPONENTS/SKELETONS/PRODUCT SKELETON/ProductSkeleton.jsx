@@ -203,7 +203,8 @@ const ProductSkeleton = () => {
                     </div>
 <br />
 
-                    <a className="button-18" target="_blank" href="https://wa.me/918367322322?text=I'm%20interested%20in%20*CHARY%20JEWELLERS*"><span className='text'>Book Now</span></a>
+                    <a className="button-18" target="_blank" href="
+                    https://wa.me/918367322322?text=Hello + Charys Jewellers, + I + just + visited + your + website. + May + I + know + more + about + product + given + below?"><span className='text'>Book Now</span></a>
 
                 </ProductSkeletonSectionRight >
 

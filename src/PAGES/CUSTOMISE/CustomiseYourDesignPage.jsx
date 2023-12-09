@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, {  useRef } from 'react'
+import emailjs from '@emailjs/browser';
 import styled from 'styled-components'
 import Header from '../HEADER/Header'
 import Footer from '../../COMPONENTS/FOOTER/Footer'
@@ -6,29 +7,44 @@ import bar from '../../assets/yellow-bar.png'
 // import bird from '../../assets/birds.png'
 
 const CustomiseYourDesignPage = () => {
+    const url = `https://wa.me/9882892572?text={customise}`;
+    {/* I'm%20interested%20in%20*CHARY%20JEWELLERS* */ }
 
-    const [customise, setCustomise] = useState({
-        names: "",
-        email: "",
-        number: '',
-        address: '',
-        upload: ''
-    })
+    const form = useRef();
 
-    const handleInput = (e) => {
-        const name = e.target.name;
-        const value = e.target.value;
+    const sendEmail = (e) => {
+        e.preventDefault();
 
-        setCustomise({
-            ...customise,
-            [name]: value,
-        });
+        emailjs.sendForm('service_c1icwjd', 'template_87ucm8n', form.current, 'i-bV_Zl96ylZ4TKUD')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
     };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log(customise);
-    }
+    // const [customise, setCustomise] = useState({
+    //     names: "",
+    //     email: "",
+    //     number: '',
+    //     address: '',
+    //     upload: ''
+    // })
+
+    // const handleInput = (e) => {
+    //     const name = e.target.name;
+    //     const value = e.target.value;
+
+    //     setCustomise({
+    //         ...customise,
+    //         [name]: value,
+    //     });
+    // };
+
+    // const handleSubmit = (e) => {
+    //     e.preventDefault();
+    //     console.log(customise);
+    // }
 
     return (
         <>
@@ -57,44 +73,46 @@ const CustomiseYourDesignPage = () => {
                     </Bgtext>
                 </BlurImageSection>
                 <FormSection>
-                    {/* <img className='cust-image' src={bird} alt="img top" /> */}
+
                     <h2>Customise Your Design</h2>
                     <br />
                     <img className='cust-image2' src={bar} alt="img bottom" />
                     <br />
-                    <form action="" onSubmit={handleSubmit}>
+                    <form ref={form} onSubmit={sendEmail}>
                         <div>
                             <label htmlFor="names">Name*</label>
                             <br />
-                            <input type="text" name='names' id='names' required value={customise.names} onChange={handleInput} />
+                            <input type="text" name='names' id='names' required   />
                         </div>
                         <br />
                         <div>
                             <label htmlFor="email">Email*</label>
                             <br />
-                            <input type="email" name='email' id='email' required value={customise.email} onChange={handleInput} />
+                            <input type="email" name='email' id='email' required  />
                         </div>
                         <br />
                         <div>
                             <label htmlFor="number">Mobile Number*</label>
                             <br />
-                            <input type="number" name="number" id="number" required value={customise.number} onChange={handleInput} />
+                            <input type="number" name="number" id="number" required  />
                         </div>
                         <br />
                         <div>
                             <label htmlFor="address">Your Comments*</label>
                             <br />
-                            <textarea name="address" id="address" cols="30" rows="5" required value={customise.address} onChange={handleInput}></textarea>
+                            <textarea name="address" id="address" cols="30" rows="5" required ></textarea>
                         </div>
                         <br />
-                        <div>
+                        {/* <div>
                             <label htmlFor="upload">Upload image of the jewellery you wish to manufacture by us.</label>
                             <br />
-                            <input type="file" name="upload" id="upload" required value={customise.upload} onChange={handleInput} />
-                        </div>
+                            <input type="file" name="upload" id="upload" required  />
+                        </div> */}
                         <br />
                         <div>
-                            <button type="submit">Submit</button>
+                            <button type="submit" value="Send">                              
+Submit
+                            </button>
                         </div>
                     </form>
                 </FormSection>
