@@ -1,4 +1,4 @@
-import React, {  useRef } from 'react'
+import React, { useRef } from 'react'
 import emailjs from '@emailjs/browser';
 import styled from 'styled-components'
 import Header from '../HEADER/Header'
@@ -82,19 +82,19 @@ const CustomiseYourDesignPage = () => {
                         <div>
                             <label htmlFor="names">Name*</label>
                             <br />
-                            <input type="text" name='names' id='names' required   />
+                            <input type="text" name='names' id='names' required />
                         </div>
                         <br />
                         <div>
                             <label htmlFor="email">Email*</label>
                             <br />
-                            <input type="email" name='email' id='email' required  />
+                            <input type="email" name='email' id='email' required />
                         </div>
                         <br />
                         <div>
                             <label htmlFor="number">Mobile Number*</label>
                             <br />
-                            <input type="number" name="number" id="number" required  />
+                            <input type="number" name="number" id="number" required />
                         </div>
                         <br />
                         <div>
@@ -110,9 +110,10 @@ const CustomiseYourDesignPage = () => {
                         </div> */}
                         <br />
                         <div>
-                            <button type="submit" value="Send">                              
-Submit
-                            </button>
+                            {/* <button type="submit" value="Send"> */}
+                                <a className="button-18" target="_blank" href="https://wa.me/918367322322?text=Hello + Charys Jewellers, + I + just + visited + your + website. + May + I + know + more + about + product + given + below?"><span className='text'> Submit</span></a>
+                                {/* Submit
+                            </button> */}
                         </div>
                     </form>
                 </FormSection>
@@ -164,7 +165,7 @@ input{
 textarea{
     border: 1px solid black;
 }
-button{
+.button-18{
     background-color: var(--color-theme);
     color: var(--color-bg);
     padding: 0rem 1rem;
