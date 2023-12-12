@@ -56,31 +56,31 @@ const SwiperMainContainer = styled.div`
 }
 
 .swiper-slide:nth-child(1n) {
-    background-image: url(../../../src/assets/slideimages/1.jpg);
+    background-image: url(src/assets/slideimages/1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .swiper-slide:nth-child(2n) {
-    background-image: url(../../../src/assets/slideimages/11.jpg);
+    background-image: url(src/assets/slideimages/11.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .swiper-slide:nth-child(3n) {
-    background-image: url(../../../src/assets/slideimages/heki.jpeg);
+    background-image: url(src/assets/slideimages/heki.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .swiper-slide:nth-child(4n) {
-    background-image: url(../../../src/assets/slideimages/hek.jpeg);
+    background-image: url(src/assets/slideimages/hek.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .swiper-slide:nth-child(5n) {
-    background-image: url(../../../src/assets/slideimages/3.jpg);
+    background-image: url(src/assets/slideimages/3.jpg);
     background-repeat: no-repeat;
     background-size: contain;
 }
