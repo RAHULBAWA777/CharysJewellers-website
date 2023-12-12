@@ -39,6 +39,7 @@ import BuyBackGauranteePage from './PAGES/CERTIFICATE PAGES/BuyBackGauranteePage
 import ComingSoonPage from './PAGES/COMING SOON/ComingSoonPage.jsx';
 import CjPolicyPage from './PAGES/CJ POLICIY/CjPolicyPage.jsx';
 import CustomiseYourDesignPage from './PAGES/CUSTOMISE/CustomiseYourDesignPage.jsx';
+import ExchangePolicyPage from './PAGES/CERTIFICATE PAGES/ExchangePolicyPage.jsx';
 
 
 function App() {
@@ -92,6 +93,7 @@ function App() {
           <Route path="/buyback" element={<BuyBackGauranteePage />} />
           <Route path="/comingsoon" element={<ComingSoonPage />} />
           <Route path="/cjpolicy" element={<CjPolicyPage />} />
+          <Route path="/exchangepolicy" element={<ExchangePolicyPage />} />
 
 
 

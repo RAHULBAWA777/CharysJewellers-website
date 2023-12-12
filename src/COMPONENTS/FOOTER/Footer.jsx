@@ -36,13 +36,16 @@ const Footer = () => {
               <br />
               <Link to="/tested&certifieddiamonds" onClick={()=>[window.scrollTo(0 ,0)] }>Tested & Certified Diamonds</Link>
               <br />
+              <Link to="/comingsoon" onClick={()=>[window.scrollTo(0 ,0)] }>About Platinum</Link>
+              <br />
               <Link to="/buyback" onClick={()=>[window.scrollTo(0 ,0)] }>BuyBack Gaurantee</Link>
+              <br />
+              <Link to="/exchangepolicy" onClick={()=>[window.scrollTo(0 ,0)] }>Exchange Policy</Link>
               
             </div>
 
             {/* <div className="footer-links">
               <h4 className="caption-heading">CJ Making and Designs</h4>
-
               <Link to="/alldaimonds">Diamond</Link>
               <br />
               <Link to="/allgolds">Gold</Link>

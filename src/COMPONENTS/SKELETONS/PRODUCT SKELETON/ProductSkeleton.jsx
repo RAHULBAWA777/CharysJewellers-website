@@ -116,14 +116,14 @@ const ProductSkeleton = () => {
                         <b><span className='spann'>Available in Stock</span></b>
                         <p style={{ color: '#213773' }}>(Rates may vary at the time of purchase)</p>
                     </PriceSection>
-
+                    {/* $$$$$$$$$$$$$$$$$$$$$$$$$       AVAILABILITY        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */}
                     <AvailabilitySection>
 
                         <div className="accordion" id="accordionPanelsStayOpenExample">
                             <div className="accordion-item">
                                 <h2 className="accordion-header">
                                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                                        Availability
+
                                     </button>
                                 </h2>
                                 <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show">
@@ -203,11 +203,11 @@ const ProductSkeleton = () => {
                     </div>
                     <br />
 
-                    <a className="button-18" target="_blank" href="https://wa.me/918367322322?text=Hello + Charys Jewellers, + I + just + visited + your + website. + May + I + know + more + about + product + given + below?"><span className='text'>Book Now</span></a>
+                    <a className="button-18" target="_blank" href="https://wa.me/918367322322?text=Hello + Charys Jewellers, + I + just + visited + your + website. + May + I + know + more + about + product + given + below?"><span className='text'>Order Now</span></a>
 
-<br />
-<br />
-{/*                                                     CUSTOMISATION SECTION                                                     */}
+                    <br />
+                    <br />
+                    {/*                                                     CUSTOMISATION SECTION                                                     */}
                     <CustomisationSection>
 
                         <div className="accordion" >
@@ -220,11 +220,20 @@ const ProductSkeleton = () => {
                                 <div id="panelsStayOpen-collapseAvail" className="accordion-collapse collapse show">
                                     <div className="accordion-body">
                                         <AccorContainer>
-                                            <AccorItem><b>Gold Color</b> <MetalColorContainer><MetalColor>White Gold</MetalColor> </MetalColorContainer>
+                                            {/* <AccorItem><b>Gold Color</b> <MetalColorContainer><MetalColor>White Gold</MetalColor> </MetalColorContainer>
                                                 <MetalColorContainer><MetalColor>Yellow Gold</MetalColor></MetalColorContainer>
                                                 <MetalColorContainer><MetalColor>Rose Gold</MetalColor></MetalColorContainer>
-                                                {/* <MetalColorContainer><MetalColor><MC3></MC3>Rose Gold</MetalColor></MetalColorContainer> */}
-                                            </AccorItem>
+                                                <MetalColorContainer><MetalColor><MC3></MC3>Rose Gold</MetalColor></MetalColorContainer>
+                                            </AccorItem> */}
+                                            <AccorItem><b>Gold Color</b><MetalColorContainer><MetalColor>
+                                                <select class="form-select form-select-sm" aria-label="Small select example">
+                                                    <option selected><b>Select Color</b></option>
+                                                    <option value="1">Yellow Gold </option>
+                                                    <option value="2">Rose Gold </option>
+                                                    <option value="3">White Gold </option>
+                                                    {/* <option value="4">4</option> */}
+                                                </select>
+                                            </MetalColor></MetalColorContainer> </AccorItem>
                                             {/* <br />
                                             <AccorItem><b>Metal Purity </b><MetalColorContainer><MetalColor>18K</MetalColor></MetalColorContainer> </AccorItem>
                                             <br />
@@ -469,22 +478,22 @@ const ProductSkeleton = () => {
                                 <div className="accordion-body">
                                     <AccorContainer1>
                                         <div className="accor-items">
-                                            <div className="accor-item">Diamond Clarity</div>
+                                            <div className="accor-item"> Clarity</div>
                                             <div className="accor-item">clear</div>
                                         </div>
                                         <hr />
                                         <div className="accor-items">
-                                            <div className="accor-item">Diamond Color</div>
+                                            <div className="accor-item"> Color</div>
                                             <div className="accor-item">Blue</div>
                                         </div>
                                         <hr />
                                         <div className="accor-items">
-                                            <div className="accor-item">Diamond Weight</div>
+                                            <div className="accor-item"> Weight</div>
                                             <div className="accor-item">X,XXX</div>
                                         </div>
                                         <hr />
                                         <div className="accor-items">
-                                            <div className="accor-item">Diamond Pieces</div>
+                                            <div className="accor-item"> Pieces</div>
                                             <div className="accor-item">X,XXX</div>
                                         </div>
                                         <hr />
@@ -492,6 +501,7 @@ const ProductSkeleton = () => {
                                             <div className="accor-item">Certificate No.</div>
                                             <div className="accor-item">X,XXX</div>
                                         </div>
+                                        <hr />
                                         <div className="accor-items">
                                             <div className="accor-item">Price</div>
                                             <div className="accor-item">X,XXX</div>
@@ -512,14 +522,14 @@ const ProductSkeleton = () => {
                                 <div className="accordion-body">
                                     <AccorContainer1>
                                         <div className="accor-items">
-                                            <div className="accor-item">Stone Clarity</div>
-                                            <div className="accor-item">clear</div>
+                                            <div className="accor-item">Stone Name</div>
+                                            <div className="accor-item">xxxx</div>
                                         </div>
-                                        <hr />
+                                        {/* <hr />
                                         <div className="accor-items">
                                             <div className="accor-item">Stone Color</div>
                                             <div className="accor-item">Blue</div>
-                                        </div>
+                                        </div> */}
                                         <hr />
                                         <div className="accor-items">
                                             <div className="accor-item">Stone Weight</div>
@@ -531,10 +541,10 @@ const ProductSkeleton = () => {
                                             <div className="accor-item">X,XXX</div>
                                         </div>
                                         <hr />
-                                        <div className="accor-items">
+                                        {/* <div className="accor-items">
                                             <div className="accor-item">Certificate No.</div>
                                             <div className="accor-item">X,XXX</div>
-                                        </div>
+                                        </div> */}
                                         <div className="accor-items">
                                             <div className="accor-item">Price</div>
                                             <div className="accor-item">X,XXX</div>

@@ -1,6 +1,6 @@
 footer {
-    background-color: var(--color-bg);
-    color: var(--color-theme);
+    background-color: var(--color-theme);
+    color:gold;
     font-family: var(--font);
     display: flex;
     flex-direction: column;

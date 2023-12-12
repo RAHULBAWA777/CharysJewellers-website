@@ -1,8 +1,8 @@
 // import noOffers from '../../../assets/cjpolicies/nooffers.jpeg'
 // import noDiscounts from '../../../assets/cjpolicies/nodiscounts.jpeg'
-import bestQuality from '../../../assets/cjpolicies/bestquality.jpeg'
-import percentage from '../../../assets/cjpolicies/percentage.jpeg'
-import lowPrice from '../../../assets/cjpolicies/lowprice.jpeg'
+import bestQuality from '../../../assets/cjpolicies/one.png'
+import percentage from '../../../assets/cjpolicies/two.png'
+import lowPrice from '../../../assets/cjpolicies/three.png'
 
 
 const CubeSkeletonData = [

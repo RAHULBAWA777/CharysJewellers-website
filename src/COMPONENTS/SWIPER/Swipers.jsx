@@ -1,12 +1,6 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import 'swiper/css';
-// import 'swiper/css/effect-creative';
-
-// import './swiper.css';
-
-// import required modules
 import { Autoplay, Pagination } from 'swiper/modules';
 import styled from 'styled-components';
 
@@ -46,6 +40,7 @@ const SwiperMainContainer = styled.div`
     z-index: 2;
     width: 100%;
     height: 100vh;
+    margin-top: 7rem;
 }
 
 .swiper-slide {
@@ -73,13 +68,13 @@ const SwiperMainContainer = styled.div`
 }
 
 .swiper-slide:nth-child(3n) {
-    background-image: url(../../../src/assets/slideimages/22.jpg);
+    background-image: url(../../../src/assets/slideimages/heki.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .swiper-slide:nth-child(4n) {
-    background-image: url(../../../src/assets/slideimages/33.jpg);
+    background-image: url(../../../src/assets/slideimages/hek.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
 }

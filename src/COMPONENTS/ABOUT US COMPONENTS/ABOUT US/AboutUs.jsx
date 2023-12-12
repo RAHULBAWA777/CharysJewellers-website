@@ -63,6 +63,7 @@ display: flex;
     width: 100%;
     height: 70vh;
     font-family: var(--font);
+    margin-top: 5rem;
 /* ==========MEDIA QUERIES (medium devices) ========= */
     @media screen and (max-width:1024px) {
    
