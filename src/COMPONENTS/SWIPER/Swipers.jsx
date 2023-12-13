@@ -5,6 +5,10 @@ import { Autoplay, Pagination } from 'swiper/modules';
 import styled from 'styled-components';
 
 import one from '../../assets/slideimages/1.jpg'
+import two from '../../assets/slideimages/11.jpg'
+import three from '../../assets/slideimages/heki.jpeg'
+import four from '../../assets/assets/slideimages/hek.jpeg'
+import five from '../../assets/slideimages/3.jpg'
 
 const Swipers = () => {
   return (
@@ -25,10 +29,10 @@ const Swipers = () => {
           className="mySwiper5"
         >
           <SwiperSlide><img src={one} alt="im" /></SwiperSlide>
-          <SwiperSlide><img src={one} alt="im" /></SwiperSlide>
-          <SwiperSlide><img src={one} alt="im" /></SwiperSlide>
-          <SwiperSlide><img src={one} alt="im" /></SwiperSlide>
-          <SwiperSlide><img src={one} alt="im" /></SwiperSlide>
+          <SwiperSlide><img src={two} alt="im" /></SwiperSlide>
+          <SwiperSlide><img src={three} alt="im" /></SwiperSlide>
+          <SwiperSlide><img src={four} alt="im" /></SwiperSlide>
+          <SwiperSlide><img src={five} alt="im" /></SwiperSlide>
 
         </Swiper>
       </SwiperMainContainer>
