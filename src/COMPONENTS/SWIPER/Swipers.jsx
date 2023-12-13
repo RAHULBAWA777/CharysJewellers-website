@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import styled from 'styled-components';
 
+import one from '../../assets/slideimages/1.jpg'
+
 const Swipers = () => {
   return (
     <>
@@ -22,11 +24,11 @@ const Swipers = () => {
           modules={[Autoplay, Pagination]}
           className="mySwiper5"
         >
-          <SwiperSlide></SwiperSlide>
-          <SwiperSlide></SwiperSlide>
-          <SwiperSlide></SwiperSlide>
-          <SwiperSlide></SwiperSlide>
-          <SwiperSlide></SwiperSlide>
+          <SwiperSlide><img src={one} alt="im" /></SwiperSlide>
+          <SwiperSlide><img src={one} alt="im" /></SwiperSlide>
+          <SwiperSlide><img src={one} alt="im" /></SwiperSlide>
+          <SwiperSlide><img src={one} alt="im" /></SwiperSlide>
+          <SwiperSlide><img src={one} alt="im" /></SwiperSlide>
 
         </Swiper>
       </SwiperMainContainer>
@@ -55,7 +57,7 @@ const SwiperMainContainer = styled.div`
     width: 100%;
 }
 
-.swiper-slide:nth-child(1n) {
+/* .swiper-slide:nth-child(1n) {
     background-image: url(src/assets/slideimages/1.jpg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -83,7 +85,7 @@ const SwiperMainContainer = styled.div`
     background-image: url(src/assets/slideimages/3.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-}
+} */
 
 
 /* ######################################################### */

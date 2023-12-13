@@ -3,6 +3,7 @@ import Header from '../../PAGES/HEADER/Header'
 import Footer from '../../COMPONENTS/FOOTER/Footer'
 import styled from 'styled-components'
 import { Link } from "react-router-dom";
+
 const BisHallMarkPage = () => {
     return (
         <>
