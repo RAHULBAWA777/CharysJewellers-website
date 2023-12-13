@@ -3,10 +3,10 @@ import Header from '../../PAGES/HEADER/Header'
 import Footer from '../../COMPONENTS/FOOTER/Footer'
 import styled from 'styled-components'
 
-const ExchangePolicyPage = () => {
+const PlatinumPage = () => {
   return (
     <>
-        <Header />
+     <Header />
         <CertificateWrapper>
             <div className="bg-image"></div>
             <CertificateContainer>
@@ -15,13 +15,13 @@ const ExchangePolicyPage = () => {
                     <h1 >Exchange Policy</h1>
                     <br />
                     <br />
-                    <h2>Gold Jewellery is an appreciating asset. At charysjewellers, we are more than happy to exchange your gold at the prevailing rate with the 100% value of metal weight (applicable only on the jewellery purchased from charysjewellers will ensure you get to know the exact purity of your gold. We assure you this process will be transparent and trustworthy.</h2>
+                    <h2>All PGI authorised retailers offer a buy-back on platinum jewellery. The buy-back terms depend on the respective stores‘ buy-back policy. Please ask for the Purity Assurance Card on purchase of any platinum jewellery. Remember to check for the 'Pt 950' mark and unique identification number inscribed on each jewellery piece.</h2>
                 </div>
             </CertificateContainer>
         </CertificateWrapper>
         <Footer />
     </>
-)
+  )
 }
 
 const CertificateWrapper = styled.div`
@@ -31,7 +31,7 @@ width: 100%;
     height: 100vh;
     width: 100%;
 /* The image used */
-background-image: url("src/assets/cjpolicies/hallmark.jpeg");
+background-image: url("src/assets/cjpolicies/pt.jpeg");
 
 /* Add the blur effect */
 filter: blur(8px);
@@ -78,5 +78,4 @@ width: 100%;
 }
 }
 `
-
-export default ExchangePolicyPage
+export default PlatinumPage

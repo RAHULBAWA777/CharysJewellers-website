@@ -40,6 +40,7 @@ import ComingSoonPage from './PAGES/COMING SOON/ComingSoonPage.jsx';
 import CjPolicyPage from './PAGES/CJ POLICIY/CjPolicyPage.jsx';
 import CustomiseYourDesignPage from './PAGES/CUSTOMISE/CustomiseYourDesignPage.jsx';
 import ExchangePolicyPage from './PAGES/CERTIFICATE PAGES/ExchangePolicyPage.jsx';
+import PlatinumPage from './PAGES/CERTIFICATE PAGES/PlatinumPage.jsx';
 
 
 function App() {
@@ -94,6 +95,7 @@ function App() {
           <Route path="/comingsoon" element={<ComingSoonPage />} />
           <Route path="/cjpolicy" element={<CjPolicyPage />} />
           <Route path="/exchangepolicy" element={<ExchangePolicyPage />} />
+          <Route path="/platinumpolicy" element={<PlatinumPage />} />
 
 
 

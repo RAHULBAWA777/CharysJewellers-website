@@ -58,7 +58,7 @@ const CertificateContainer = styled.div`
   font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;

@@ -2,12 +2,26 @@ import React from 'react'
 import Header from '../../PAGES/HEADER/Header'
 import Footer from '../../COMPONENTS/FOOTER/Footer'
 import styled from 'styled-components'
+import { Link } from "react-router-dom";
 const BisHallMarkPage = () => {
     return (
         <>
             <Header />
             <CertificateWrapper>
                 <div className="bg-image"></div>
+                <SideNav>
+                    <Link to="/cjpolicy" onClick={() => [window.scrollTo(0, 0)]}>CJ Policy</Link>
+                    <br />
+                    <Link to="/bishallmark" onClick={() => [window.scrollTo(0, 0)]}>BIS Hall Mark Gold</Link>
+                    <br />
+                    <Link to="/tested&certifieddiamonds" onClick={() => [window.scrollTo(0, 0)]}>Tested & Certified Diamonds</Link>
+                    <br />
+                    <Link to="/platinumpolicy" onClick={() => [window.scrollTo(0, 0)]}>About Platinum</Link>
+                    <br />
+                    <Link to="/buyback" onClick={() => [window.scrollTo(0, 0)]}>BuyBack Gaurantee</Link>
+                    <br />
+                    <Link to="/exchangepolicy" onClick={() => [window.scrollTo(0, 0)]}>Exchange Policy</Link>
+                </SideNav>
                 <CertificateContainer>
                     <div className="bg-text">
                         {/* <h2>Blurred Background</h2> */}
@@ -56,11 +70,11 @@ const CertificateContainer = styled.div`
   font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 70%;
-  left: 50%;
+  top: 50%;
+  left: 60%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 80%;
+  width: 60%;
   padding: 3rem;
   text-align: center;
 }
@@ -77,5 +91,13 @@ const CertificateContainer = styled.div`
 }
 }
 `
-
+const SideNav = styled.div`
+      position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 40%;
+  background-color: azure;
+`
 export default BisHallMarkPage
