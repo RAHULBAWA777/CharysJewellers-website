@@ -70,7 +70,7 @@
     background: transparent;
     border: none;
     outline: none;
-    color: var(--color-theme);
+    color: gold;
     visibility: hidden;
     opacity: 0;
     font-size: 1.8rem;

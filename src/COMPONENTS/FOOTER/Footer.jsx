@@ -36,7 +36,7 @@ const Footer = () => {
               <br />
               <Link to="/tested&certifieddiamonds" onClick={()=>[window.scrollTo(0 ,0)] }>Tested & Certified Diamonds</Link>
               <br />
-              <Link to="/platinumpolicy" onClick={()=>[window.scrollTo(0 ,0)] }>About Platinum</Link>
+              <Link to="/platinumpolicy" onClick={()=>[window.scrollTo(0 ,0)] }>Platinum Policy</Link>
               <br />
               <Link to="/buyback" onClick={()=>[window.scrollTo(0 ,0)] }>BuyBack Gaurantee</Link>
               <br />

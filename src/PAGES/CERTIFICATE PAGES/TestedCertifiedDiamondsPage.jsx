@@ -2,83 +2,103 @@ import React from 'react'
 import Header from '../../PAGES/HEADER/Header'
 import Footer from '../../COMPONENTS/FOOTER/Footer'
 import styled from 'styled-components'
+import banner from '../../assets/bigLogo.png'
+import { Link } from "react-router-dom";
 
 const TestedCertifiedDiamondsPage = () => {
   return (
     <>
-         <Header />
-            <CertificateWrapper>
-                <div className="bg-image"></div>
-                <CertificateContainer>
-                    <div className="bg-text">
-                        {/* <h2>Blurred Background</h2> */}
-                        <h1 >Tested & Certified Diamonds</h1>
-                        <br />
-                        <br />
-                        <h2>Every diamond goes through 28 internal quality tests with IGI, GIA and SGL certification. Every diamond we use is free of any conflict. We follow ethics at every stage. From the beginning till the end. We at Charys jewellers tie up with one of the world’s finest diamond producers for the highest quality, international lab certified and conflict free diamonds. We have a stringent and transparent system when it comes to quality. Our diamonds are approved for further use in jewellery only after passing their quality tests, ensuring every little detail and corner is real, natural and of the best quality for you. We assure you there are no Synthetic diamonds in our jewellery.</h2>
-                    </div>
-                </CertificateContainer>
-            </CertificateWrapper>
-            <Footer />
+          <Header />
+        
+        <CertificateWrapper>
+            <LeftSide>
+                <div className="hallmarkSideNav">
+                    OTHER POLICIES
+                    <br />
+                    <br />
+                    {/* <Link to="/cjpolicy" onClick={() => [window.scrollTo(0, 0)]}>CJ Policy</Link>
+                    <br /> */}
+                    <Link to="/bishallmark" onClick={() => [window.scrollTo(0, 0)]}>BIS Hall Mark Gold</Link>
+                    <br />
+                    <Link to="/tested&certifieddiamonds" onClick={() => [window.scrollTo(0, 0)]}>Tested & Certified Diamonds</Link>
+                    <br />
+                    <Link to="/platinumpolicy" onClick={() => [window.scrollTo(0, 0)]}>Platinum Policy</Link>
+                    <br />
+                    <Link to="/buyback" onClick={() => [window.scrollTo(0, 0)]}>BuyBack Gaurantee</Link>
+                    <br />
+                    <Link to="/exchangepolicy" onClick={() => [window.scrollTo(0, 0)]}>Exchange Policy</Link>
+                </div>
+            </LeftSide>
+
+            <RightSide>
+                <div className="policyBanner">
+                    <img src={banner} alt="im" />
+                </div>
+                {/* @@@@@@@@@@@@@@@@@@@@@@@ */}
+                <div className="policyContent">
+                    <h1>Tested & Certified Diamonds</h1>
+                    <br />
+                    <br />
+                    <h5>Every diamond goes through 28 internal quality tests with IGI, GIA and SGL certification. Every diamond we use is free of any conflict. We follow ethics at every stage. From the beginning till the end. We at Charys jewellers tie up with one of the world’s finest diamond producers for the highest quality, international lab certified and conflict free diamonds. We have a stringent and transparent system when it comes to quality. Our diamonds are approved for further use in jewellery only after passing their quality tests, ensuring every little detail and corner is real, natural and of the best quality for you. We assure you there are no Synthetic diamonds in our jewellery.</h5>
+                </div>
+            </RightSide>
+        </CertificateWrapper>
+
+        <Footer />
     </>
   )
 }
 
-
 const CertificateWrapper = styled.div`
-height: 100vh;
+/* background-color: red; */
 width: 100%;
-       .bg-image {
-        height: 100vh;
-        width: 100%;
-  /* The image used */
-  background-image: url("src/assets/cjpolicies/cgi.jpeg");
-  
-  /* Add the blur effect */
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  
-  /* Full height */
-  height: 100%; 
-  
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
+height: 100vh;
+margin-top: 7rem;
+display: flex;
+font-family: var(--font);
+`
+const LeftSide = styled.div`
+background-color: var(--color-theme);
+width: 20%;
+color: white;
+font-size: 1.5rem;
+a{
+    color: gold;
+    font-size: 1.2rem;
+}
+a:hover{
+    color: white;
+}
+.hallmarkSideNav{
+    padding: 2rem;
+    line-height: 3rem;
 }
 `
-const CertificateContainer = styled.div`
+const RightSide = styled.div`
+/* background-color: #626236; */
+width: 80%;
 
-
-/* Position text in the middle of the page/image */
-.bg-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  font-weight: bold;
-  border: 3px solid #f1f1f1;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 80%;
-  padding: 3rem;
-  text-align: center;
+.policyBanner{
+height: 20%;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+/* background-color: #aaaa5c; */
+img{
+    width: 18rem;
+    padding: 1rem;
+    background-color: var(--color-theme);
 }
-.bg-text{
-    h1, h2{
+}
+
+.policyContent{
+    padding: 2rem;
+    h1{
+        color: var(--color-theme);
         font-style: italic;
     }
 }
-
- /* ==========MEDIA QUERIES (small devices) ========= */
- @media screen and (max-width:600px) {
-    .bg-text {
-  width: 100%;
-  padding: 1rem;
-  font-size: .2rem;
-}
-}
 `
+
 export default TestedCertifiedDiamondsPage

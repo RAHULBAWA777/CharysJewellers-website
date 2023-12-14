@@ -6,8 +6,8 @@ import styled from 'styled-components';
 
 import one from '../../assets/slideimages/1.jpg'
 import two from '../../assets/slideimages/11.jpg'
-import three from '../../assets/slideimages/heki.jpeg'
-import four from '../../assets/assets/slideimages/hek.jpeg'
+import three from '../../assets/slideimages/heko.jpeg'
+import four from '../../assets/slideimages/hek.jpeg'
 import five from '../../assets/slideimages/3.jpg'
 
 const Swipers = () => {
@@ -59,7 +59,13 @@ const SwiperMainContainer = styled.div`
     z-index: 2;
     height: 100vh;
     width: 100%;
+
+    img{
+      width: 100%;
+      height: 100%;
+    }
 }
+
 
 /* .swiper-slide:nth-child(1n) {
     background-image: url(src/assets/slideimages/1.jpg);

@@ -119,7 +119,7 @@ const ProductSkeleton = () => {
                     {/* $$$$$$$$$$$$$$$$$$$$$$$$$       AVAILABILITY        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */}
                     <AvailabilitySection>
 
-                        <div className="accordion" id="accordionPanelsStayOpenExample">
+                        {/* <div className="accordion" id="accordionPanelsStayOpenExample">
                             <div className="accordion-item">
                                 <h2 className="accordion-header">
                                     <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
@@ -130,65 +130,30 @@ const ProductSkeleton = () => {
                                     <div className="accordion-body">
                                         <AccorContainer>
                                             <AccorItem><b>Metal Color</b> <MetalColorContainer><MetalColor>White Gold</MetalColor> </MetalColorContainer>
-                                                {/* <MetalColorContainer><MetalColor>Yellow Gold</MetalColor></MetalColorContainer>
-                                                <MetalColorContainer><MetalColor>Rose Gold</MetalColor></MetalColorContainer> */}
-                                                {/* <MetalColorContainer><MetalColor><MC3></MC3>Rose Gold</MetalColor></MetalColorContainer> */}
                                             </AccorItem>
                                             <br />
                                             <AccorItem><b>Metal Purity </b><MetalColorContainer><MetalColor>18K</MetalColor></MetalColorContainer> </AccorItem>
                                             <br />
                                             <AccorItem><b>Diamond Quality </b><MetalColorContainer><MetalColor><MC>💎</MC>VVS/EF</MetalColor></MetalColorContainer> </AccorItem>
                                             <br />
-                                            {/* <AccorItem><b>Select Size</b><MetalColorContainer><MetalColor>
-                                                <select class="form-select form-select-sm" aria-label="Small select example">
-
-                                                    <option selected><b>Select Size</b></option>
-                                                    <option value="1">1 </option>
-                                                    <option value="2">2 </option>
-                                                    <option value="3">3 </option>
-                                                    <option value="4">4</option>
-                                                    <option value="5">5</option>
-                                                    <option value="6">6</option>
-                                                    <option value="7">7</option>
-                                                    <option value="8">8</option>
-                                                    <option value="9">9</option>
-                                                    <option value="10">10</option>
-                                                    <option value="11">11</option>
-                                                    <option value="12">12</option>
-                                                    <option value="13">13</option>
-                                                    <option value="14">14</option>
-                                                    <option value="15">15</option>
-                                                    <option value="16">16</option>
-                                                    <option value="17">17</option>
-                                                    <option value="18">18</option>
-                                                    <option value="19">19</option>
-                                                    <option value="20">20</option>
-                                                    <option value="21">21</option>
-                                                    <option value="22">22</option>
-                                                    <option value="23">23</option>
-                                                    <option value="24">24</option>
-                                                    <option value="25">25</option>
-                                                    <option value="26">26</option>
-                                                    <option value="27">27</option>
-                                                    <option value="28">28</option>
-                                                    <option value="29">29</option>
-                                                    <option value="30">30</option>
-                                                    <option value="31">31</option>
-                                                    <option value="32">32</option>
-                                                    <option value="33">33</option>
-                                                    <option value="34">34</option>
-                                                    <option value="35">35</option>
-                                                    <option value="36">36</option>
-
-                                                </select>
-                                            </MetalColor></MetalColorContainer> </AccorItem> */}
-
                                         </AccorContainer>
                                     </div>
                                 </div>
                             </div>
 
+                        </div> */}
+                        <div className="availableInfo">
+                            <AccorContainer>
+                                <AccorItem><b>Metal Color</b> <MetalColorContainer><MetalColor>White Gold</MetalColor> </MetalColorContainer>
+                                </AccorItem>
+                                <br />
+                                <AccorItem><b>Metal Purity </b><MetalColorContainer><MetalColor>18K</MetalColor></MetalColorContainer> </AccorItem>
+                                <br />
+                                <AccorItem><b>Diamond Quality </b><MetalColorContainer><MetalColor><MC>💎</MC>VVS/EF</MetalColor></MetalColorContainer> </AccorItem>
+                                <br />
+                            </AccorContainer>
                         </div>
+
                     </AvailabilitySection>
                     <br />
                     <div className="certificateWrapper">
@@ -201,9 +166,6 @@ const ProductSkeleton = () => {
                             <img src={c5} />
                         </div>
                     </div>
-                    <br />
-
-                    <a className="button-18" target="_blank" href="https://wa.me/918367322322?text=Hello + Charys Jewellers, + I + just + visited + your + website. + May + I + know + more + about + product + given + below?"><span className='text'>Order Now</span></a>
 
                     <br />
                     <br />
@@ -226,7 +188,7 @@ const ProductSkeleton = () => {
                                                 <MetalColorContainer><MetalColor><MC3></MC3>Rose Gold</MetalColor></MetalColorContainer>
                                             </AccorItem> */}
                                             <AccorItem><b>Gold Color</b><MetalColorContainer><MetalColor>
-                                                <select class="form-select form-select-sm" aria-label="Small select example">
+                                                <select className="form-select form-select-sm" aria-label="Small select example">
                                                     <option selected><b>Select Color</b></option>
                                                     <option value="1">Yellow Gold </option>
                                                     <option value="2">Rose Gold </option>
@@ -240,7 +202,7 @@ const ProductSkeleton = () => {
                                             <AccorItem><b>Diamond Quality </b><MetalColorContainer><MetalColor><MC>💎</MC>VVS/EF</MetalColor></MetalColorContainer> </AccorItem> */}
                                             <br />
                                             <AccorItem><b>Select Your Size</b><MetalColorContainer><MetalColor>
-                                                <select class="form-select form-select-sm" aria-label="Small select example">
+                                                <select className="form-select form-select-sm" aria-label="Small select example">
 
                                                     <option selected><b>Select Size</b></option>
                                                     <option value="1">1 </option>
@@ -291,6 +253,9 @@ const ProductSkeleton = () => {
                         </div>
                     </CustomisationSection>
 
+                    <br />
+
+                    <a className="button-18" target="_blank" href="https://wa.me/918367322322?text=Hello + Charys Jewellers, + I + just + visited + your + website. + May + I + know + more + about + product + given + below?"><span className='text'>Order Now</span></a>
 
 
                 </ProductSkeletonSectionRight >
@@ -710,7 +675,12 @@ span{
     font-size: 1rem;
 }
 `
-const AvailabilitySection = styled.div``
+const AvailabilitySection = styled.div`
+.availableInfo{
+/* background-color: red; */
+}
+
+`
 const CustomisationSection = styled.div`
 /* ==========MEDIA QUERIES (medium devices) ========= */
 @media screen and (max-width:1024px) {
