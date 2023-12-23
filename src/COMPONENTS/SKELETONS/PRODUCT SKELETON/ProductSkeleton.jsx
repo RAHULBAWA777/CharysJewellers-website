@@ -1,4 +1,4 @@
-import { React, useState } from 'react'
+import { React} from 'react'
 import styled from 'styled-components'
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
@@ -102,10 +102,17 @@ const ProductSkeleton = () => {
 
                     <BasicDetails>
                         <ProductName><h5>Charys Diamond Ring </h5></ProductName>
-                        {/* <DetailsTriggerSection>
-                            <ProductStyleNo>CJXXXXX</ProductStyleNo>
-                            <a href="#ProductDetailsSection"><ProductDetailTriggerbtn>View Details</ProductDetailTriggerbtn></a>
-                        </DetailsTriggerSection> */}
+                        <br />
+                        <div className="certificateWrapper">
+                            <span><small>certified by</small></span>
+                            <div className="cer">
+                                <img src={c1} />
+                                <img src={c2} />
+                                <img src={c3} />
+                                <img src={c4} />
+                                <img src={c5} />
+                            </div>
+                        </div>
                     </BasicDetails>
 
                     <PriceSection>
@@ -113,30 +120,20 @@ const ProductSkeleton = () => {
                         <br />
                         <span style={{ color: 'maroon' }}><b>₹27,400</b></span>
                         <p >(inclusive of all taxes)</p>
-                        {/* <span className='spann'>Available in Stock</span> */}
+                        <span className='spann'>Price may vary at the time of purchase</span>
                     </PriceSection>
 
                     {/* $$$$$$$$$$$$$$$$$$$$$$$$$       AVAILABILITY        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */}
                     <AvailabilitySection>
                         <div className="availableInfo">
                             <span>Size</span>
-                            <select className="form-select form-select-sm" aria-label="Small select example">
-                                <option selected><b>Select Size</b></option>
-                                <option value="1">22 (62.1 mm)</option>
-                                <option value="2">23 (64.2 mm)</option>
-                                <option value="3">24 (66.5 mm)</option>
+                            <span>28</span>
 
-                            </select>
                         </div>
                         <div className="availableInfo">
                             <span>Gold Color</span>
-                            <select className="form-select form-select-sm" aria-label="Small select example">
-                                <option selected><b>Select Color</b></option>
-                                <option value="1">Yellow Gold </option>
-                                <option value="2">Rose Gold </option>
-                                <option value="3">White Gold </option>
+                            <span>Rose Gold </span>
 
-                            </select>
                         </div>
                         <div className="availableInfo">
                             <span>Daimond Quality</span>
@@ -186,12 +183,46 @@ const ProductSkeleton = () => {
                             </select>
                         </div>
                         <div className="custom">
-                            <span>Your Size</span>
+                            <span>Your Ring Size</span>
                             <select className="form-select form-select-sm" aria-label="Small select example">
                                 <option selected>Select Size</option>
-                                <option value="1">22 (62.1 mm)</option>
-                                <option value="2">23 (64.2 mm)</option>
-                                <option value="3">24 (66.5 mm)</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+                                <option value="24">24</option>
+                                <option value="25">25</option>
+                                <option value="26">26</option>
+                                <option value="27">27</option>
+                                <option value="28">28</option>
+                                <option value="29">29</option>
+                                <option value="30">30</option>
+                                <option value="31">31</option>
+                                <option value="32">32</option>
+                                <option value="33">33</option>
+                                <option value="34">34</option>
+                                <option value="35">35</option>
+                                <option value="36">36</option>
+
                             </select>
                         </div>
 
@@ -199,17 +230,7 @@ const ProductSkeleton = () => {
                     <br />
                     <a className="button-18" target="_blank" href="https://wa.me/918367322322?text=Hello + Charys Jewellers, + I + just + visited + your + website. + May + I + know + more + about + product + given + below?"><span className='text'>Order Now</span></a>
                     <br />
-                    <br />
-                    <div className="certificateWrapper">
-                        <span><small>certified by</small></span>
-                        <div className="cer">
-                            <img src={c1} />
-                            <img src={c2} />
-                            <img src={c3} />
-                            <img src={c4} />
-                            <img src={c5} />
-                        </div>
-                    </div>
+
 
                 </ProductSkeletonSectionRight >
 
@@ -219,8 +240,8 @@ const ProductSkeleton = () => {
             {/* ###################################################################################     product details accor 3    ############################################# */}
 
             <ProductDetailsSection>
-            <h4 className="caption-heading"> Product Details</h4>
-            <br />
+                <h4 className="caption-heading"> Product Details</h4>
+                <br />
                 <div className="productDetailsMainContainer">
                     <div className="detailsContainer">
                         <h5>Metal Information</h5>
@@ -231,7 +252,7 @@ const ProductSkeleton = () => {
                             </div>
                             <hr />
                             <div className='detailItem'>
-                                <span>Metal Color</span>
+                                <span>Gold Color</span>
                                 <span>Rose Gold</span>
                             </div>
                             <hr />
@@ -266,7 +287,7 @@ const ProductSkeleton = () => {
                             </div>
                             <hr />
                             <div className='detailItem'>
-                                <span>Diamond Weight</span>
+                                <span>Diamond Weight (Carat)</span>
                                 <span>1.230</span>
                             </div>
                             <hr />
