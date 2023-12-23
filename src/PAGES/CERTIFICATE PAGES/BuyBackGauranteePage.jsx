@@ -16,6 +16,8 @@ const BuyBackGauranteePage = () => {
                         OTHER POLICIES
                         <br />
                         <br />
+                        <Link to="/cjpolicypage" onClick={()=>[window.scrollTo(0 ,0)] }>CJ Policy</Link>
+                        <br />
                         <Link to="/bishallmark" onClick={() => [window.scrollTo(0, 0)]}>BIS Hall Mark Gold</Link>
                         <br />
                         <Link to="/tested&certifieddiamonds" onClick={() => [window.scrollTo(0, 0)]}>Tested & Certified Diamonds</Link>

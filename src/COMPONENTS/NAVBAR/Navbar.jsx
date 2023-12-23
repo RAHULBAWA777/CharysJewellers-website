@@ -169,6 +169,7 @@ const Navbar = () => {
                         </li>
                         <li><Link to="/customiseyourdesign" onClick={()=>[window.scrollTo(0 ,0)] }>Customise Your Design</Link></li>
                         <li><Link to="/charysdesigns" onClick={()=>[window.scrollTo(0 ,0)] }>Charys Designs</Link></li>
+                        <li><Link to="/aboutus" onClick={()=>[window.scrollTo(0 ,0)] }>About Us</Link></li>
 
 
                         <div className="side_logo">

@@ -30,7 +30,7 @@ const Footer = () => {
               <h4 className="caption-heading">CJ Promises & Policy</h4>
 
               {/* <Link to="#policyID"><p>CJ Policy</p></Link> */}
-              <Link to="/cjpolicy" onClick={()=>[window.scrollTo(0 ,0)] }>CJ Policy</Link>
+              <Link to="/cjpolicypage" onClick={()=>[window.scrollTo(0 ,0)] }>CJ Policy</Link>
               <br />
               <Link to="/bishallmark" onClick={()=>[window.scrollTo(0 ,0)] }>BIS Hall Mark Gold</Link>
               <br />

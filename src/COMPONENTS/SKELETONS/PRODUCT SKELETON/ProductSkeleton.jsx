@@ -64,8 +64,6 @@ const ProductSkeleton = () => {
             }
         ]
     };
-
-
     const images = [
         {
             original: dp1,
@@ -86,6 +84,8 @@ const ProductSkeleton = () => {
 
 
     ];
+
+
     return (
         <>
             <ProductSkeletonMainContainer>
@@ -101,60 +101,104 @@ const ProductSkeleton = () => {
                 <ProductSkeletonSectionRight>
 
                     <BasicDetails>
-                        <ProductName><h1>Rose Diamond Ring <span>(size-28)</span> </h1></ProductName>
-                        <DetailsTriggerSection>
+                        <ProductName><h5>Charys Diamond Ring </h5></ProductName>
+                        {/* <DetailsTriggerSection>
                             <ProductStyleNo>CJXXXXX</ProductStyleNo>
                             <a href="#ProductDetailsSection"><ProductDetailTriggerbtn>View Details</ProductDetailTriggerbtn></a>
-                        </DetailsTriggerSection>
+                        </DetailsTriggerSection> */}
                     </BasicDetails>
 
-                    <hr />
-
                     <PriceSection>
-                        <span>₹27,400</span>
-                        <p>Instore Pickup Only</p>
-                        <b><span className='spann'>Available in Stock</span></b>
-                        <p style={{ color: '#213773' }}>(Rates may vary at the time of purchase)</p>
+                        <span>Instore Shopping Only</span>
+                        <br />
+                        <span style={{ color: 'maroon' }}><b>₹27,400</b></span>
+                        <p >(inclusive of all taxes)</p>
+                        {/* <span className='spann'>Available in Stock</span> */}
                     </PriceSection>
+
                     {/* $$$$$$$$$$$$$$$$$$$$$$$$$       AVAILABILITY        $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ */}
                     <AvailabilitySection>
-
-                        {/* <div className="accordion" id="accordionPanelsStayOpenExample">
-                            <div className="accordion-item">
-                                <h2 className="accordion-header">
-                                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-
-                                    </button>
-                                </h2>
-                                <div id="panelsStayOpen-collapseOne" className="accordion-collapse collapse show">
-                                    <div className="accordion-body">
-                                        <AccorContainer>
-                                            <AccorItem><b>Metal Color</b> <MetalColorContainer><MetalColor>White Gold</MetalColor> </MetalColorContainer>
-                                            </AccorItem>
-                                            <br />
-                                            <AccorItem><b>Metal Purity </b><MetalColorContainer><MetalColor>18K</MetalColor></MetalColorContainer> </AccorItem>
-                                            <br />
-                                            <AccorItem><b>Diamond Quality </b><MetalColorContainer><MetalColor><MC>💎</MC>VVS/EF</MetalColor></MetalColorContainer> </AccorItem>
-                                            <br />
-                                        </AccorContainer>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div> */}
                         <div className="availableInfo">
-                            <AccorContainer>
-                                <AccorItem><b>Metal Color</b> <MetalColorContainer><MetalColor>White Gold</MetalColor> </MetalColorContainer>
-                                </AccorItem>
-                                <br />
-                                <AccorItem><b>Metal Purity </b><MetalColorContainer><MetalColor>18K</MetalColor></MetalColorContainer> </AccorItem>
-                                <br />
-                                <AccorItem><b>Diamond Quality </b><MetalColorContainer><MetalColor><MC>💎</MC>VVS/EF</MetalColor></MetalColorContainer> </AccorItem>
-                                <br />
-                            </AccorContainer>
+                            <span>Size</span>
+                            <select className="form-select form-select-sm" aria-label="Small select example">
+                                <option selected><b>Select Size</b></option>
+                                <option value="1">22 (62.1 mm)</option>
+                                <option value="2">23 (64.2 mm)</option>
+                                <option value="3">24 (66.5 mm)</option>
+
+                            </select>
+                        </div>
+                        <div className="availableInfo">
+                            <span>Gold Color</span>
+                            <select className="form-select form-select-sm" aria-label="Small select example">
+                                <option selected><b>Select Color</b></option>
+                                <option value="1">Yellow Gold </option>
+                                <option value="2">Rose Gold </option>
+                                <option value="3">White Gold </option>
+
+                            </select>
+                        </div>
+                        <div className="availableInfo">
+                            <span>Daimond Quality</span>
+                            <span>💎VVS/EF</span>
                         </div>
 
                     </AvailabilitySection>
+
+
+
+                    {/* #####################################   PRICE BREAKUP  SECTION                                                     */}
+                    <hr />
+                    <small>Price Breakup</small>
+                    <PriceBreakupSection>
+                        <br />
+                        <div className="priceBreakup">
+                            <span>Gold</span>
+                            <span>₹21464</span>
+                        </div>
+                        <div className="priceBreakup">
+                            <span>Diamond</span>
+                            <span>₹20456</span>
+                        </div>
+                        <div className="priceBreakup">
+                            <span>Making</span>
+                            <span>₹4789</span>
+                        </div>
+                        <div className="priceBreakup">
+                            <span>GST 3%</span>
+                            <span>₹1583.24</span>
+                        </div>
+
+                    </PriceBreakupSection>
+                    <br />
+                    {/* ############################################################      CUSTOMISATION SECTION          ############################################################### */}
+                    <hr />
+                    <small>Order for your size</small>
+                    <CustomistaionSection>
+                        <br />
+                        <div className="custom">
+                            <span>Gold Color</span>
+                            <select className="form-select form-select-sm" aria-label="Small select example">
+                                <option selected>Select Color</option>
+                                <option value="1">Yellow Gold </option>
+                                <option value="2">Rose Gold </option>
+                                <option value="3">White Gold </option>
+                            </select>
+                        </div>
+                        <div className="custom">
+                            <span>Your Size</span>
+                            <select className="form-select form-select-sm" aria-label="Small select example">
+                                <option selected>Select Size</option>
+                                <option value="1">22 (62.1 mm)</option>
+                                <option value="2">23 (64.2 mm)</option>
+                                <option value="3">24 (66.5 mm)</option>
+                            </select>
+                        </div>
+
+                    </CustomistaionSection>
+                    <br />
+                    <a className="button-18" target="_blank" href="https://wa.me/918367322322?text=Hello + Charys Jewellers, + I + just + visited + your + website. + May + I + know + more + about + product + given + below?"><span className='text'>Order Now</span></a>
+                    <br />
                     <br />
                     <div className="certificateWrapper">
                         <span><small>certified by</small></span>
@@ -167,103 +211,73 @@ const ProductSkeleton = () => {
                         </div>
                     </div>
 
-                    <br />
-                    <br />
-                    {/*                                                     CUSTOMISATION SECTION                                                     */}
-                    <CustomisationSection>
-
-                        <div className="accordion" >
-                            <div className="accordion-item">
-                                <h2 className="accordion-header">
-                                    <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseAvail" aria-expanded="true" aria-controls="panelsStayOpen-collapseAvail">
-                                        Order By Your Size
-                                    </button>
-                                </h2>
-                                <div id="panelsStayOpen-collapseAvail" className="accordion-collapse collapse show">
-                                    <div className="accordion-body">
-                                        <AccorContainer>
-                                            {/* <AccorItem><b>Gold Color</b> <MetalColorContainer><MetalColor>White Gold</MetalColor> </MetalColorContainer>
-                                                <MetalColorContainer><MetalColor>Yellow Gold</MetalColor></MetalColorContainer>
-                                                <MetalColorContainer><MetalColor>Rose Gold</MetalColor></MetalColorContainer>
-                                                <MetalColorContainer><MetalColor><MC3></MC3>Rose Gold</MetalColor></MetalColorContainer>
-                                            </AccorItem> */}
-                                            <AccorItem><b>Gold Color</b><MetalColorContainer><MetalColor>
-                                                <select className="form-select form-select-sm" aria-label="Small select example">
-                                                    <option selected><b>Select Color</b></option>
-                                                    <option value="1">Yellow Gold </option>
-                                                    <option value="2">Rose Gold </option>
-                                                    <option value="3">White Gold </option>
-                                                    {/* <option value="4">4</option> */}
-                                                </select>
-                                            </MetalColor></MetalColorContainer> </AccorItem>
-                                            {/* <br />
-                                            <AccorItem><b>Metal Purity </b><MetalColorContainer><MetalColor>18K</MetalColor></MetalColorContainer> </AccorItem>
-                                            <br />
-                                            <AccorItem><b>Diamond Quality </b><MetalColorContainer><MetalColor><MC>💎</MC>VVS/EF</MetalColor></MetalColorContainer> </AccorItem> */}
-                                            <br />
-                                            <AccorItem><b>Select Your Size</b><MetalColorContainer><MetalColor>
-                                                <select className="form-select form-select-sm" aria-label="Small select example">
-
-                                                    <option selected><b>Select Size</b></option>
-                                                    <option value="1">1 </option>
-                                                    <option value="2">2 </option>
-                                                    <option value="3">3 </option>
-                                                    <option value="4">4</option>
-                                                    <option value="5">5</option>
-                                                    <option value="6">6</option>
-                                                    <option value="7">7</option>
-                                                    <option value="8">8</option>
-                                                    <option value="9">9</option>
-                                                    <option value="10">10</option>
-                                                    <option value="11">11</option>
-                                                    <option value="12">12</option>
-                                                    <option value="13">13</option>
-                                                    <option value="14">14</option>
-                                                    <option value="15">15</option>
-                                                    <option value="16">16</option>
-                                                    <option value="17">17</option>
-                                                    <option value="18">18</option>
-                                                    <option value="19">19</option>
-                                                    <option value="20">20</option>
-                                                    <option value="21">21</option>
-                                                    <option value="22">22</option>
-                                                    <option value="23">23</option>
-                                                    <option value="24">24</option>
-                                                    <option value="25">25</option>
-                                                    <option value="26">26</option>
-                                                    <option value="27">27</option>
-                                                    <option value="28">28</option>
-                                                    <option value="29">29</option>
-                                                    <option value="30">30</option>
-                                                    <option value="31">31</option>
-                                                    <option value="32">32</option>
-                                                    <option value="33">33</option>
-                                                    <option value="34">34</option>
-                                                    <option value="35">35</option>
-                                                    <option value="36">36</option>
-
-                                                </select>
-                                            </MetalColor></MetalColorContainer> </AccorItem>
-
-                                        </AccorContainer>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </CustomisationSection>
-
-                    <br />
-
-                    <a className="button-18" target="_blank" href="https://wa.me/918367322322?text=Hello + Charys Jewellers, + I + just + visited + your + website. + May + I + know + more + about + product + given + below?"><span className='text'>Order Now</span></a>
-
-
                 </ProductSkeletonSectionRight >
 
             </ProductSkeletonMainContainer>
 
 
+            {/* ###################################################################################     product details accor 3    ############################################# */}
 
+            <ProductDetailsSection>
+            <h4 className="caption-heading"> Product Details</h4>
+            <br />
+                <div className="productDetailsMainContainer">
+                    <div className="detailsContainer">
+                        <h5>Metal Information</h5>
+                        <div>
+                            <div className='detailItem'>
+                                <span>Gold Purity</span>
+                                <span>18KT (500%)</span>
+                            </div>
+                            <hr />
+                            <div className='detailItem'>
+                                <span>Metal Color</span>
+                                <span>Rose Gold</span>
+                            </div>
+                            <hr />
+                            <div className='detailItem'>
+                                <span>Gross Wt</span>
+                                <span>9.300</span>
+                            </div>
+                            <hr />
+                            <div className='detailItem'>
+                                <span>Net Wt</span>
+                                <span>9.280</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="detailsContainer">
+                        <h5>Diamond Information</h5>
+                        <div>
+                            <div className='detailItem'>
+                                <span>Diamond Clearity</span>
+                                <span>VVS</span>
+                            </div>
+                            <hr />
+                            <div className='detailItem'>
+                                <span>Diamond Color</span>
+                                <span>EF</span>
+                            </div>
+                            <hr />
+                            <div className='detailItem'>
+                                <span>Diamond Cut</span>
+                                <span>Round Brilliant</span>
+                            </div>
+                            <hr />
+                            <div className='detailItem'>
+                                <span>Diamond Weight</span>
+                                <span>1.230</span>
+                            </div>
+                            <hr />
+                            <div className='detailItem'>
+                                <span>Diamond Pieces</span>
+                                <span>24</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ProductDetailsSection>
 
             {/* ###################################################################################     Slider    ############################################# */}
 
@@ -348,180 +362,7 @@ const ProductSkeleton = () => {
                     </Slider>
                 </div>
             </ProductPageSlider>
-            {/* ###################################################################################     product details accor 3    ############################################# */}
 
-            <ProductDetailsSection id='ProductDetailsSection'>
-                <h1 className="caption-heading">
-                    Product Details
-                </h1>
-                <ProductDetailsAccorContainer>
-
-                    <div className="accordion" id="accordionPanelsStayOpenExample">
-                        <div className="accordion-item">
-                            <h2 className="accordion-header">
-                                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="true" aria-controls="panelsStayOpen-collapseTwo">
-                                    <b>PRICE BREAKUP</b>
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseTwo" className="accordion-collapse collapse show">
-                                <div className="accordion-body">
-                                    <AccorContainer1>
-                                        <div className="accor-items">
-                                            <div className="accor-item">Metal Price</div>
-                                            <div className="accor-item">₹7,979</div>
-                                        </div>
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item">Diamond Price</div>
-                                            <div className="accor-item">₹X,XXX</div>
-                                        </div>
-                                        {/* <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item">Making Charges</div>
-                                            <div className="accor-item">₹X,XXX</div>
-                                        </div>
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item">GST(3%)</div>
-                                            <div className="accor-item">₹X,XXX</div>
-                                        </div>
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item">Grand total</div>
-                                            <div className="accor-item">₹X,XXX</div>
-                                        </div> */}
-                                    </AccorContainer1>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="accordion-item">
-                            <h2 className="accordion-header">
-                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                                    <b>METAL DETAILS</b>
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseThree" className="accordion-collapse collapse">
-                                <div className="accordion-body">
-                                    <AccorContainer1>
-                                        <div className="accor-items">
-                                            <div className="accor-item">Metal Purity</div>
-                                            <div className="accor-item">pure</div>
-                                        </div>
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item">Metal Weight</div>
-                                            <div className="accor-item">X,XXX</div>
-                                        </div>
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item">Metal Cast</div>
-                                            <div className="accor-item">X,XXX</div>
-                                        </div>
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item">Metal Rate</div>
-                                            <div className="accor-item">₹X,XXX</div>
-                                        </div>
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item">HUID No.(Hall Mark)</div>
-                                            <div className="accor-item">X,XXX</div>
-                                        </div>
-                                    </AccorContainer1>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="accordion-item">
-                            <h2 className="accordion-header">
-                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                                    <b>DIAMOND DETAILS</b>
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseFour" className="accordion-collapse collapse">
-                                <div className="accordion-body">
-                                    <AccorContainer1>
-                                        <div className="accor-items">
-                                            <div className="accor-item"> Clarity</div>
-                                            <div className="accor-item">clear</div>
-                                        </div>
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item"> Color</div>
-                                            <div className="accor-item">Blue</div>
-                                        </div>
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item"> Weight</div>
-                                            <div className="accor-item">X,XXX</div>
-                                        </div>
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item"> Pieces</div>
-                                            <div className="accor-item">X,XXX</div>
-                                        </div>
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item">Certificate No.</div>
-                                            <div className="accor-item">X,XXX</div>
-                                        </div>
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item">Price</div>
-                                            <div className="accor-item">X,XXX</div>
-                                        </div>
-                                    </AccorContainer1>
-                                </div>
-                            </div>
-                        </div>
-
-
-                        <div className="accordion-item">
-                            <h2 className="accordion-header">
-                                <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
-                                    <b>OTHER STONE</b>
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseFive" className="accordion-collapse collapse">
-                                <div className="accordion-body">
-                                    <AccorContainer1>
-                                        <div className="accor-items">
-                                            <div className="accor-item">Stone Name</div>
-                                            <div className="accor-item">xxxx</div>
-                                        </div>
-                                        {/* <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item">Stone Color</div>
-                                            <div className="accor-item">Blue</div>
-                                        </div> */}
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item">Stone Weight</div>
-                                            <div className="accor-item">X,XXX</div>
-                                        </div>
-                                        <hr />
-                                        <div className="accor-items">
-                                            <div className="accor-item">Stone Pieces</div>
-                                            <div className="accor-item">X,XXX</div>
-                                        </div>
-                                        <hr />
-                                        {/* <div className="accor-items">
-                                            <div className="accor-item">Certificate No.</div>
-                                            <div className="accor-item">X,XXX</div>
-                                        </div> */}
-                                        <div className="accor-items">
-                                            <div className="accor-item">Price</div>
-                                            <div className="accor-item">X,XXX</div>
-                                        </div>
-                                    </AccorContainer1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </ProductDetailsAccorContainer>
-            </ProductDetailsSection>
         </>
     )
 }
@@ -532,11 +373,11 @@ const ProductSkeleton = () => {
 const ProductSkeletonMainContainer = styled.div`
 /* background-color: red; */
 display: flex;
-align-items: center;
+align-items: flex-start;
 justify-content: space-evenly;
 width: 100%;
 padding: 2rem;
-margin-top: 5rem;
+margin-top: 7rem;
 
 /* ==========MEDIA QUERIES (medium devices) ========= */
 @media screen and (max-width:1024px) {
@@ -549,7 +390,7 @@ margin-top: 5rem;
  }
 `
 const ProductSkeletonSectionLeft = styled.div`
-width: 45%;
+width: 30%;
 /* ==========MEDIA QUERIES (medium devices) ========= */
 @media screen and (max-width:1024px) {
 width: 100%;
@@ -557,7 +398,8 @@ width: 100%;
 
 `
 const ProductSkeletonSectionRight = styled.div`
-width: 45%;
+width: 40%;
+/* background-color: #a54e07; */
 /* ==========MEDIA QUERIES (medium devices) ========= */
 @media screen and (max-width:1024px) {
 width: 100%;
@@ -654,108 +496,40 @@ span{
     font-size: 1.5rem;
 }
 `
-const DetailsTriggerSection = styled.div`
-/* background-color: blue; */
-display: flex;
-align-items: center;
-justify-content: space-around;
-padding: .5rem;
-text-decoration: underline;
-`
-const ProductStyleNo = styled.div``
-const ProductDetailTriggerbtn = styled.div``
-
 const PriceSection = styled.div`
-span{
-    font-size: 2rem;
-    color: orangered;
-}
 .spann{
     color: green;
     font-size: 1rem;
 }
 `
 const AvailabilitySection = styled.div`
-.availableInfo{
-/* background-color: red; */
-}
-
-`
-const CustomisationSection = styled.div`
-/* ==========MEDIA QUERIES (medium devices) ========= */
-@media screen and (max-width:1024px) {
- /* background-color: antiquewhite; */
- }
-
- /* ==========MEDIA QUERIES (small devices) ========= */
- @media screen and (max-width:600px) {
-
- }
-`
-const AccorContainer = styled.div`
-/* ==========MEDIA QUERIES (medium devices) ========= */
-@media screen and (max-width:1024px) {
-    
-/* background-color: #9b9a98; */
- }
-
-`
-const AccorItem = styled.div`
 display: flex;
+justify-content: flex-start;
 align-items: center;
-justify-content: space-between;
-
-/* background-color: aquamarine; */
-
-/* ==========MEDIA QUERIES (medium devices) ========= */
-@media screen and (max-width:1024px) {
- flex-direction: column;
- }
-
- /* ==========MEDIA QUERIES (small devices) ========= */
- @media screen and (max-width:600px) {
-
- }
-`
-const MetalColorContainer = styled.div`
+/* background-color: #85b2da; */
+.availableInfo{
 display: flex;
-margin: 0 1rem;
-padding: .5rem .5rem;
-border: 1px solid transparent;  
-  
-
-&:hover{
-    border: 1px solid grey;    
-    border-radius: 5px;
+flex-direction: column;
+padding: 0 1rem;
 }
 `
-const MetalColor = styled.div`
+const PriceBreakupSection = styled.div`
 display: flex;
-
+.priceBreakup{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+}
 `
-const MC = styled.div`
-
-`
-const MC1 = styled.div`
-width: 2rem;
-height: 2rem;
-border-radius: 100%;
-background-color: #e7e5d8;
-margin: 0 5px;
-`
-const MC2 = styled.div`
-width: 2rem;
-height: 2rem;
-border-radius: 100%;
-background-color: gold;
-margin: 0 5px;
-`
-const MC3 = styled.div`
-width: 2rem;
-height: 2rem;
-border-radius: 100%;
-background-color:  pink;
-margin: 0 5px;
+const CustomistaionSection = styled.div`
+display: flex;
+justify-content: flex-start;
+align-items: center;
+.custom{
+    padding: 0 1rem;
+}
 `
 const ProductPageSlider = styled.div`
 /* background-color: bisque; */
@@ -766,53 +540,25 @@ const ProductPageSlider = styled.div`
   }
 `
 const ProductDetailsSection = styled.div`
+    padding: 3rem;
+.productDetailsMainContainer{
+    display: flex;
+justify-content: space-around;
 /* background-color: aquamarine; */
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-padding: 3rem;
-`
-const ProductDetailsAccorContainer = styled.div`
-/* background-color: blueviolet; */
-margin-top: 3rem;
-width: 70%;
-.accordion{
-    .accordion-item{
-        .accordion-header{
-            .accordion-button{
-                background-color: var(--color-bg);
-                color: var(--color-theme);
-            }
-        }
+}
+
+.detailsContainer{
+    /* background-color: azure; */
+    padding: 1rem;
+width: 30%;
+    .detailItem{
+        /* background-color: #9c6868; */
+        display: flex;
+        justify-content: space-between;
     }
 }
 
- /* ==========MEDIA QUERIES (small devices) ========= */
- @media screen and (max-width:600px) {
-width: 100%;
-}
 `
-const AccorContainer1 = styled.div`
-/* background-color: brown; */
-
-width: 100%;
-.accor-items{
-    /* background-color: #bd8b3f; */
-    /* width: 100%; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
-
-}
-.accor-item {
-    /* background-color: #674c24; */
-
-}
-`
-
-
 
 
 export default ProductSkeleton

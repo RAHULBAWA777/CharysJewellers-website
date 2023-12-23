@@ -41,6 +41,7 @@ import CjPolicyPage from './PAGES/CJ POLICIY/CjPolicyPage.jsx';
 import CustomiseYourDesignPage from './PAGES/CUSTOMISE/CustomiseYourDesignPage.jsx';
 import ExchangePolicyPage from './PAGES/CERTIFICATE PAGES/ExchangePolicyPage.jsx';
 import PlatinumPage from './PAGES/CERTIFICATE PAGES/PlatinumPage.jsx';
+import CJPolicyPageFooter from './PAGES/CERTIFICATE PAGES/CJPolicyPageFooter.jsx';
 
 
 function App() {
@@ -94,6 +95,7 @@ function App() {
           <Route path="/buyback" element={<BuyBackGauranteePage />} />
           <Route path="/comingsoon" element={<ComingSoonPage />} />
           <Route path="/cjpolicy" element={<CjPolicyPage />} />
+          <Route path="/cjpolicyPage" element={<CJPolicyPageFooter />} />
           <Route path="/exchangepolicy" element={<ExchangePolicyPage />} />
           <Route path="/platinumpolicy" element={<PlatinumPage />} />
 
