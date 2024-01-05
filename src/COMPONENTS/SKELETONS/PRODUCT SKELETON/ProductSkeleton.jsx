@@ -1,4 +1,4 @@
-import { React} from 'react'
+import { React } from 'react'
 import styled from 'styled-components'
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";

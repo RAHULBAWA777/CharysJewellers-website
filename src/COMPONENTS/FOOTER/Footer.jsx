@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="footer-links-section">
 
             <div className="footer-links">
-              <h4 className="caption-heading">About Charys Jewellers</h4>
+              <h4 className="caption-heading">About NIKAARA Jewellers</h4>
 
               <Link to="/aboutus" onClick={()=>[window.scrollTo(0 ,0)] }><p>About Us</p></Link>
               {/* <Link to="/"><p>Charys Jewellers</p></Link> */}

@@ -51,14 +51,14 @@ const Testimonial = () => {
 
 
                     <SwiperSlide>
-                    <h5> "The DIAMOND NECKLACE I bought from Charysjewellers are my go-to for adding a touch of elegance. They're lightweight, stylish, and I love the affordable prices at top quality."</h5>
+                    <h5> "The DIAMOND NECKLACE I bought from NIKARAjewellers are my go-to for adding a touch of elegance. They're lightweight, stylish, and I love the affordable prices at top quality."</h5>
                     <br />
                     <img src={yellowbar} alt="xx"/>
                     <h4>Vallikiran, Hyderabad</h4>
                     </SwiperSlide>
 
                     <SwiperSlide>
-                    <h5>"The thing I like the most about Charys is that the rates are very reasonable where they don’t charge a lot of money in the name of making or wastage, also lot of option on the custom design " </h5>
+                    <h5>"The thing I like the most about NIKARA is that the rates are very reasonable where they don’t charge a lot of money in the name of making or wastage, also lot of option on the custom design " </h5>
                     <br />
                     <img src={yellowbar} alt="xx"/>
                         <h4> Madhavireddy, Hyderabad</h4>
@@ -66,7 +66,7 @@ const Testimonial = () => {
                     </SwiperSlide>
 
                     <SwiperSlide>
-                    <h5> "The customer service at Charysjewellers is fantastic! They helped me find the perfect gift for my mom—a beautiful pendant that she hasn't taken off since." </h5>
+                    <h5> "The customer service at NIKARAjewellers is fantastic! They helped me find the perfect gift for my mom—a beautiful pendant that she hasn't taken off since." </h5>
                     <br />
                     <img src={yellowbar} alt="xx"/>
                         <h4>P.Bindu Hyderabad</h4>
@@ -82,7 +82,7 @@ const Testimonial = () => {
                     </SwiperSlide>
 
                     <SwiperSlide>
-                    <h5> "Craftmenship is excellent at charysjewellers, like as temple,naxi,kundan jewellery Aarthi " </h5>
+                    <h5> "Craftmenship is excellent at NIKARAjewellers, like as temple,naxi,kundan jewellery Aarthi " </h5>
                     <br />
                     <img src={yellowbar} alt="xx"/>
                         <h4>California, (USA)</h4>
@@ -90,7 +90,7 @@ const Testimonial = () => {
                     </SwiperSlide>
 
                     <SwiperSlide>
-                    <h5> "At charys jewellers each ORNAMENT telling a story of skill, passion, and enduring beauty. " </h5>
+                    <h5> "At NIKARA jewellers each ORNAMENT telling a story of skill, passion, and enduring beauty. " </h5>
                     <br />
                     <img src={yellowbar} alt="xx"/>
                         <h4>Haritha (atlanta,USA)</h4>

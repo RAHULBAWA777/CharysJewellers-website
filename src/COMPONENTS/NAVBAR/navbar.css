@@ -1,5 +1,5 @@
 #nav {
-    background-color: var(--color-theme);
+    background-color: var(--color-bg);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -47,11 +47,11 @@
 }
 
 .nav_links>ul>li>a {
-    color: gold;
+    color: var(--color-theme);
 }
 
 .nav_links>ul>li>a:hover {
-    color: var(--color-bg);
+    color: var(--color-foot);
 }
 
 .side_logo {

@@ -1,10 +1,10 @@
 import React from 'react'
 import Header from '../HEADER/Header';
 import Swiper from '../../COMPONENTS/SWIPER/Swipers.jsx'
-import JewelGridNav from '../../COMPONENTS/JEWELLERY GRID NAV/JewelGridNav'
+// import JewelGridNav from '../../COMPONENTS/JEWELLERY GRID NAV/JewelGridNav'
 // import FillerShowcase from '../../COMPONENTS/FILLER-SHOWCASE/FillerShowcase'
 import NewIn from '../../COMPONENTS/NEWIN/NewIn'
-import SloganStrip from '../../COMPONENTS/SLOGAN STRIP/SloganStrip.jsx'
+// import SloganStrip from '../../COMPONENTS/SLOGAN STRIP/SloganStrip.jsx'
 // import FillerShowcase2 from '../../COMPONENTS/FILLER-SHOWCASE-2/FillerShowcase2'
 
 import MarqueeStrip from '../../COMPONENTS/MARQUEE/MarqueeStrip'
@@ -16,10 +16,10 @@ const Home = () => {
       <Header />
       <MarqueeStrip />
       <Swiper />
-      <JewelGridNav />
+      {/* <JewelGridNav /> */}
       <NewIn />
       {/* <FillerShowcase /> */}
-      <SloganStrip />
+      {/* <SloganStrip /> */}
       <Testimonial/>
       {/* <FillerShowcase2 /> */}
 

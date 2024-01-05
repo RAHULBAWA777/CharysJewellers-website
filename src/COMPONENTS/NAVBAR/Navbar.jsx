@@ -129,13 +129,9 @@ const Navbar = () => {
                         <li><Link to="/comingsoon">Platinum</Link></li>
 
 
-
-                        <li className='subnav'><Link to="/customise" onClick={()=>[window.scrollTo(0 ,0)] }>Traditional</Link>
-                            {/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@     TRADITIONAL  SUBNAV     @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */}
+                        {/* <li className='subnav'><Link to="/customise" onClick={()=>[window.scrollTo(0 ,0)] }>Traditional</Link>
                             <div className='subnav-content'>
                                 <div className="subnav-list-section">
-                                    {/* <h3 className='grey'>Shop By Collection</h3>
-                                    <br /> */}
                                     <ul>
                                         <li><Link to="/kundan">Kundan/ Naxi/ Temple</Link></li>
                                         <li><Link to="/polki">Uncut / Polki</Link></li>
@@ -143,32 +139,10 @@ const Navbar = () => {
                                         <li><Link to="/navaratan">Navaratan</Link></li>
                                     </ul>
                                 </div>
-                                {/* <div className='subnav-pics-section'>
-                                    <div className='subnav-pics-links'><Link to="/">
-                                        <img className='subnav-img' src={dbangles} alt="" />
-                                        <div className="nav-image-captions"><p>Kundan</p></div>
-                                    </Link>
-                                    </div>
-                                    <div className='subnav-pics-links'><Link to="/">
-                                        <img className='subnav-img' src={dbracelet} alt="" />
-                                        <div className="nav-image-captions"><p>Uncut</p></div>
-                                    </Link>
-                                    </div>
-                                    <div className='subnav-pics-links'><Link to="/">
-                                        <img className='subnav-img' src={dchain} alt="" />
-                                        <div className="nav-image-captions"><p>Pachi</p></div>
-                                    </Link>
-                                    </div>
-                                    <div className='subnav-pics-links'><Link to="/">
-                                        <img className='subnav-img' src={dpendeants} alt="" />
-                                        <div className="nav-image-captions"><p>Navaratan</p></div>
-                                    </Link>
-                                    </div>
-                                </div> */}
                             </div>
-                        </li>
+                        </li> */}
                         <li><Link to="/customiseyourdesign" onClick={()=>[window.scrollTo(0 ,0)] }>Customise Your Design</Link></li>
-                        <li><Link to="/charysdesigns" onClick={()=>[window.scrollTo(0 ,0)] }>Charys Designs</Link></li>
+                        <li><Link to="/charysdesigns" onClick={()=>[window.scrollTo(0 ,0)] }>Our Designs</Link></li>
                         <li><Link to="/aboutus" onClick={()=>[window.scrollTo(0 ,0)] }>About Us</Link></li>
 
 
