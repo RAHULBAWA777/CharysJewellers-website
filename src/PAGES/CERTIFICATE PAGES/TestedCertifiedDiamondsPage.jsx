@@ -39,7 +39,7 @@ const TestedCertifiedDiamondsPage = () => {
                     <h1>Tested & Certified Diamonds</h1>
                     <br />
                     <br />
-                    <h5>Every diamond goes through 28 internal quality tests with IGI, GIA and SGL certification. Every diamond we use is free of any conflict. We follow ethics at every stage. From the beginning till the end. We at Charys jewellers tie up with one of the world’s finest diamond producers for the highest quality, international lab certified and conflict free diamonds. We have a stringent and transparent system when it comes to quality. Our diamonds are approved for further use in jewellery only after passing their quality tests, ensuring every little detail and corner is real, natural and of the best quality for you. We assure you there are no Synthetic diamonds in our jewellery.</h5>
+                    <h5>Every diamond goes through 28 internal quality tests with IGI, GIA and SGL certification. Every diamond we use is free of any conflict. We follow ethics at every stage. From the beginning till the end. We at NIKAARA jewellers tie up with one of the world’s finest diamond producers for the highest quality, international lab certified and conflict free diamonds. We have a stringent and transparent system when it comes to quality. Our diamonds are approved for further use in jewellery only after passing their quality tests, ensuring every little detail and corner is real, natural and of the best quality for you. We assure you there are no Synthetic diamonds in our jewellery.</h5>
                 </div>
             </RightSide>
         </CertificateWrapper>

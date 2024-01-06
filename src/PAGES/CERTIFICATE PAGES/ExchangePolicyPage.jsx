@@ -39,7 +39,7 @@ const ExchangePolicyPage = () => {
                     <h1>Exchange Policy</h1>
                     <br />
                     <br />
-<h5>Gold Jewellery is an appreciating asset. At charysjewellers, we are more than happy to exchange your gold at the prevailing rate with the 100% value of metal weight (applicable only on the jewellery purchased from charysjewellers will ensure you get to know the exact purity of your gold. We assure you this process will be transparent and trustworthy.</h5>  
+<h5>Gold Jewellery is an appreciating asset. At charysjewellers, we are more than happy to exchange your gold at the prevailing rate with the 100% value of metal weight (applicable only on the jewellery purchased from nikaarajewellers will ensure you get to know the exact purity of your gold. We assure you this process will be transparent and trustworthy.</h5>  
               </div>
             </RightSide>
         </CertificateWrapper>

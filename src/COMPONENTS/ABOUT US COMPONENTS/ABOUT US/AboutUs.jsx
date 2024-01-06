@@ -25,7 +25,7 @@ const AboutUs = () => {
             <BlurImageSection>
                 <Bgimage></Bgimage>
                 <Bgtext>
-                    <b>WELCOME TO NIKARA JEWELLERS</b>
+                    <b>WELCOME TO NIKAARA JEWELLERS</b>
                     <br />
                     <span>"</span>
                     Well, would you look at that! You are now just one step away from your dream! Let’s make you stand out with some outstanding adornments shall we?
@@ -39,7 +39,7 @@ const AboutUs = () => {
                     Don’t forget to check out our pendant styles! Might just be the one you fall for!
                     We are also up for customization! Any match you want to find for your pendants or chains, or any suggestions of styling you’re looking for- our Jewellery expert is just one call away!
                     <br />
-                    Come! Shop at NIKARA Jewellers, where tradition is what we trust and your trust is our tradition.
+                    Come! Shop at NIKAARA Jewellers, where tradition is what we trust and your trust is our tradition.
 
                     <span>"</span>
                 </Bgtext>
